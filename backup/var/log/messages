@@ -15798,3 +15798,89 @@ Apr  8 23:35:13 obibinii systemd[1]: Started Fingerprint Authentication Daemon.
 Apr  8 23:35:15 obibinii systemd[2118]: Starting Tracker metadata extractor...
 Apr  8 23:35:15 obibinii tracker-extract[6469]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
 Apr  8 23:35:15 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:35:43 obibinii systemd[1]: fprintd.service: Deactivated successfully.
+Apr  8 23:35:43 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:35:43 obibinii tracker-extract[6528]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:35:43 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:35:44 obibinii kernel: __common_interrupt: 1.57 No irq handler for vector
+Apr  8 23:35:54 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:35:54 obibinii tracker-extract[6545]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:35:54 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:36:35 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:36:35 obibinii tracker-extract[6598]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:36:35 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:36:51 obibinii firefox.desktop[3871]: Safe Browsing server returned a 400 during update:request url = https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyBPGXa4AYD4FC3HJK7LnIKxm4fDusVuuco&$httpMethod=POST, payload = ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAIaGwoNCAUQBhgBIgMwMDEwARCdnB8aAhgInEHopyICIAIoARonCAEQAhobCg0IARAGGAEiAzAwMTABEJ7BFBoCGAjoPHtOIgIgAigBGicIAxACGhsKDQgDEAYYASIDMDAxMAEQwroUGgIYCDowWY8iAiACKAEaJwgHEAIaGwoNCAcQBhgBIgMwMDEwARDQrRQaAhgI4LeGeCICIAIoARolCAkQAhoZCg0ICRAGGAEiAzAwMTABECQaAhgI5A8QwiICIAIoAQ==
+Apr  8 23:36:54 obibinii NetworkManager[1144]: <info>  [1775684214.5781] dhcp4 (ens160): state changed new lease, address=192.168.134.128
+Apr  8 23:36:54 obibinii systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr  8 23:36:54 obibinii systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr  8 23:37:02 obibinii cupsd[1160]: REQUEST localhost - - "POST / HTTP/1.1" 200 182 Renew-Subscription successful-ok
+Apr  8 23:37:04 obibinii systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Apr  8 23:37:06 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:37:06 obibinii tracker-extract[6667]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:37:06 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:37:46 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:37:46 obibinii tracker-extract[6722]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:37:46 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:38:17 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:38:17 obibinii tracker-extract[6743]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:38:17 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:38:29 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:38:29 obibinii tracker-extract[6780]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:38:30 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:38:43 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:38:43 obibinii tracker-extract[6817]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:38:43 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:39:02 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:39:02 obibinii tracker-extract[6861]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:39:02 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:39:13 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:39:13 obibinii tracker-extract[6876]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:39:13 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:39:45 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:39:45 obibinii tracker-extract[6912]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:39:45 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:40:00 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:40:00 obibinii tracker-extract[6931]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:40:00 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:40:18 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:40:18 obibinii tracker-extract[6956]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:40:18 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:40:31 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:40:31 obibinii tracker-extract[6978]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:40:31 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:41:08 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:41:08 obibinii tracker-extract[7030]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:41:08 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:41:43 obibinii kernel: __common_interrupt: 1.59 No irq handler for vector
+Apr  8 23:41:57 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:41:57 obibinii tracker-extract[7112]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:41:57 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:42:08 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:42:08 obibinii tracker-extract[7129]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:42:08 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:42:26 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:42:26 obibinii tracker-extract[7173]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:42:26 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:43:06 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:43:06 obibinii tracker-extract[7275]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:43:06 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:43:32 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:43:32 obibinii tracker-extract[7326]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:43:32 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:44:37 obibinii systemd[2118]: dbus-:1.2-org.gnome.Shell.Screencast@1.service: Consumed 40.374s CPU time.
+Apr  8 23:49:03 obibinii systemd[1]: Starting PackageKit Daemon...
+Apr  8 23:49:03 obibinii packagekitd[7717]: g_path_get_basename: assertion 'file_name != NULL' failed
+Apr  8 23:49:03 obibinii systemd[1]: Started PackageKit Daemon.
+Apr  8 23:49:04 obibinii packagekitd[7717]: Skipping refresh of media: Cannot update read-only repo
+Apr  8 23:49:11 obibinii systemd[1]: Starting Fingerprint Authentication Daemon...
+Apr  8 23:49:11 obibinii systemd[1]: Started Fingerprint Authentication Daemon.
+Apr  8 23:49:41 obibinii systemd[1]: fprintd.service: Deactivated successfully.
+Apr  8 23:51:31 obibinii systemd[2118]: Starting Tracker metadata extractor...
+Apr  8 23:51:31 obibinii tracker-extract[7880]: tracker_module_manager_load_modules: assertion 'initialized == TRUE' failed
+Apr  8 23:51:31 obibinii systemd[2118]: Started Tracker metadata extractor.
+Apr  8 23:51:54 obibinii NetworkManager[1144]: <info>  [1775685114.5713] dhcp4 (ens160): state changed new lease, address=192.168.134.128
+Apr  8 23:51:54 obibinii systemd[1]: Starting Network Manager Script Dispatcher Service...
+Apr  8 23:51:54 obibinii systemd[1]: Started Network Manager Script Dispatcher Service.
+Apr  8 23:52:04 obibinii systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Apr  8 23:54:09 obibinii systemd[1]: packagekit.service: Deactivated successfully.
+Apr  8 23:54:09 obibinii systemd[1]: packagekit.service: Consumed 1.215s CPU time.
