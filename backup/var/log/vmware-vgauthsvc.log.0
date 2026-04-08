@@ -1,0 +1,383 @@
+[2026-03-09T21:59:07.665Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-09T21:59:07.665Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-09T21:59:07.665Z] [ message] [VGAuthService] Group 'service'
+[2026-03-09T21:59:07.665Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-09T21:59:07.665Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-09T21:59:07.666Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-09T21:59:07.666Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-09T21:59:07.669Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-09T21:59:07.725Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-09T21:59:07.736Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-09T21:59:07.764Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-09T21:59:07.764Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-09T21:59:07.765Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-09T21:59:07.765Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-09T22:03:25.031Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-09T22:03:25.032Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-09T22:03:25.032Z] [ message] [VGAuthService] Group 'service'
+[2026-03-09T22:03:25.032Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-09T22:03:25.032Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-09T22:03:25.032Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-09T22:03:25.032Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-09T22:03:25.036Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-09T22:03:25.125Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-09T22:03:25.186Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-09T22:03:25.237Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-09T22:03:25.238Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-09T22:03:25.239Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-09T22:03:25.239Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-09T22:05:22.032Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-09T22:05:22.032Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-09T22:05:22.032Z] [ message] [VGAuthService] Group 'service'
+[2026-03-09T22:05:22.032Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-09T22:05:22.032Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-09T22:05:22.032Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-09T22:05:22.032Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-09T22:05:22.037Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-09T22:05:22.121Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-09T22:05:22.144Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-09T22:05:22.164Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-09T22:05:22.164Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-09T22:05:22.166Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-09T22:05:22.167Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-09T22:25:57.103Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2026-03-09T22:25:57.103Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2026-03-09T22:25:57.105Z] [ message] [VGAuthService] END SERVICE
+[2026-03-09T22:26:10.733Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-09T22:26:10.737Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-09T22:26:10.737Z] [ message] [VGAuthService] Group 'service'
+[2026-03-09T22:26:10.737Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-09T22:26:10.737Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-09T22:26:10.737Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-09T22:26:10.737Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-09T22:26:10.737Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-09T22:26:10.807Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-09T22:26:10.833Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-09T22:26:10.861Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-09T22:26:10.862Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-09T22:26:10.863Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-09T22:26:10.863Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-09T22:41:20.363Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2026-03-09T22:41:20.364Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2026-03-09T22:41:20.365Z] [ message] [VGAuthService] END SERVICE
+[2026-03-09T22:48:06.928Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-09T22:48:06.931Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-09T22:48:06.931Z] [ message] [VGAuthService] Group 'service'
+[2026-03-09T22:48:06.931Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-09T22:48:06.931Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-09T22:48:06.931Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-09T22:48:06.931Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-09T22:48:06.933Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-09T22:48:06.999Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-09T22:48:07.010Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-09T22:48:07.056Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-09T22:48:07.056Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-09T22:48:07.058Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-09T22:48:07.058Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-09T23:19:49.184Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2026-03-09T23:19:49.185Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2026-03-09T23:19:49.316Z] [ message] [VGAuthService] END SERVICE
+[2026-03-15T06:00:01.181Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-15T06:00:01.185Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-15T06:00:01.185Z] [ message] [VGAuthService] Group 'service'
+[2026-03-15T06:00:01.185Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-15T06:00:01.185Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-15T06:00:01.185Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-15T06:00:01.185Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-15T06:00:01.187Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-15T06:00:01.298Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-15T06:00:01.335Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-15T06:00:01.367Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-15T06:00:01.367Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-15T06:00:01.367Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-15T06:00:01.368Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-15T06:25:58.725Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-15T06:25:58.732Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-15T06:25:58.732Z] [ message] [VGAuthService] Group 'service'
+[2026-03-15T06:25:58.732Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-15T06:25:58.732Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-15T06:25:58.732Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-15T06:25:58.732Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-15T06:25:58.733Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-15T06:25:58.855Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-15T06:25:58.898Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-15T06:25:58.960Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-15T06:25:58.960Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-15T06:25:58.966Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-15T06:25:58.966Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-15T07:40:44.114Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2026-03-15T07:40:44.115Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2026-03-15T07:40:44.144Z] [ message] [VGAuthService] END SERVICE
+[2026-03-15T07:41:12.637Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-15T07:41:12.650Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-15T07:41:12.650Z] [ message] [VGAuthService] Group 'service'
+[2026-03-15T07:41:12.650Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-15T07:41:12.650Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-15T07:41:12.650Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-15T07:41:12.650Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-15T07:41:12.656Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-15T07:41:12.733Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-15T07:41:12.781Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-15T07:41:12.819Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-15T07:41:12.819Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-15T07:41:12.822Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-15T07:41:12.822Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-15T19:44:08.828Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-15T19:44:08.831Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-15T19:44:08.831Z] [ message] [VGAuthService] Group 'service'
+[2026-03-15T19:44:08.831Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-15T19:44:08.831Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-15T19:44:08.831Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-15T19:44:08.831Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-15T19:44:08.834Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-15T19:44:08.931Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-15T19:44:08.960Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-15T19:44:09.017Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-15T19:44:09.022Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-15T19:44:09.026Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-15T19:44:09.029Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-15T19:53:43.835Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-15T19:53:43.839Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-15T19:53:43.839Z] [ message] [VGAuthService] Group 'service'
+[2026-03-15T19:53:43.839Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-15T19:53:43.839Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-15T19:53:43.839Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-15T19:53:43.839Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-15T19:53:43.841Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-15T19:53:43.911Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-15T19:53:43.933Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-15T19:53:44.007Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-15T19:53:44.007Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-15T19:53:44.027Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-15T19:53:44.028Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-15T19:56:45.735Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2026-03-15T19:56:45.736Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2026-03-15T19:56:45.736Z] [ message] [VGAuthService] END SERVICE
+[2026-03-15T19:57:19.169Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-15T19:57:19.170Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-15T19:57:19.170Z] [ message] [VGAuthService] Group 'service'
+[2026-03-15T19:57:19.170Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-15T19:57:19.170Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-15T19:57:19.170Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-15T19:57:19.170Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-15T19:57:19.175Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-15T19:57:19.245Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-15T19:57:19.282Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-15T19:57:19.304Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-15T19:57:19.304Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-15T19:57:19.306Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-15T19:57:19.306Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-15T19:59:20.334Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-15T19:59:20.335Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-15T19:59:20.335Z] [ message] [VGAuthService] Group 'service'
+[2026-03-15T19:59:20.335Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-15T19:59:20.335Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-15T19:59:20.335Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-15T19:59:20.335Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-15T19:59:20.339Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-15T19:59:20.424Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-15T19:59:20.435Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-15T19:59:20.482Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-15T19:59:20.483Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-15T19:59:20.487Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-15T19:59:20.487Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-17T09:01:09.014Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-17T09:01:09.015Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-17T09:01:09.015Z] [ message] [VGAuthService] Group 'service'
+[2026-03-17T09:01:09.015Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-17T09:01:09.015Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-17T09:01:09.015Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-17T09:01:09.015Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-17T09:01:09.016Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-17T09:01:09.103Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-17T09:01:09.146Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-17T09:01:09.186Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-17T09:01:09.186Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-17T09:01:09.195Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-17T09:01:09.195Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-18T09:46:46.500Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-18T09:46:46.502Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-18T09:46:46.502Z] [ message] [VGAuthService] Group 'service'
+[2026-03-18T09:46:46.502Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-18T09:46:46.502Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-18T09:46:46.502Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-18T09:46:46.502Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-18T09:46:46.505Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-18T09:46:46.569Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-18T09:46:46.628Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-18T09:46:46.699Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-18T09:46:46.699Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-18T09:46:46.702Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-18T09:46:46.702Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-18T10:27:42.206Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-18T10:27:42.220Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-18T10:27:42.221Z] [ message] [VGAuthService] Group 'service'
+[2026-03-18T10:27:42.221Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-18T10:27:42.221Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-18T10:27:42.221Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-18T10:27:42.221Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-18T10:27:42.224Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-18T10:27:42.344Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-18T10:27:42.422Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-18T10:27:42.547Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-18T10:27:42.549Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-18T10:27:42.554Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-18T10:27:42.554Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-19T10:38:44.876Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-19T10:38:44.881Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-19T10:38:44.881Z] [ message] [VGAuthService] Group 'service'
+[2026-03-19T10:38:44.881Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-19T10:38:44.881Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-19T10:38:44.881Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-19T10:38:44.881Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-19T10:38:44.889Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-19T10:38:44.968Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-19T10:38:44.997Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-19T10:38:45.016Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-19T10:38:45.016Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-19T10:38:45.022Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-19T10:38:45.022Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-19T11:47:12.378Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2026-03-19T11:47:12.378Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2026-03-19T11:47:12.415Z] [ message] [VGAuthService] END SERVICE
+[2026-03-28T17:29:28.997Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-28T17:29:29.000Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-28T17:29:29.001Z] [ message] [VGAuthService] Group 'service'
+[2026-03-28T17:29:29.001Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-28T17:29:29.001Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-28T17:29:29.001Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-28T17:29:29.001Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-28T17:29:29.005Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-28T17:29:29.081Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-28T17:29:29.103Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-28T17:29:29.188Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-28T17:29:29.188Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-28T17:29:29.191Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-28T17:29:29.191Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-31T08:48:49.021Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2026-03-31T08:48:49.027Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2026-03-31T08:48:49.104Z] [ message] [VGAuthService] END SERVICE
+[2026-03-31T08:49:08.968Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-31T08:49:08.971Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-31T08:49:08.971Z] [ message] [VGAuthService] Group 'service'
+[2026-03-31T08:49:08.971Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-31T08:49:08.971Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-31T08:49:08.971Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-31T08:49:08.971Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-31T08:49:08.974Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-31T08:49:09.046Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-31T08:49:09.078Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-31T08:49:09.116Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-31T08:49:09.116Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-31T08:49:09.117Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-31T08:49:09.117Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-31T09:43:44.854Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2026-03-31T09:43:44.855Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2026-03-31T09:43:44.859Z] [ message] [VGAuthService] END SERVICE
+[2026-03-31T09:44:00.555Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-03-31T09:44:00.561Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-03-31T09:44:00.561Z] [ message] [VGAuthService] Group 'service'
+[2026-03-31T09:44:00.561Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-03-31T09:44:00.561Z] [ message] [VGAuthService] Group 'localization'
+[2026-03-31T09:44:00.561Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-03-31T09:44:00.561Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-03-31T09:44:00.563Z] [ message] [VGAuthService] INIT SERVICE
+[2026-03-31T09:44:00.621Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-03-31T09:44:00.655Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-03-31T09:44:00.716Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-03-31T09:44:00.716Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-03-31T09:44:00.718Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-03-31T09:44:00.718Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-03-31T10:07:53.373Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2026-03-31T10:07:53.373Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2026-03-31T10:07:53.373Z] [ message] [VGAuthService] END SERVICE
+[2026-04-05T14:22:49.657Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-04-05T14:22:49.665Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-04-05T14:22:49.665Z] [ message] [VGAuthService] Group 'service'
+[2026-04-05T14:22:49.665Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-04-05T14:22:49.665Z] [ message] [VGAuthService] Group 'localization'
+[2026-04-05T14:22:49.665Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-04-05T14:22:49.665Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-04-05T14:22:49.673Z] [ message] [VGAuthService] INIT SERVICE
+[2026-04-05T14:22:49.770Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-04-05T14:22:49.808Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-04-05T14:22:49.848Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-04-05T14:22:49.848Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-04-05T14:22:49.851Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-04-05T14:22:49.851Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-04-05T14:55:48.385Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2026-04-05T14:55:48.386Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2026-04-05T14:55:48.424Z] [ message] [VGAuthService] END SERVICE
+[2026-04-05T14:56:04.739Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-04-05T14:56:04.741Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-04-05T14:56:04.741Z] [ message] [VGAuthService] Group 'service'
+[2026-04-05T14:56:04.741Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-04-05T14:56:04.741Z] [ message] [VGAuthService] Group 'localization'
+[2026-04-05T14:56:04.741Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-04-05T14:56:04.741Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-04-05T14:56:04.745Z] [ message] [VGAuthService] INIT SERVICE
+[2026-04-05T14:56:04.810Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-04-05T14:56:04.878Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-04-05T14:56:04.923Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-04-05T14:56:04.925Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-04-05T14:56:04.928Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-04-05T14:56:04.929Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-04-05T22:25:57.805Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2026-04-05T22:25:57.808Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2026-04-05T22:25:57.855Z] [ message] [VGAuthService] END SERVICE
+[2026-04-06T18:49:55.738Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-04-06T18:49:55.739Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-04-06T18:49:55.739Z] [ message] [VGAuthService] Group 'service'
+[2026-04-06T18:49:55.739Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-04-06T18:49:55.739Z] [ message] [VGAuthService] Group 'localization'
+[2026-04-06T18:49:55.739Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-04-06T18:49:55.739Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-04-06T18:49:55.740Z] [ message] [VGAuthService] INIT SERVICE
+[2026-04-06T18:49:55.814Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-04-06T18:49:55.878Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-04-06T18:49:55.953Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-04-06T18:49:55.953Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-04-06T18:49:55.957Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-04-06T18:49:55.957Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-04-08T17:57:50.478Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-04-08T17:57:50.480Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-04-08T17:57:50.480Z] [ message] [VGAuthService] Group 'service'
+[2026-04-08T17:57:50.480Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-04-08T17:57:50.480Z] [ message] [VGAuthService] Group 'localization'
+[2026-04-08T17:57:50.480Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-04-08T17:57:50.480Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-04-08T17:57:50.491Z] [ message] [VGAuthService] INIT SERVICE
+[2026-04-08T17:57:50.561Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-04-08T17:57:50.595Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-04-08T17:57:50.643Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-04-08T17:57:50.644Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-04-08T17:57:50.646Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-04-08T17:57:50.646Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-04-08T17:58:47.847Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-04-08T17:58:47.848Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-04-08T17:58:47.848Z] [ message] [VGAuthService] Group 'service'
+[2026-04-08T17:58:47.848Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-04-08T17:58:47.848Z] [ message] [VGAuthService] Group 'localization'
+[2026-04-08T17:58:47.848Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-04-08T17:58:47.848Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-04-08T17:58:47.850Z] [ message] [VGAuthService] INIT SERVICE
+[2026-04-08T17:58:47.915Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-04-08T17:58:47.928Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-04-08T17:58:48.015Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-04-08T17:58:48.015Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-04-08T17:58:48.015Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-04-08T17:58:48.018Z] [ message] [VGAuthService] BEGIN SERVICE
+[2026-04-08T20:36:52.347Z] [ message] [VGAuthService] VGAuthService 'build-24696409' logging at level 'normal'
+[2026-04-08T20:36:52.353Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2026-04-08T20:36:52.353Z] [ message] [VGAuthService] Group 'service'
+[2026-04-08T20:36:52.353Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2026-04-08T20:36:52.353Z] [ message] [VGAuthService] Group 'localization'
+[2026-04-08T20:36:52.353Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2026-04-08T20:36:52.353Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2026-04-08T20:36:52.355Z] [ message] [VGAuthService] INIT SERVICE
+[2026-04-08T20:36:52.464Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2026-04-08T20:36:52.503Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2026-04-08T20:36:52.556Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2026-04-08T20:36:52.557Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2026-04-08T20:36:52.566Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2026-04-08T20:36:52.566Z] [ message] [VGAuthService] BEGIN SERVICE

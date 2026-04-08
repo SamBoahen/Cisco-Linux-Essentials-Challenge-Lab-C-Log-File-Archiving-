@@ -1,0 +1,957 @@
+2026-03-09T23:28:44+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-09T23:28:45+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-09T23:28:46+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/c9d38742e64ced9a738adab29a77f8ae8ad7ee71bbb7b82477c43b39fe8a786c-primary.xml.gz
+2026-03-09T23:28:46+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/d21b0060de3ceea6a82a3c356bc37120f114f9bd1cf6d0fcbd386cb65422d6b3-filelists.xml.gz
+2026-03-09T23:28:46+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-09T23:28:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/c8fe9d593f7eb77c1b190e18cc82e9edd21fd53a6c55911691f82a8a6468f1d7-modules.yaml.gz
+2026-03-09T23:28:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-09T23:28:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/07dc76d5b5b3aacb8f09d52a4c1ffe326495b86fd81e6a40337db014d2197cc8-updateinfo.xml.gz
+2026-03-09T23:29:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-09T23:29:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/91719beff7626f7c32f59b5534f7f520ffdd92bb72c134e0fe933d3bd71e89f7-primary.xml.gz
+2026-03-09T23:29:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/4dd0669d8dc0bdffbc1812fe1e086e85145760e261c908dca0f447a700f6e4fe-filelists.xml.gz
+2026-03-09T23:29:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-09T23:29:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-09T23:29:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/cfd63c18dafafdd70164cf317979c75d8afcdf2be0048fd8bd4bbb536abd7aa3-updateinfo.xml.gz
+2026-03-09T23:30:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-5.14.0-611.38.1.el9_7.x86_64.rpm
+2026-03-09T23:30:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-core-5.14.0-611.38.1.el9_7.x86_64.rpm
+2026-03-09T23:30:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-modules-5.14.0-611.38.1.el9_7.x86_64.rpm
+2026-03-09T23:30:44+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-modules-core-5.14.0-611.38.1.el9_7.x86_64.rpm
+2026-03-09T23:30:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/t/texlive-lib-20200406-26.el9_2.x86_64.rpm
+2026-03-09T23:30:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/pixman-0.40.0-6.el9_3.x86_64.rpm
+2026-03-09T23:30:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libappstream-glib-0.7.18-5.el9_4.x86_64.rpm
+2026-03-09T23:30:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mpg123-libs-1.32.9-1.el9_5.x86_64.rpm
+2026-03-09T23:30:48+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/p11-kit-server-0.25.3-3.el9_5.x86_64.rpm
+2026-03-09T23:30:48+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gstreamer1-plugins-bad-free-1.22.12-4.el9_6.x86_64.rpm
+2026-03-09T23:30:48+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gstreamer1-plugins-bad-free-libs-1.22.12-4.el9_6.x86_64.rpm
+2026-03-09T23:30:48+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libblockdev-2.28-14.el9_6.x86_64.rpm
+2026-03-09T23:30:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libblockdev-crypto-2.28-14.el9_6.x86_64.rpm
+2026-03-09T23:30:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libblockdev-fs-2.28-14.el9_6.x86_64.rpm
+2026-03-09T23:30:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libblockdev-loop-2.28-14.el9_6.x86_64.rpm
+2026-03-09T23:30:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libblockdev-lvm-2.28-14.el9_6.x86_64.rpm
+2026-03-09T23:30:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libblockdev-mdraid-2.28-14.el9_6.x86_64.rpm
+2026-03-09T23:30:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libblockdev-part-2.28-14.el9_6.x86_64.rpm
+2026-03-09T23:30:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libblockdev-swap-2.28-14.el9_6.x86_64.rpm
+2026-03-09T23:30:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libblockdev-utils-2.28-14.el9_6.x86_64.rpm
+2026-03-09T23:30:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libvpx-1.9.0-9.el9_6.x86_64.rpm
+2026-03-09T23:30:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/r/redhat-backgrounds-90.5-1.el9_6.1.noarch.rpm
+2026-03-09T23:30:50+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/r/redhat-logos-90.5-1.el9_6.1.x86_64.rpm
+2026-03-09T23:30:50+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/r/rhc-0.2.7-1.el9_6.x86_64.rpm
+2026-03-09T23:30:50+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/b/bind-libs-9.16.23-34.el9_7.1.x86_64.rpm
+2026-03-09T23:30:50+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/b/bind-license-9.16.23-34.el9_7.1.noarch.rpm
+2026-03-09T23:30:50+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/b/bind-utils-9.16.23-34.el9_7.1.x86_64.rpm
+2026-03-09T23:30:50+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/c/container-selinux-2.240.0-3.el9_7.noarch.rpm
+2026-03-09T23:30:50+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/c/containers-common-1-135.el9_7.x86_64.rpm
+2026-03-09T23:30:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/c/containers-common-extra-1-135.el9_7.x86_64.rpm
+2026-03-09T23:30:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/c/crun-1.23.1-2.el9_7.x86_64.rpm
+2026-03-09T23:30:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/c/cups-2.3.3op2-34.el9_7.2.x86_64.rpm
+2026-03-09T23:30:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/c/cups-client-2.3.3op2-34.el9_7.2.x86_64.rpm
+2026-03-09T23:30:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/c/cups-filesystem-2.3.3op2-34.el9_7.2.noarch.rpm
+2026-03-09T23:30:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/c/cups-ipptool-2.3.3op2-34.el9_7.2.x86_64.rpm
+2026-03-09T23:30:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gdm-40.1-38.el9_7.x86_64.rpm
+2026-03-09T23:30:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gnome-classic-session-40.7-29.el9_7.noarch.rpm
+2026-03-09T23:30:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gnome-shell-40.10-31.el9_7.x86_64.rpm
+2026-03-09T23:30:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gnome-shell-extension-apps-menu-40.7-29.el9_7.noarch.rpm
+2026-03-09T23:30:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gnome-shell-extension-common-40.7-29.el9_7.noarch.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gnome-shell-extension-desktop-icons-40.7-29.el9_7.noarch.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gnome-shell-extension-launch-new-instance-40.7-29.el9_7.noarch.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gnome-shell-extension-places-menu-40.7-29.el9_7.noarch.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gnome-shell-extension-window-list-40.7-29.el9_7.noarch.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libtiff-4.4.0-15.el9_7.2.x86_64.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libwacom-1.12.1-6.el9_7.x86_64.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libwacom-data-1.12.1-6.el9_7.noarch.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mutter-40.9-29.el9_7.x86_64.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/o/ostree-2025.6-1.el9_7.x86_64.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/o/ostree-libs-2025.6-1.el9_7.x86_64.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/passt-0%5e20250512.g8ec1341-4.el9_7.x86_64.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/passt-selinux-0%5e20250512.g8ec1341-4.el9_7.noarch.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/poppler-21.01.0-23.el9_7.x86_64.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/poppler-cpp-21.01.0-23.el9_7.x86_64.rpm
+2026-03-09T23:30:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/poppler-glib-21.01.0-23.el9_7.x86_64.rpm
+2026-03-09T23:30:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/poppler-utils-21.01.0-23.el9_7.x86_64.rpm
+2026-03-09T23:30:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/v/vim-common-8.2.2637-23.el9_7.x86_64.rpm
+2026-03-09T23:30:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/v/vim-enhanced-8.2.2637-23.el9_7.x86_64.rpm
+2026-03-09T23:30:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/w/webkit2gtk3-2.50.4-1.el9_7.x86_64.rpm
+2026-03-09T23:30:54+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/w/webkit2gtk3-jsc-2.50.4-1.el9_7.x86_64.rpm
+2026-03-09T23:30:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/x/xorg-x11-server-Xorg-1.20.11-32.el9_7.x86_64.rpm
+2026-03-09T23:30:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/x/xorg-x11-server-Xwayland-23.2.7-5.el9_7.x86_64.rpm
+2026-03-09T23:30:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/x/xorg-x11-server-common-1.20.11-32.el9_7.x86_64.rpm
+2026-03-09T23:30:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/b/buildah-1.41.8-2.el9_7.x86_64.rpm
+2026-03-09T23:30:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/c/containernetworking-plugins-1.7.1-3.el9_7.x86_64.rpm
+2026-03-09T23:30:56+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/f/firefox-140.8.0-2.el9_7.x86_64.rpm
+2026-03-09T23:30:57+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/f/fuse-overlayfs-1.16-1.el9_7.x86_64.rpm
+2026-03-09T23:30:57+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libsoup-2.72.0-12.el9_7.5.x86_64.rpm
+2026-03-09T23:30:57+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libv4l-1.20.0-5.el9_7_1.x86_64.rpm
+2026-03-09T23:30:58+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-dri-drivers-25.0.7-4.el9_7.x86_64.rpm
+2026-03-09T23:30:58+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-filesystem-25.0.7-4.el9_7.x86_64.rpm
+2026-03-09T23:30:59+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-libEGL-25.0.7-4.el9_7.x86_64.rpm
+2026-03-09T23:30:59+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-libGL-25.0.7-4.el9_7.x86_64.rpm
+2026-03-09T23:30:59+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-libgbm-25.0.7-4.el9_7.x86_64.rpm
+2026-03-09T23:30:59+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-libxatracker-25.0.7-4.el9_7.x86_64.rpm
+2026-03-09T23:30:59+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-vulkan-drivers-25.0.7-4.el9_7.x86_64.rpm
+2026-03-09T23:31:00+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/n/net-snmp-libs-5.9.1-17.el9_7.1.x86_64.rpm
+2026-03-09T23:31:00+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/podman-5.6.0-14.el9_7.x86_64.rpm
+2026-03-09T23:31:02+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/python-unversioned-command-3.9.25-3.el9_7.noarch.rpm
+2026-03-09T23:31:02+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/q/qemu-guest-agent-9.1.0-29.el9_7.6.x86_64.rpm
+2026-03-09T23:31:02+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/python3-perf-5.14.0-611.38.1.el9_7.x86_64.rpm
+2026-03-09T23:31:03+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/x/xfsdump-3.1.12-4.el9_3.x86_64.rpm
+2026-03-09T23:31:03+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/p11-kit-0.25.3-3.el9_5.x86_64.rpm
+2026-03-09T23:31:03+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/p11-kit-trust-0.25.3-3.el9_5.x86_64.rpm
+2026-03-09T23:31:03+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/pam-1.5.1-26.el9_6.x86_64.rpm
+2026-03-09T23:31:04+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/w/which-2.21-30.el9_6.x86_64.rpm
+2026-03-09T23:31:04+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/NetworkManager-1.54.0-3.el9_7.x86_64.rpm
+2026-03-09T23:31:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/NetworkManager-adsl-1.54.0-3.el9_7.x86_64.rpm
+2026-03-09T23:31:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/NetworkManager-bluetooth-1.54.0-3.el9_7.x86_64.rpm
+2026-03-09T23:31:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/NetworkManager-config-server-1.54.0-3.el9_7.noarch.rpm
+2026-03-09T23:31:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/NetworkManager-libnm-1.54.0-3.el9_7.x86_64.rpm
+2026-03-09T23:31:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/NetworkManager-team-1.54.0-3.el9_7.x86_64.rpm
+2026-03-09T23:31:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/NetworkManager-tui-1.54.0-3.el9_7.x86_64.rpm
+2026-03-09T23:31:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/NetworkManager-wifi-1.54.0-3.el9_7.x86_64.rpm
+2026-03-09T23:31:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/NetworkManager-wwan-1.54.0-3.el9_7.x86_64.rpm
+2026-03-09T23:31:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/a/at-3.1.23-13.el9_7.x86_64.rpm
+2026-03-09T23:31:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/dnf-plugins-core-4.3.0-24.el9_7.noarch.rpm
+2026-03-09T23:31:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/gsettings-desktop-schemas-40.0-8.el9_7.x86_64.rpm
+2026-03-09T23:31:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libdnf-plugin-subscription-manager-1.29.47.1-1.el9_7.x86_64.rpm
+2026-03-09T23:31:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-cloud-what-1.29.47.1-1.el9_7.x86_64.rpm
+2026-03-09T23:31:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-dateutil-2.9.0.post0-1.el9_7.noarch.rpm
+2026-03-09T23:31:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-dnf-plugins-core-4.3.0-24.el9_7.noarch.rpm
+2026-03-09T23:31:07+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-subscription-manager-rhsm-1.29.47.1-1.el9_7.x86_64.rpm
+2026-03-09T23:31:07+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/r/redhat-release-9.7-0.7.el9.x86_64.rpm
+2026-03-09T23:31:07+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/r/redhat-release-eula-9.7-0.7.el9.x86_64.rpm
+2026-03-09T23:31:07+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sqlite-libs-3.34.1-9.el9_7.x86_64.rpm
+2026-03-09T23:31:07+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/subscription-manager-1.29.47.1-1.el9_7.x86_64.rpm
+2026-03-09T23:31:07+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.noarch.rpm
+2026-03-09T23:31:07+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/v/vim-minimal-8.2.2637-23.el9_7.x86_64.rpm
+2026-03-09T23:31:07+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libipa_hbac-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libsss_certmap-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libsss_idmap-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libsss_nss_idmap-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libsss_sudo-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sssd-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sssd-ad-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sssd-client-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sssd-common-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sssd-common-pac-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sssd-ipa-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sssd-kcm-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sssd-krb5-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sssd-krb5-common-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sssd-ldap-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sssd-proxy-2.9.7-4.el9_7.1.x86_64.rpm
+2026-03-09T23:31:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/c/ca-certificates-2025.2.80_v9.0.305-91.el9.noarch.rpm
+2026-03-09T23:31:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/e/expat-2.5.0-5.el9_7.1.x86_64.rpm
+2026-03-09T23:31:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libxml2-2.9.13-14.el9_7.x86_64.rpm
+2026-03-09T23:31:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-libxml2-2.9.13-14.el9_7.x86_64.rpm
+2026-03-09T23:31:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/systemd-252-55.el9_7.7.x86_64.rpm
+2026-03-09T23:31:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/systemd-libs-252-55.el9_7.7.x86_64.rpm
+2026-03-09T23:31:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/systemd-pam-252-55.el9_7.7.x86_64.rpm
+2026-03-09T23:31:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-55.el9_7.7.noarch.rpm
+2026-03-09T23:31:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/systemd-udev-252-55.el9_7.7.x86_64.rpm
+2026-03-09T23:31:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/dracut-057-104.git20250919.el9_7.x86_64.rpm
+2026-03-09T23:31:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/dracut-config-rescue-057-104.git20250919.el9_7.x86_64.rpm
+2026-03-09T23:31:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/dracut-network-057-104.git20250919.el9_7.x86_64.rpm
+2026-03-09T23:31:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/dracut-squash-057-104.git20250919.el9_7.x86_64.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/m/man-pages-6.04-9.el9_7.noarch.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/o/openssh-8.7p1-47.el9_7.x86_64.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/o/openssh-clients-8.7p1-47.el9_7.x86_64.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/o/openssh-server-8.7p1-47.el9_7.x86_64.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/t/tzdata-2025c-1.el9.noarch.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libssh-0.10.4-17.el9_7.x86_64.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libssh-config-0.10.4-17.el9_7.noarch.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/b/binutils-2.35.2-67.el9_7.1.x86_64.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/b/binutils-gold-2.35.2-67.el9_7.1.x86_64.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/device-mapper-1.02.206-2.el9_7.1.x86_64.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/device-mapper-event-1.02.206-2.el9_7.1.x86_64.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/device-mapper-event-libs-1.02.206-2.el9_7.1.x86_64.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/device-mapper-libs-1.02.206-2.el9_7.1.x86_64.rpm
+2026-03-09T23:31:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/lvm2-2.03.32-2.el9_7.1.x86_64.rpm
+2026-03-09T23:31:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/lvm2-libs-2.03.32-2.el9_7.1.x86_64.rpm
+2026-03-09T23:31:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/t/tar-1.34-9.el9_7.x86_64.rpm
+2026-03-09T23:31:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sos-4.10.1-2.el9.noarch.rpm
+2026-03-09T23:31:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/c/cups-libs-2.3.3op2-34.el9_7.2.x86_64.rpm
+2026-03-09T23:31:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/gnupg2-2.3.3-5.el9_7.x86_64.rpm
+2026-03-09T23:31:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glib2-2.68.4-18.el9_7.1.x86_64.rpm
+2026-03-09T23:31:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-urllib3-1.26.5-6.el9_7.1.noarch.rpm
+2026-03-09T23:31:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/c/curl-7.76.1-35.el9_7.3.x86_64.rpm
+2026-03-09T23:31:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/device-mapper-multipath-0.8.7-39.el9_7.1.x86_64.rpm
+2026-03-09T23:31:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/device-mapper-multipath-libs-0.8.7-39.el9_7.1.x86_64.rpm
+2026-03-09T23:31:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kpartx-0.8.7-39.el9_7.1.x86_64.rpm
+2026-03-09T23:31:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libcurl-7.76.1-35.el9_7.3.x86_64.rpm
+2026-03-09T23:31:12+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/m/microcode_ctl-20250812-1.20251111.1.el9_7.noarch.rpm
+2026-03-09T23:31:12+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/o/openssl-3.5.1-7.el9_7.x86_64.rpm
+2026-03-09T23:31:12+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/o/openssl-libs-3.5.1-7.el9_7.x86_64.rpm
+2026-03-09T23:31:12+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-3.9.25-3.el9_7.x86_64.rpm
+2026-03-09T23:31:12+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.x86_64.rpm
+2026-03-09T23:31:12+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libblkid-2.37.4-21.el9_7.x86_64.rpm
+2026-03-09T23:31:13+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libfdisk-2.37.4-21.el9_7.x86_64.rpm
+2026-03-09T23:31:13+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libmount-2.37.4-21.el9_7.x86_64.rpm
+2026-03-09T23:31:13+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libsmartcols-2.37.4-21.el9_7.x86_64.rpm
+2026-03-09T23:31:13+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libuuid-2.37.4-21.el9_7.x86_64.rpm
+2026-03-09T23:31:13+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/u/util-linux-2.37.4-21.el9_7.x86_64.rpm
+2026-03-09T23:31:13+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/u/util-linux-core-2.37.4-21.el9_7.x86_64.rpm
+2026-03-09T23:31:13+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/u/util-linux-user-2.37.4-21.el9_7.x86_64.rpm
+2026-03-09T23:31:13+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libbrotli-1.0.9-9.el9_7.x86_64.rpm
+2026-03-09T23:31:14+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-2.34-231.el9_7.10.x86_64.rpm
+2026-03-09T23:31:14+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-all-langpacks-2.34-231.el9_7.10.x86_64.rpm
+2026-03-09T23:31:14+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-common-2.34-231.el9_7.10.x86_64.rpm
+2026-03-09T23:31:14+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-gconv-extra-2.34-231.el9_7.10.x86_64.rpm
+2026-03-09T23:31:14+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.34-231.el9_7.10.x86_64.rpm
+2026-03-09T23:31:14+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl100-firmware-39.31.5.1-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:14+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl1000-firmware-39.31.5.1-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:15+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl105-firmware-18.168.6.1-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:15+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl135-firmware-18.168.6.1-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:15+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl2000-firmware-18.168.6.1-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:15+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl2030-firmware-18.168.6.1-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:15+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl3160-firmware-25.30.13.0-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:15+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl5000-firmware-8.83.5.1_1-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:15+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl5150-firmware-8.24.2.2-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:15+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl6000g2a-firmware-18.168.6.1-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:15+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl6000g2b-firmware-18.168.6.1-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:15+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl6050-firmware-41.28.5.1-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:15+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl7260-firmware-25.30.13.0-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:16+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libdnf-0.69.0-17.el9_7.x86_64.rpm
+2026-03-09T23:31:16+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libertas-sd8787-firmware-20260130-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:16+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libldb-4.22.4-12.el9_7.x86_64.rpm
+2026-03-09T23:31:16+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libsmbclient-4.22.4-12.el9_7.x86_64.rpm
+2026-03-09T23:31:16+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libwbclient-4.22.4-12.el9_7.x86_64.rpm
+2026-03-09T23:31:17+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/linux-firmware-20260130-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:17+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/linux-firmware-whence-20260130-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:18+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/netronome-firmware-20260130-155.3.el9_7.noarch.rpm
+2026-03-09T23:31:19+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/nftables-1.0.9-6.el9_7.x86_64.rpm
+2026-03-09T23:31:20+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-hawkey-0.69.0-17.el9_7.x86_64.rpm
+2026-03-09T23:31:21+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-libdnf-0.69.0-17.el9_7.x86_64.rpm
+2026-03-09T23:31:21+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-nftables-1.0.9-6.el9_7.x86_64.rpm
+2026-03-09T23:31:21+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/samba-client-libs-4.22.4-12.el9_7.x86_64.rpm
+2026-03-09T23:31:22+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/samba-common-4.22.4-12.el9_7.noarch.rpm
+2026-03-09T23:31:22+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/samba-common-libs-4.22.4-12.el9_7.x86_64.rpm
+2026-03-09T23:31:22+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libpng-1.6.37-12.el9_7.2.x86_64.rpm
+2026-03-09T23:31:23+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/selinux-policy-38.1.65-1.el9_7.1.noarch.rpm
+2026-03-09T23:31:23+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/selinux-policy-targeted-38.1.65-1.el9_7.1.noarch.rpm
+2026-03-09T23:31:23+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-tools-5.14.0-611.38.1.el9_7.x86_64.rpm
+2026-03-09T23:31:23+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-tools-libs-5.14.0-611.38.1.el9_7.x86_64.rpm
+2026-03-09T23:32:00+0100 INFO Downloading: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+2026-03-10T00:13:17+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-10T00:13:23+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-10T00:13:24+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-10T00:13:25+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-10T00:13:25+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/97756b23e1a5997140b60f06ffda5ccab0b3fe69d6ad181d0fba079858ca8e28-primary.xml.gz
+2026-03-10T00:13:25+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/f3aeb3e2a091353c4594893e431d102e20ff1b678b568221f09f7f4ff2becc35-filelists.xml.gz
+2026-03-10T00:13:25+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-10T00:13:27+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/a62d80da81dd56b132c7b9b5bbda3c3bb932c53b75caa92cb6efe5b45a7d6805-modules.yaml.gz
+2026-03-10T00:13:27+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-10T00:13:27+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3fc364cb9a526d589d07b289a31631b0427e49174835238e9a6eff810854fa2f-updateinfo.xml.gz
+2026-03-10T00:13:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-10T00:16:50+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-10T00:16:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/a/apr-util-1.6.1-23.el9.x86_64.rpm
+2026-03-10T00:16:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/a/apr-util-bdb-1.6.1-23.el9.x86_64.rpm
+2026-03-10T00:16:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/a/apr-util-openssl-1.6.1-23.el9.x86_64.rpm
+2026-03-10T00:16:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/a/apr-1.7.0-12.el9_3.x86_64.rpm
+2026-03-10T00:16:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/r/redhat-logos-httpd-90.5-1.el9_6.1.noarch.rpm
+2026-03-10T00:16:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mod_http2-2.0.26-5.el9.x86_64.rpm
+2026-03-10T00:16:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/h/httpd-2.4.62-7.el9_7.3.x86_64.rpm
+2026-03-10T00:16:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/h/httpd-core-2.4.62-7.el9_7.3.x86_64.rpm
+2026-03-10T00:16:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/h/httpd-filesystem-2.4.62-7.el9_7.3.noarch.rpm
+2026-03-10T00:16:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/h/httpd-tools-2.4.62-7.el9_7.3.x86_64.rpm
+2026-03-10T00:16:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mod_lua-2.4.62-7.el9_7.3.x86_64.rpm
+2026-03-10T00:18:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-15T07:32:18+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-15T07:56:50+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-15T07:56:52+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-15T07:56:54+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-15T07:56:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e014915807d5cb44e2b0496c2b2d0e9f9b0b12728358c840405bc1c1ba11a3db-primary.xml.gz
+2026-03-15T07:56:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/cc3b6ff9fabbd7d0e108f13a416e186f3fb45eca16adfb86c931b231a3b53881-filelists.xml.gz
+2026-03-15T07:56:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-15T07:56:58+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/572ff75fafdc3d287ffef8e7ca3848057edb25ca513978db15bb31b38bd20aba-modules.yaml.gz
+2026-03-15T07:56:58+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-15T07:56:59+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/d932fef31576ac7fd1ac838c50762c9112a707f3dae478f949cb3e7c894bb555-updateinfo.xml.gz
+2026-03-15T07:57:15+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-15T07:57:16+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-15T07:57:17+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/bcc36af2259f196ed87365c6401e2b9cd27cd90cb68812f247cd227cf7ee4a79-primary.xml.gz
+2026-03-15T07:57:17+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/a982b77d9095d332dc0f1abd5448c7b4595e50fcbbec016137a071b9da4b3acf-filelists.xml.gz
+2026-03-15T07:57:17+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-15T07:57:19+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-15T07:57:20+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/b8cc69fd740ab70e9df48ede82a45b4828bd236581d2b2dad84b50765ac2bc97-updateinfo.xml.gz
+2026-03-15T08:40:19+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-15T09:43:06+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-15T11:29:06+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-15T11:29:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-15T11:29:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-15T21:11:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-15T21:11:40+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-15T21:11:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-15T22:09:33+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-15T22:11:47+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-15T22:39:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T00:09:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T01:25:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T01:25:30+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-16T01:25:32+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-16T02:43:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T04:01:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T05:45:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T05:45:40+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-16T05:45:41+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-16T05:45:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/a0f872d236b50a933c33da7d474e11e25a92d94495b5b94a9694282534f28705-primary.xml.gz
+2026-03-16T05:45:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/237b6a209306c0d4927d6ede423ff0aaf4337a03733b1e843638f393a9ba3462-filelists.xml.gz
+2026-03-16T05:45:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-16T05:45:45+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/2b07f5b60a2903d1fb158fa33119f8ddcaa4d11ca5f46300df98e2eba629617f-modules.yaml.gz
+2026-03-16T05:45:46+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-16T05:45:46+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/6dc1fb0b43dfc6fb3dcad7d226b18af20300f0b64fcc914f7c1d0145bc98e0be-updateinfo.xml.gz
+2026-03-16T05:46:03+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-16T05:46:04+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-16T05:46:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/51a396b02b61b4afaf487a516e836982efc4ea57a37e5bfe384a02197db1f86e-primary.xml.gz
+2026-03-16T05:46:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/ffb28368f94347ed855e5dd26f1b0e2c09706b46a930428e63445e91f906bcf9-filelists.xml.gz
+2026-03-16T05:46:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-16T05:46:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-16T05:46:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/aaced6b7a0120a897a7e22de560cef5b8ca188402a046ff2b93ad026b94e463b-updateinfo.xml.gz
+2026-03-16T07:24:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T09:02:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T09:02:40+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-16T09:02:42+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-16T10:56:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T12:39:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T12:39:40+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-16T12:39:41+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-16T12:39:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/36d42d9a8cd973844a395ea0f218e23b11383ab979cd75019d5be52f8fa3ccfc-primary.xml.gz
+2026-03-16T12:39:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/8540b5719a937031ac7dbb72f75aa60c3a63567fb3aa9179c4c0da369aa50bea-filelists.xml.gz
+2026-03-16T12:39:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-16T12:39:45+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/998c6b8b8b781e87a2fda88a73de136e95bc3efa47328d1390daddb2cce63dcf-modules.yaml.gz
+2026-03-16T12:39:45+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-16T12:39:46+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/a3ed924ccb6a1991104e797aecd665cf792ba21d99854563e5e3a59435ed1d71-updateinfo.xml.gz
+2026-03-16T12:40:03+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-16T12:40:04+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-16T12:40:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/0a458f266c37bcf029c4d5614127964664f09fbda27e198181d0736681baa015-primary.xml.gz
+2026-03-16T12:40:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/681b7ca1fd6fb5203521cc48d0b6059a796e4701784196edcf92d7a5cef36def-filelists.xml.gz
+2026-03-16T12:40:06+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-16T12:40:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-16T12:40:09+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/4f5899b742d6c59959dcec92c777bbf2f09a35ce7c3f0a11870f74f138c6134f-updateinfo.xml.gz
+2026-03-16T13:58:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T15:12:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T16:20:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T16:20:39+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-16T16:20:41+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-16T16:20:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/879623b288f138c5eea42bbcb6b7018c6d8162181f179db9760a4c9a46b7800a-primary.xml.gz
+2026-03-16T16:20:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/01a78260bfed15896630bf378818ad73440ff3f2b02e8b9790f12ef76efcdd96-filelists.xml.gz
+2026-03-16T16:20:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-16T16:20:46+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/10be65339616cd9904d9f58574e2610813f8ca0e6c509ad4b6554be4cd218907-modules.yaml.gz
+2026-03-16T16:20:46+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-16T16:20:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/712011a86e5caf5cfe394155bd7f0cae155c52de46dc98ddabc2f1018a97bbd7-updateinfo.xml.gz
+2026-03-16T16:21:02+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-16T16:21:04+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-16T16:21:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/54ce07c9711ded977f7c82a01f1350d636053bab8c1fd22b9031aba447d3fd40-primary.xml.gz
+2026-03-16T16:21:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/3cfe5b3041a8e8c97692c3ab0365000bd44eb25b2f367fa8209951acee4c8858-filelists.xml.gz
+2026-03-16T16:21:05+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-16T16:21:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-16T16:21:08+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/2d453d732313b6b34f9a60dc4640c2a8978b1f2be4c16cf6e35a322faea8ca3c-updateinfo.xml.gz
+2026-03-16T17:30:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T18:32:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T20:14:22+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T20:14:29+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-16T20:14:31+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-16T20:14:32+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/2bdd2d4e51eac27271136d70c0b78416c14fc2679c24af90154d47beab8c0a9c-primary.xml.gz
+2026-03-16T20:14:32+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/1a3e21921f0ad6094dd23179f5fc14254a530035367cf193bdacdac8e24fb492-filelists.xml.gz
+2026-03-16T20:14:32+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-16T20:14:34+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/870dddce19350c3b5275eb0296f578c6c46bd3740bc265b54e84944d7becdc48-modules.yaml.gz
+2026-03-16T20:14:35+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-16T20:14:36+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/89cd6d5742fbc00cd126adcffa69dc6eded81ddb4e2d445dcf08994f2e17594f-updateinfo.xml.gz
+2026-03-16T20:14:59+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-16T21:49:17+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T23:38:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-16T23:38:40+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-16T23:38:41+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-16T23:38:43+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-16T23:38:45+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/27898ca4304bfbfcf8d64e52c33e5062029808552396f8f26fe640e4bb5af2de-primary.xml.gz
+2026-03-16T23:38:45+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/aec91be5f7bff0a3c138379ee841e09abe57f3e7b1436dcfaefe467e3ef0cb4e-filelists.xml.gz
+2026-03-16T23:38:45+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-16T23:38:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-16T23:38:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/73e7b0502cf0c2f4d5f67f29bf53743b8107066e2c1fee34415df0da58fab228-updateinfo.xml.gz
+2026-03-17T00:47:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T01:59:22+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T03:47:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T03:47:40+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-17T03:47:42+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-17T04:55:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T06:38:37+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T08:37:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T08:37:30+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-17T08:37:32+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-17T10:26:48+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T11:56:13+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T11:56:16+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-17T11:56:18+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-17T11:56:19+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/9ff93a15dfa83d0e648f302a81a5d3abaebc988034b72e2dac0445d30e9ae955-primary.xml.gz
+2026-03-17T11:56:19+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/14ef4c5baab91ccdbc528de748a643a7e37fbd3a3d9ef7e1fa02040b10db8a61-filelists.xml.gz
+2026-03-17T11:56:19+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-17T11:56:22+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/13e49037facd5e2320af30f2e87f2b71d795f338701603d9ad435255fbc75727-modules.yaml.gz
+2026-03-17T11:56:23+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-17T11:56:24+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/900ad62acce1c79f7b9689f53dd35258e50d632cde372180efc56059aa4eb336-updateinfo.xml.gz
+2026-03-17T11:56:44+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-17T11:56:46+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-17T11:56:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/7296990d35b724855322a3168efdfa6cfedbae71faf1ec77a784e32bd7702cbd-primary.xml.gz
+2026-03-17T11:56:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/977b5ef89eac70d2f8bc611ca31dc4484c0ee94d8ca5ce0c26cc674dcc76c43b-filelists.xml.gz
+2026-03-17T11:56:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-17T11:56:50+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-17T11:56:50+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/300608d5a9e872546686638f26597deead6c54ab11c03e8c6e5b1b998c13f4ae-updateinfo.xml.gz
+2026-03-17T13:35:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T15:13:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T15:13:30+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-17T15:13:31+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-17T16:16:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T17:20:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T19:07:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T19:07:30+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-17T19:07:31+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/6610d5ecf5c2ceab86ebb9aa9990236bae52ad7e6976381db01222b0cec43979-primary.xml.gz
+2026-03-17T19:07:31+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/5cb801b20e7d85d204da90702b33388e394952c4eb0a8eb2f28e455e8aa7f95d-filelists.xml.gz
+2026-03-17T19:07:31+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-17T19:07:34+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/8410e4f4e4793610699915ec275dd1f5dca5b4d62414e7b4733fef10641caad2-modules.yaml.gz
+2026-03-17T19:07:35+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-17T19:07:36+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e0a02864c777752ee409ef75ec276969dbe4be003a26f1deb495f469441029c1-updateinfo.xml.gz
+2026-03-17T19:07:45+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-17T19:07:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/502dfb2dc10f34a336c0850c7463f103b31d51e72b9aeab107e9f07358498c35-primary.xml.gz
+2026-03-17T19:07:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/31ba395f0614a3d2a998200b17e7396e622816a406066317dfd56e012de6200e-filelists.xml.gz
+2026-03-17T19:07:47+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-17T19:07:50+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-17T19:07:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/c16c64700a61c15e375b82d2932511c570654b5bacfcb3eb1f94eb0c2b44a971-updateinfo.xml.gz
+2026-03-17T20:54:17+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T22:21:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-17T22:21:29+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-17T22:21:31+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-17T22:21:32+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/321fc95455eddef0e55e57981570e8979936d362d17855f2395ff82028d8c8a4-primary.xml.gz
+2026-03-17T22:21:32+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/a0d323a93c15a321b2a3c2d234689b09e90aa5213b739ef744d579781d8d8054-filelists.xml.gz
+2026-03-17T22:21:32+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-17T22:21:35+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/28404a1166502629a12390ade3a3e06ab3f7706e6ee7c54a0886963134a562ea-modules.yaml.gz
+2026-03-17T22:21:36+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-17T22:21:37+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/6549e1034f3260bc473a35276223bd2e22361b46086f22e87d9aac9507bcb173-updateinfo.xml.gz
+2026-03-17T22:21:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-17T23:55:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T01:22:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T01:22:30+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-18T01:22:31+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-18T01:22:33+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/de7fa294b5e8aa18876552be8ed5fe3f7f3d55d15a0c14bd1a74b6f807035871-primary.xml.gz
+2026-03-18T01:22:33+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/39b8fdf8e00a6a14fadd71d4bcf5630d57111ff8e7ee7f3662771c9964abd47b-filelists.xml.gz
+2026-03-18T01:22:33+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-18T01:22:35+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/50f7a93221b09e61772219ffd8e69515a53db368ec3c8e684b71230c95c84edf-modules.yaml.gz
+2026-03-18T01:22:36+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-18T01:22:37+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/bf7f1a96ac3ba66761dda6d7c8ae4b9bc8fdbb78be37f07d827167216079273b-updateinfo.xml.gz
+2026-03-18T01:22:53+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-18T01:22:54+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-18T01:22:56+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/1841133ec9d4cbd92d8b8d826f61e2954944cb85dde17890ac34cd656fe12f70-primary.xml.gz
+2026-03-18T01:22:56+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/fc20dc947b47e2d1e2feb1050516296fc65bb3d3321fa711ee0a8bced46f34b8-filelists.xml.gz
+2026-03-18T01:22:56+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-18T01:22:58+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-18T01:22:59+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/936cb246a2e19aaedce2603285dffdbf416d0a41eb9d7657c57092dd9350eac6-updateinfo.xml.gz
+2026-03-18T02:56:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T04:16:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T05:55:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T05:55:29+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-18T05:55:31+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-18T05:55:34+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3d345f6d76847ed776b2e9f8ee033519267c90aeaa92ef1aee8284a675882f2b-primary.xml.gz
+2026-03-18T05:55:34+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e646826fb9ce89a3531c2a243a463503bd9b854f085530b84ab95383aa74f25b-filelists.xml.gz
+2026-03-18T05:55:34+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-18T05:55:37+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/9b572d2328daa06bdeb0a487963e1b1eaac59ad256e95df54dbdc9103d37d5e9-modules.yaml.gz
+2026-03-18T05:55:37+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-18T05:55:38+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/1c55505eb0caa7deb2141dac0e957107f1c16484c675f0ee9ed0fa6c6e5adfef-updateinfo.xml.gz
+2026-03-18T05:55:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-18T05:55:57+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-18T05:55:58+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6f55ce3e511a8c23ab602029607ee663c002d84f30e8c9fe21622e32712f053e-primary.xml.gz
+2026-03-18T05:55:58+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/49a75ed4dc42cbdd212610f9fcfc664493732c0ac8b4ef902085c0fd275a0ab8-filelists.xml.gz
+2026-03-18T05:55:58+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-18T05:56:00+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-18T05:56:01+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/977c9066d6a84e6bb958fb567dcf5e24909059781cc43600e2831ede2a37bea4-updateinfo.xml.gz
+2026-03-18T07:39:17+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T09:01:27+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T09:01:30+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-18T09:01:32+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-18T10:25:02+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T11:05:43+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T12:03:34+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T12:03:36+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-18T12:03:36+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-18T12:03:37+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/7d72c5c8cb58716431df388e23dbd8fe03666305e07aa18a74260c1b44976c44-primary.xml.gz
+2026-03-18T12:03:37+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/f796a67d6573cd41c28deed1a8c843d1b4ac16cac38cf51bd16011aeec3d1d69-filelists.xml.gz
+2026-03-18T12:03:37+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-18T12:03:38+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b26b97ccc0f5155f75259ebcc4ab682d614f9db66a64dd3be2d3c672a99038fa-modules.yaml.gz
+2026-03-18T12:03:39+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-18T12:03:39+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/7fb19c097b27aee36c6532a4a13be33deabc44df1c65eaf49fb79f7e983ff2a3-updateinfo.xml.gz
+2026-03-18T12:03:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-18T12:03:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-18T12:03:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/846b61ae5497eec8311a50fcf0895ad542375ebff1b965dfd7dd2db37a36055e-primary.xml.gz
+2026-03-18T12:03:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/db23fd5edc26474e6c8bc335f435c2657515864cc7c2fad9835caa12895b0211-filelists.xml.gz
+2026-03-18T12:03:55+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-18T12:03:56+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-18T12:03:56+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/fa3db46493fcfc3cb776b71574797b3f1eaefbb1a1099a4707984a35f5c183ae-updateinfo.xml.gz
+2026-03-18T13:19:34+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T14:41:34+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T16:17:34+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T16:17:35+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-18T16:17:36+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-18T17:39:34+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T19:07:14+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T20:42:34+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-18T20:42:35+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-18T20:42:36+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-18T22:11:34+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-19T12:34:18+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-19T12:34:19+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-19T12:34:20+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-19T12:34:20+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e9fdce1b5a9186bb58f413d01eaafee3c06ff3150bbccf65b189aeab79209bc8-primary.xml.gz
+2026-03-19T12:34:20+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/82841ffe78cdd4c4effc33b1085ae697798bb72aa977b18ecdfc0dd745da74a9-filelists.xml.gz
+2026-03-19T12:34:20+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-19T12:34:21+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/ea23380504e99540cce6bb2a9a96f5131b631ca1440bfa90a624d4cbc898eca7-modules.yaml.gz
+2026-03-19T12:34:21+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-19T12:34:21+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3d110c0248c049bbb6476ef6c69c548933f15301b634f07ddd3485220e61ec7f-updateinfo.xml.gz
+2026-03-19T12:34:37+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-19T12:34:37+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-19T12:34:37+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/167735ec2ab49ca958e30878d2c22c32c79fddfcf2500082753ab3918028465d-primary.xml.gz
+2026-03-19T12:34:37+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/8842c2e2784656b9efdf27efc79781fdfeb489ff3aead859861074cbaadf5872-filelists.xml.gz
+2026-03-19T12:34:37+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-19T12:34:38+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-19T12:34:38+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/0db8ddadcb0405496b9f0a253a60cf66d63d62e010cbd6c4b59f097c84a121f7-updateinfo.xml.gz
+2026-03-28T19:26:45+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-28T19:26:48+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-28T19:26:48+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-28T19:26:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/12216007ad2108c36e6b3ced4db14a2ae76cf8d8ff2f194178a61584c1d1a973-primary.xml.gz
+2026-03-28T19:26:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3aacda0c7995b1fbc104cc2370a424cb66ef693a71688cf2cc9541453b164afd-filelists.xml.gz
+2026-03-28T19:26:49+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-28T19:26:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/9a97d1f28b3db83fedd3f579a63462de267eed86146a651a4d8c99f277981c22-modules.yaml.gz
+2026-03-28T19:26:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-28T19:26:51+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/7b83027a40178625cafa4bed83e10b16f8ed61069227006a1f9bff74f5a7c604-updateinfo.xml.gz
+2026-03-28T19:27:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-28T19:27:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-28T19:27:12+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e889b4f2fc368b26857b9a6a576431be190e7fc138a48da58727e0414186389-primary.xml.gz
+2026-03-28T19:27:12+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/4a6b1df9e6bb669632dc05c53bfa5d661efade5f8898b18370fb0fdefcd565fe-filelists.xml.gz
+2026-03-28T19:27:12+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-28T19:27:13+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-28T19:27:14+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6fcdfbe669234e77d4a0d161e921e0e866e3c12ff9479795fa3f7d475d5c1de2-updateinfo.xml.gz
+2026-03-28T21:14:33+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-28T23:14:08+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-28T23:14:10+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-28T23:14:11+0100 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-29T00:29:08+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T01:58:08+0100 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T04:10:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T04:10:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-29T04:10:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-29T05:21:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T06:53:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T08:43:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T08:43:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-29T08:43:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-29T10:36:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T12:03:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T12:03:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-29T12:03:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-29T13:23:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T14:55:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T16:35:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T16:35:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-29T16:35:15+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-29T17:50:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T19:51:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T19:51:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-29T19:51:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-29T20:05:30+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T20:05:34+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/perl-Error-0.17029-7.el9.noarch.rpm
+2026-03-29T20:05:34+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/perl-TermReadKey-2.38-11.el9.x86_64.rpm
+2026-03-29T20:05:34+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/git-2.47.3-1.el9_6.x86_64.rpm
+2026-03-29T20:05:35+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/git-core-2.47.3-1.el9_6.x86_64.rpm
+2026-03-29T20:05:36+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/git-core-doc-2.47.3-1.el9_6.noarch.rpm
+2026-03-29T20:05:36+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/perl-Git-2.47.3-1.el9_6.noarch.rpm
+2026-03-29T20:05:36+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/perl-lib-0.65-481.1.el9_6.x86_64.rpm
+2026-03-29T21:00:52+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T21:22:53+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T21:23:34+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T21:26:46+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T21:26:57+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/grub2-tools-efi-2.06-114.el9_7.1.x86_64.rpm
+2026-03-29T21:26:57+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/grub2-tools-extra-2.06-114.el9_7.1.x86_64.rpm
+2026-03-29T21:26:57+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-5.14.0-611.42.1.el9_7.x86_64.rpm
+2026-03-29T21:26:58+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-core-5.14.0-611.42.1.el9_7.x86_64.rpm
+2026-03-29T21:26:58+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-modules-5.14.0-611.42.1.el9_7.x86_64.rpm
+2026-03-29T21:26:58+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-modules-core-5.14.0-611.42.1.el9_7.x86_64.rpm
+2026-03-29T21:27:00+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/c/crun-1.26-1.el9_7.x86_64.rpm
+2026-03-29T21:27:00+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libinput-1.19.3-8.el9_7.x86_64.rpm
+2026-03-29T21:27:01+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/l/libvpx-1.9.0-10.el9_7.x86_64.rpm
+2026-03-29T21:27:01+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-dri-drivers-25.0.7-5.el9_7.x86_64.rpm
+2026-03-29T21:27:02+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-filesystem-25.0.7-5.el9_7.x86_64.rpm
+2026-03-29T21:27:02+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-libEGL-25.0.7-5.el9_7.x86_64.rpm
+2026-03-29T21:27:03+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-libGL-25.0.7-5.el9_7.x86_64.rpm
+2026-03-29T21:27:03+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-libgbm-25.0.7-5.el9_7.x86_64.rpm
+2026-03-29T21:27:03+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-libxatracker-25.0.7-5.el9_7.x86_64.rpm
+2026-03-29T21:27:04+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/o/ostree-2025.6-2.el9_7.x86_64.rpm
+2026-03-29T21:27:04+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/o/ostree-libs-2025.6-2.el9_7.x86_64.rpm
+2026-03-29T21:27:04+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/python-unversioned-command-3.9.25-3.el9_7.1.noarch.rpm
+2026-03-29T21:27:05+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/m/mesa-vulkan-drivers-25.0.7-5.el9_7.x86_64.rpm
+2026-03-29T21:27:06+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/r/rhc-0.2.7-2.el9_7.x86_64.rpm
+2026-03-29T21:27:08+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/n/nspr-4.36.0-8.el9_4.x86_64.rpm
+2026-03-29T21:27:08+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/n/nss-3.112.0-8.el9_4.x86_64.rpm
+2026-03-29T21:27:08+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/n/nss-softokn-3.112.0-8.el9_4.x86_64.rpm
+2026-03-29T21:27:08+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/n/nss-softokn-freebl-3.112.0-8.el9_4.x86_64.rpm
+2026-03-29T21:27:08+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/n/nss-sysinit-3.112.0-8.el9_4.x86_64.rpm
+2026-03-29T21:27:08+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/n/nss-util-3.112.0-8.el9_4.x86_64.rpm
+2026-03-29T21:27:08+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/python3-perf-5.14.0-611.42.1.el9_7.x86_64.rpm
+2026-03-29T21:27:08+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/v/vim-common-8.2.2637-23.el9_7.1.x86_64.rpm
+2026-03-29T21:27:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/v/vim-enhanced-8.2.2637-23.el9_7.1.x86_64.rpm
+2026-03-29T21:27:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/f/firefox-140.9.0-1.el9_7.x86_64.rpm
+2026-03-29T21:27:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-3.9.25-3.el9_7.1.x86_64.rpm
+2026-03-29T21:27:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.1.x86_64.rpm
+2026-03-29T21:27:12+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/f/firewalld-1.3.4-18.el9_7.noarch.rpm
+2026-03-29T21:27:13+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/f/firewalld-filesystem-1.3.4-18.el9_7.noarch.rpm
+2026-03-29T21:27:13+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/gnutls-3.8.3-10.el9_7.x86_64.rpm
+2026-03-29T21:27:13+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kmod-kvdo-8.2.6.3-176.el9_7.x86_64.rpm
+2026-03-29T21:27:13+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/p/python3-firewall-1.3.4-18.el9_7.noarch.rpm
+2026-03-29T21:27:14+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libldb-4.22.4-18.el9_7.x86_64.rpm
+2026-03-29T21:27:14+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libsmbclient-4.22.4-18.el9_7.x86_64.rpm
+2026-03-29T21:27:14+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libwbclient-4.22.4-18.el9_7.x86_64.rpm
+2026-03-29T21:27:14+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/samba-client-libs-4.22.4-18.el9_7.x86_64.rpm
+2026-03-29T21:27:14+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/samba-common-4.22.4-18.el9_7.noarch.rpm
+2026-03-29T21:27:14+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/samba-common-libs-4.22.4-18.el9_7.x86_64.rpm
+2026-03-29T21:27:15+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/grub2-common-2.06-114.el9_7.1.noarch.rpm
+2026-03-29T21:27:15+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/grub2-efi-x64-2.06-114.el9_7.1.x86_64.rpm
+2026-03-29T21:27:15+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/grub2-tools-2.06-114.el9_7.1.x86_64.rpm
+2026-03-29T21:27:16+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/g/grub2-tools-minimal-2.06-114.el9_7.1.x86_64.rpm
+2026-03-29T21:27:16+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/t/tzdata-2026a-1.el9.noarch.rpm
+2026-03-29T21:27:16+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libarchive-3.5.3-7.el9_7.x86_64.rpm
+2026-03-29T21:27:16+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/s/sos-4.10.2-2.el9_7.noarch.rpm
+2026-03-29T21:27:16+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-tools-5.14.0-611.42.1.el9_7.x86_64.rpm
+2026-03-29T21:27:17+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-tools-libs-5.14.0-611.42.1.el9_7.x86_64.rpm
+2026-03-29T21:27:17+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/device-mapper-1.02.206-2.el9_7.2.x86_64.rpm
+2026-03-29T21:27:17+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/device-mapper-event-1.02.206-2.el9_7.2.x86_64.rpm
+2026-03-29T21:27:17+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/device-mapper-event-libs-1.02.206-2.el9_7.2.x86_64.rpm
+2026-03-29T21:27:17+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/d/device-mapper-libs-1.02.206-2.el9_7.2.x86_64.rpm
+2026-03-29T21:27:17+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl100-firmware-39.31.5.1-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:18+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl1000-firmware-39.31.5.1-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:18+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl105-firmware-18.168.6.1-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:18+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl135-firmware-18.168.6.1-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:18+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl2000-firmware-18.168.6.1-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:18+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl2030-firmware-18.168.6.1-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:18+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl3160-firmware-25.30.13.0-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:18+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl5000-firmware-8.83.5.1_1-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:18+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl5150-firmware-8.24.2.2-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:19+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl6000g2a-firmware-18.168.6.1-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:19+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl6000g2b-firmware-18.168.6.1-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:19+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl6050-firmware-41.28.5.1-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:19+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/i/iwl7260-firmware-25.30.13.0-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:19+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/libertas-sd8787-firmware-20260311-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:19+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/linux-firmware-20260311-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:23+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/linux-firmware-whence-20260311-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:24+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/lvm2-2.03.32-2.el9_7.2.x86_64.rpm
+2026-03-29T21:27:24+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/l/lvm2-libs-2.03.32-2.el9_7.2.x86_64.rpm
+2026-03-29T21:27:24+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/n/netronome-firmware-20260311-155.4.el9_7.noarch.rpm
+2026-03-29T21:27:25+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/v/vim-filesystem-8.2.2637-23.el9_7.1.noarch.rpm
+2026-03-29T21:27:26+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/v/vim-minimal-8.2.2637-23.el9_7.1.x86_64.rpm
+2026-03-29T21:34:59+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T21:45:49+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T21:46:21+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T21:46:44+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T21:47:13+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T21:47:48+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:07:00+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:07:03+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:08:12+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:08:15+0200 INFO Downloading: https://download1.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm
+2026-03-29T22:09:02+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:09:21+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:09:49+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:10:57+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:11:00+0200 INFO Downloading: https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+2026-03-29T22:11:12+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:11:24+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:11:38+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:11:40+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir&countme=1
+2026-03-29T22:11:41+0200 INFO Downloading: http://paducahix.mm.fcix.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2026-03-29T22:11:41+0200 INFO Downloading: http://paducahix.mm.fcix.net/epel/9/Everything/x86_64/repodata/6b2d41cb2e470037ae7f74db07f84fd43243bbb28cbb16974778f3e02b497046-primary.xml.xz
+2026-03-29T22:11:41+0200 INFO Downloading: http://paducahix.mm.fcix.net/epel/9/Everything/x86_64/repodata/96748db9a450f5ef0eb10d80204fb83b903511568e405c337b89efd10b2eaad3-filelists.xml.xz
+2026-03-29T22:11:41+0200 INFO Downloading: http://paducahix.mm.fcix.net/epel/9/Everything/x86_64/repodata/c966550223aed8b6ecf595fc4da22ab447857f783fceb8548be52d72dbd8893d-comps-Everything.x86_64.xml.xz
+2026-03-29T22:11:42+0200 INFO Downloading: http://paducahix.mm.fcix.net/epel/9/Everything/x86_64/repodata/8ad0464d23ca912c2fa977501d6f217cbefcbac19672d9822c49356409992b59-updateinfo.xml.bz2
+2026-03-29T22:11:50+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2026-03-29T22:11:51+0200 INFO Downloading: https://codecs.fedoraproject.org/openh264/epel/9/x86_64/os/repodata/repomd.xml
+2026-03-29T22:11:52+0200 INFO Downloading: https://codecs.fedoraproject.org/openh264/epel/9/x86_64/os/repodata/a706b5065cbe4ca4a46b679be4858405869af7048000ce5b9025fac82914d3b2-primary.xml.gz
+2026-03-29T22:11:52+0200 INFO Downloading: https://codecs.fedoraproject.org/openh264/epel/9/x86_64/os/repodata/eb045142f0aecec1cd63ed9b7392b6119d52f65cd92d4b8c40a7b723cedab1d0-filelists.xml.gz
+2026-03-29T22:11:52+0200 INFO Downloading: https://codecs.fedoraproject.org/openh264/epel/9/x86_64/os/repodata/3d50825fb25440abc9579f078205d6ba3590b1d146187af8179eb43214c8b40e-comps-Temporary.x86_64.xml.gz
+2026-03-29T22:11:56+0200 INFO Downloading: https://download1.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm
+2026-03-29T22:12:03+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:12:06+0200 INFO Downloading: http://mirrors.rpmfusion.org/metalink?repo=free-el-updates-released-9&arch=x86_64
+2026-03-29T22:12:06+0200 INFO Downloading: http://mirror.math.princeton.edu/pub/rpmfusion/free/el/updates/9/x86_64/repodata/repomd.xml
+2026-03-29T22:12:07+0200 INFO Downloading: http://mirror.math.princeton.edu/pub/rpmfusion/free/el/updates/9/x86_64/repodata/679ac85910d2bd73f9df5bc51ea776fc62391cd74c929cb0cdf5780d13006612-filelists.xml.gz
+2026-03-29T22:12:07+0200 INFO Downloading: http://mirror.math.princeton.edu/pub/rpmfusion/free/el/updates/9/x86_64/repodata/2beaf0c985aa0d274c6a44df181bb8f9d89273d1a8c8f98c3feb7dfd4aa3354c-comps-el9.xml.xz
+2026-03-29T22:12:07+0200 INFO Downloading: http://mirror.math.princeton.edu/pub/rpmfusion/free/el/updates/9/x86_64/repodata/a32898fea0f5c9a9a4e10e11c451e2752b118067fda60988dc4e9ca53b3cf90c-primary.xml.gz
+2026-03-29T22:13:17+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:29:04+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:33:59+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:34:10+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:34:29+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:34:45+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:35:06+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:35:25+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T22:38:02+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T23:51:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-29T23:51:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-29T23:51:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-30T01:19:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T02:59:32+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T02:59:34+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-30T02:59:35+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-30T04:05:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T05:58:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T07:25:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T07:25:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-30T07:25:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-30T07:25:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/49b717ae4adff8ce43282932f474ad5489c434a0ce1ff650f9d9a041a5fba034-primary.xml.gz
+2026-03-30T07:25:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/cc99a3e1a3096d47d50756daee9338516cc28cd73910c89faa28bd77a91f91e1-filelists.xml.gz
+2026-03-30T07:25:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-30T07:25:12+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/a40b012abc0cde14155fa01aab39350ffe1f8ea32feb35f51c2aa77b52614829-modules.yaml.gz
+2026-03-30T07:25:12+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-30T07:25:13+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/b6828432b45551013675837f78f138c36d82c35d632ded861058f83126175ef0-updateinfo.xml.gz
+2026-03-30T07:25:31+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-30T09:26:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T11:06:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T11:06:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-30T11:06:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-30T11:06:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e1fedf16b4e2ca32ca3ba773444c18ea61254019faf48e9a4a5c9b79119cc237-primary.xml.gz
+2026-03-30T11:06:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e52550bd81b12f1392e5de50e38f81c6b4627e78a6776aecf2e299f6210f997f-filelists.xml.gz
+2026-03-30T11:06:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-30T11:06:13+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/15d39b24e097630759b6c6c810d11c8e798db2850244ee3f56ee06fc38d51f32-modules.yaml.gz
+2026-03-30T11:06:13+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-30T11:06:14+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/ba3d41ec8741a1841d87bf50032499999f97dbaee8894872e07424b461ad1008-updateinfo.xml.gz
+2026-03-30T11:06:29+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-30T11:06:30+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-30T11:06:31+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/5f3622c186be142dcbda7d5bb9ab9a959ef36c3181f8855de7cab82f607d2695-primary.xml.gz
+2026-03-30T11:06:31+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/f7230990ed0e9d217d7847949b01819ccdebd166f4630b8169e180a34c1c250a-filelists.xml.gz
+2026-03-30T11:06:31+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-30T11:06:32+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-30T11:06:32+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6afebe16f61f6b60dad5f613d2545706c9482707f108fb6daf36bdf86c932aa3-updateinfo.xml.gz
+2026-03-30T13:01:01+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T14:30:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T14:30:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-30T14:30:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-30T14:30:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/6e22e116cd501197e4c9ea04e4bd23d15a6cc985b12f650130a6f1f911664661-primary.xml.gz
+2026-03-30T14:30:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/134b81dd3c9d0875b08aed05063db6fe8ab817ae1d0e40f7086bfffde7a65b7a-filelists.xml.gz
+2026-03-30T14:30:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-30T14:30:12+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/57f430bebdd4f71544d29152bebe96e277baddcd32d9321acee22a1cc478da0b-modules.yaml.gz
+2026-03-30T14:30:13+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-30T14:30:13+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/9013cccc4f43dc04884264c541cd10f77068658279f2f8ad56baa8d76649d945-updateinfo.xml.gz
+2026-03-30T14:30:30+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-30T14:30:31+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-30T14:30:31+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/63789d897f42e2d81e60515bcff636b52548a84404adeb2e7ab4c0da29dc8804-primary.xml.gz
+2026-03-30T14:30:31+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/00c77a5f0dcb90bc2f77deec46357f4d5fc80c5347840d826bb478aaf6d2de52-filelists.xml.gz
+2026-03-30T14:30:31+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-03-30T14:30:33+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-03-30T14:30:33+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/8520104eb8e42464ef7c85617f72c15961253a54fde96844f7bf1af51e5c88c3-updateinfo.xml.gz
+2026-03-30T15:42:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T17:16:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T18:26:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T18:26:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-30T18:26:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-30T18:26:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/8ef91d8052a08ef9ff7958a7c150ff19bc7babac5c058ce91bd3b5ee0f83ce22-primary.xml.gz
+2026-03-30T18:26:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/688d82e19a33e7ce551b4a80f7ace2622e1dea126b831ef0addf661870e4c687-filelists.xml.gz
+2026-03-30T18:26:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-30T18:26:12+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/e07d60114461fce8aad89da3fff054d07bfedf00c314d90c6e776c32454a37b0-modules.yaml.gz
+2026-03-30T18:26:13+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-30T18:26:13+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/28c43f46945462961524109c609168df7e8f9511e7aaf0864e9b89970b418c5c-updateinfo.xml.gz
+2026-03-30T18:26:31+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-30T20:23:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T22:14:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-30T22:14:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-30T22:14:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-30T23:18:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T00:44:32+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T01:46:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T01:46:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-31T01:46:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-31T02:49:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T04:18:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T06:14:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T06:14:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-31T06:14:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-31T07:59:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T09:24:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T09:24:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-31T09:24:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-31T10:27:08+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T10:45:11+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T10:45:21+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/p11-kit-server-0.25.3-3.el9_5.x86_64.rpm
+2026-03-31T10:45:21+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/c/composefs-libs-1.0.8-1.el9.x86_64.rpm
+2026-03-31T10:45:21+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/f/flatpak-1.12.9-4.el9_6.x86_64.rpm
+2026-03-31T10:45:21+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/f/flatpak-selinux-1.12.9-4.el9_6.noarch.rpm
+2026-03-31T10:45:22+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/f/flatpak-session-helper-1.12.9-4.el9_6.x86_64.rpm
+2026-03-31T10:45:22+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/o/ostree-libs-2025.6-2.el9_7.x86_64.rpm
+2026-03-31T10:54:12+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:11:25+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:12:16+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:18:04+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:18:53+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:18:55+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:18:58+0200 INFO Downloading: https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm
+2026-03-31T11:21:33+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:21:35+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-31T11:21:36+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/8f41009d3ad30a4852e994f08e8221582dd49b6117bbe32e260eb4104bf1c552-primary.xml.gz
+2026-03-31T11:21:36+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/92f09f3f04fe390ed1adbc3d94712e555de89f427633b39f25cbee12f5c1a11e-filelists.xml.gz
+2026-03-31T11:21:36+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-03-31T11:21:37+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/fd7d397496aec03ade467fbfa3e81ee6a25232fee510751d0688461206bf184c-modules.yaml.gz
+2026-03-31T11:21:37+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-03-31T11:21:38+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/bc92b3a73204a3a750585d7441a452f80c12a0331c2a02ec968608bcfe51be20-updateinfo.xml.gz
+2026-03-31T11:21:44+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/repomd.xml
+2026-03-31T11:21:45+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/2222651c7e15efe03ed702dd3b12e9b56c2eb8b98170c1bfc2e6f9eca74c6f37-primary.xml.gz
+2026-03-31T11:21:45+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/046ef11a8aeea1a44fa39986292b75ff22890d9b421c6f6a40461ad91be1e5d6-filelists.xml.gz
+2026-03-31T11:21:45+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/e20a97a1a31db2aa733508169aa027fb5be338f2430be4981a0a63ac8bcbac98-comps.xml
+2026-03-31T11:21:45+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/a7bb19562a08f2cba2cd77e98930f193fdd888bec9bbd2f4e925df9ddff1fcd9-modules.yaml.gz
+2026-03-31T11:21:46+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/b84aad91-7e13-4138-b4ef-06620939aa5f
+2026-03-31T11:21:46+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/13ef403c1ea7ad3d7c4fac341cf8e82cc8c1171d540b72b45483077c733b107f-updateinfo.xml.gz
+2026-03-31T11:21:48+0200 INFO Downloading: https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+2026-03-31T11:21:58+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:22:00+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2026-03-31T11:22:00+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2026-03-31T11:22:01+0200 INFO Downloading: http://mirrors.sonic.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2026-03-31T11:22:02+0200 INFO Downloading: http://mirrors.sonic.net/epel/9/Everything/x86_64/repodata/929bd0aa3343637b7f0fd7e6a642e0289cd76b548f85af08b3c7b09d1ff72f21-primary.xml.xz
+2026-03-31T11:22:02+0200 INFO Downloading: http://mirrors.sonic.net/epel/9/Everything/x86_64/repodata/c79c3526f706d34f7ae850295e8d4741eff36bd62f94229f7bc12890587b1ed9-filelists.xml.xz
+2026-03-31T11:22:02+0200 INFO Downloading: http://mirrors.sonic.net/epel/9/Everything/x86_64/repodata/c966550223aed8b6ecf595fc4da22ab447857f783fceb8548be52d72dbd8893d-comps-Everything.x86_64.xml.xz
+2026-03-31T11:22:02+0200 INFO Downloading: http://mirrors.sonic.net/epel/9/Everything/x86_64/repodata/1a03bb39ed3e90bff443aaa0bdf2ca61ac23ff4c3a74e0bfc09d93b2118feac7-updateinfo.xml.bz2
+2026-03-31T11:22:10+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2026-03-31T11:22:11+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-03-31T11:22:12+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/repomd.xml
+2026-03-31T11:22:12+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-03-31T11:22:18+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:22:21+0200 INFO Downloading: https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm
+2026-03-31T11:22:27+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:22:32+0200 INFO Downloading: https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-9.noarch.rpm
+2026-03-31T11:22:49+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:22:52+0200 INFO Downloading: http://mirrors.rpmfusion.org/metalink?repo=nonfree-el-updates-released-9&arch=x86_64
+2026-03-31T11:22:52+0200 INFO Downloading: http://mirror.math.princeton.edu/pub/rpmfusion/nonfree/el/updates/9/x86_64/repodata/repomd.xml
+2026-03-31T11:22:53+0200 INFO Downloading: http://mirror.math.princeton.edu/pub/rpmfusion/nonfree/el/updates/9/x86_64/repodata/eb50a9193820d6a2cc54f8e902010c603e9358f99d948f7cafc045530f1e5afc-filelists.xml.gz
+2026-03-31T11:22:53+0200 INFO Downloading: http://mirror.math.princeton.edu/pub/rpmfusion/nonfree/el/updates/9/x86_64/repodata/57a9d8ccccdba0158688db205467d9ccc910d8d649cefac174d3de039d00e241-comps-el9.xml.xz
+2026-03-31T11:22:53+0200 INFO Downloading: http://mirror.math.princeton.edu/pub/rpmfusion/nonfree/el/updates/9/x86_64/repodata/471f07e04d23507b399508bf9d66c358c0dedd850306b0fc80605d77461efa94-primary.xml.gz
+2026-03-31T11:24:36+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:25:06+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:36:29+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:37:14+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:37:19+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/g/gnome-extensions-app-40.0-3.el9.x86_64.rpm
+2026-03-31T11:54:49+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-03-31T11:54:59+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-5.14.0-611.45.1.el9_7.x86_64.rpm
+2026-03-31T11:54:59+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-core-5.14.0-611.45.1.el9_7.x86_64.rpm
+2026-03-31T11:54:59+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-modules-5.14.0-611.45.1.el9_7.x86_64.rpm
+2026-03-31T11:55:00+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-modules-core-5.14.0-611.45.1.el9_7.x86_64.rpm
+2026-03-31T11:55:03+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/Packages/p/python3-perf-5.14.0-611.45.1.el9_7.x86_64.rpm
+2026-03-31T11:55:04+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-tools-5.14.0-611.45.1.el9_7.x86_64.rpm
+2026-03-31T11:55:04+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/Packages/k/kernel-tools-libs-5.14.0-611.45.1.el9_7.x86_64.rpm
+2026-03-31T11:55:58+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-04-05T16:33:31+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-04-05T16:33:32+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir&countme=1
+2026-04-05T16:33:33+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2026-04-05T16:33:33+0200 INFO Downloading: https://mirror.netone.nl/other/epel/9/Everything/x86_64/repodata/repomd.xml
+2026-04-05T16:33:34+0200 INFO Downloading: https://mirror.netone.nl/other/epel/9/Everything/x86_64/repodata/56e27a8f7cbf08e42023383c5d7b6e844c50e89cff29459ea81d6851b374f10d-primary.xml.xz
+2026-04-05T16:33:34+0200 INFO Downloading: https://mirror.netone.nl/other/epel/9/Everything/x86_64/repodata/d96b3c8f1c1dc9f2d491469343335eec174c08570f6c04eb0da02c7b434305dd-filelists.xml.xz
+2026-04-05T16:33:34+0200 INFO Downloading: https://mirror.netone.nl/other/epel/9/Everything/x86_64/repodata/c966550223aed8b6ecf595fc4da22ab447857f783fceb8548be52d72dbd8893d-comps-Everything.x86_64.xml.xz
+2026-04-05T16:33:34+0200 INFO Downloading: https://mirror.netone.nl/other/epel/9/Everything/x86_64/repodata/ca325b6a9e549bf9c6bb45a6a566fba51a70d9b120318ccfe79eec66e2a8d54c-updateinfo.xml.bz2
+2026-04-05T16:33:46+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2026-04-05T16:33:47+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-04-05T16:33:47+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-04-05T16:33:47+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/a45b68bd8f3afad91549df180db6530b0733d259282a57ad989b6ab14c760c57-primary.xml.gz
+2026-04-05T16:33:47+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/69c671f722f6fafd5480fc8f2e54d552ef132d7fc937fd06495f07dc8bf7a0bb-filelists.xml.gz
+2026-04-05T16:33:47+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-04-05T16:33:50+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/a032645388568fd7bbc68fc2b31e676525382eb75eb7eacacf064792e71e0d57-modules.yaml.gz
+2026-04-05T16:33:50+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-04-05T16:33:50+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/d0edbc977f6577bb3a5da0f4168e90abe78d67560d2cc43d6d24eb094ebf84f1-updateinfo.xml.gz
+2026-04-05T16:34:28+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/repomd.xml
+2026-04-05T16:34:29+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/repomd.xml
+2026-04-05T16:34:29+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/1e2ebe5eb9dc0a9b64ef89b394bb40d5dce124871e9e2186d37c4feff622f7a1-primary.xml.gz
+2026-04-05T16:34:29+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/f8f665680f2d401b06cc558f1b24bc77d8b2cdea88df977f415646f03f86cec9-filelists.xml.gz
+2026-04-05T16:34:29+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/e20a97a1a31db2aa733508169aa027fb5be338f2430be4981a0a63ac8bcbac98-comps.xml
+2026-04-05T16:34:29+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/1af71d5f19aabfddaef92325980530d1e168ef12fb28312c1ab79f377836ddc3-modules.yaml.gz
+2026-04-05T16:34:30+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/b84aad91-7e13-4138-b4ef-06620939aa5f
+2026-04-05T16:34:30+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/8b594a3d753b12baf7ad0efce670872fc2137b93a80946c03b055e2aae57e19a-updateinfo.xml.gz
+2026-04-05T16:34:37+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-04-05T16:34:37+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-04-05T16:34:38+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/205317b39d110ee14c54fb97a9a2a1c89261907e1ce43496052da916c91792f4-primary.xml.gz
+2026-04-05T16:34:38+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/d0694933c22f458de94d76ebf2b3c632dc1646d49f8077bf398f2b730d6e1352-filelists.xml.gz
+2026-04-05T16:34:38+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-04-05T16:34:38+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-04-05T16:34:39+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/d9f4d7099ce5652b0658866a1aebeee926d280ae76d0de20f8ad497c173df1b2-updateinfo.xml.gz
+2026-04-05T16:35:28+0200 INFO Downloading: http://mirrors.rpmfusion.org/metalink?repo=free-el-updates-released-9&arch=x86_64
+2026-04-05T16:35:28+0200 INFO Downloading: http://mirrors.rpmfusion.org/metalink?repo=free-el-updates-released-9&arch=x86_64
+2026-04-05T16:35:28+0200 INFO Downloading: http://repo.fedora.md/mirrors/rpmfusion/free/el/updates/9/x86_64/repodata/repomd.xml
+2026-04-05T16:35:29+0200 INFO Downloading: http://repo.fedora.md/mirrors/rpmfusion/free/el/updates/9/x86_64/repodata/679ac85910d2bd73f9df5bc51ea776fc62391cd74c929cb0cdf5780d13006612-filelists.xml.gz
+2026-04-05T16:35:29+0200 INFO Downloading: http://repo.fedora.md/mirrors/rpmfusion/free/el/updates/9/x86_64/repodata/2beaf0c985aa0d274c6a44df181bb8f9d89273d1a8c8f98c3feb7dfd4aa3354c-comps-el9.xml.xz
+2026-04-05T16:35:29+0200 INFO Downloading: http://repo.fedora.md/mirrors/rpmfusion/free/el/updates/9/x86_64/repodata/a32898fea0f5c9a9a4e10e11c451e2752b118067fda60988dc4e9ca53b3cf90c-primary.xml.gz
+2026-04-05T16:35:30+0200 INFO Downloading: http://mirrors.rpmfusion.org/metalink?repo=nonfree-el-updates-released-9&arch=x86_64
+2026-04-05T16:59:02+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-04-05T17:42:42+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-04-05T18:59:28+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-04-05T20:17:26+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-04-05T20:17:28+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2026-04-05T20:17:29+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2026-04-05T20:17:29+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-04-05T20:17:30+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/repomd.xml
+2026-04-05T20:17:31+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-04-05T20:17:32+0200 INFO Downloading: http://mirrors.rpmfusion.org/metalink?repo=free-el-updates-released-9&arch=x86_64
+2026-04-05T20:17:33+0200 INFO Downloading: http://mirrors.rpmfusion.org/metalink?repo=nonfree-el-updates-released-9&arch=x86_64
+2026-04-05T21:40:41+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-04-05T22:45:42+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-04-06T21:46:01+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-04-06T21:46:04+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2026-04-06T21:46:05+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir&countme=2
+2026-04-06T21:46:06+0200 INFO Downloading: https://epel.mirror.shastacoe.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2026-04-06T21:46:07+0200 INFO Downloading: https://epel.mirror.shastacoe.net/epel/9/Everything/x86_64/repodata/467950f0c57926be970fa2ad3d6106e50c4e18db5cc7139a4545366a9005f4ef-primary.xml.xz
+2026-04-06T21:46:07+0200 INFO Downloading: https://epel.mirror.shastacoe.net/epel/9/Everything/x86_64/repodata/8447be0f6e94d273145210720bf88f59400958a89760ff119f6922ff85bd8f35-filelists.xml.xz
+2026-04-06T21:46:07+0200 INFO Downloading: https://epel.mirror.shastacoe.net/epel/9/Everything/x86_64/repodata/c966550223aed8b6ecf595fc4da22ab447857f783fceb8548be52d72dbd8893d-comps-Everything.x86_64.xml.xz
+2026-04-06T21:46:08+0200 INFO Downloading: https://epel.mirror.shastacoe.net/epel/9/Everything/x86_64/repodata/a71b0b841780c50fc5904f92bd02e1f9cff606a8398469046aa74b15d9ce72fe-updateinfo.xml.bz2
+2026-04-06T21:46:52+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2026-04-06T21:46:53+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-04-06T21:46:54+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-04-06T21:46:55+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/71a282e82de67bb655f891cb438c5ae54cf0e3738fda28f6047e3cc77e70332e-primary.xml.gz
+2026-04-06T21:46:55+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/5fbf683ed9ffe2d0802e67af06aa5f3b35cf717fb6c830dd96085eb6832b38a2-filelists.xml.gz
+2026-04-06T21:46:55+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-04-06T21:47:01+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/d63fcf75f7ebe18e3e1b32be52c7b662c89208a0004eb324e9665332612887e3-modules.yaml.gz
+2026-04-06T21:47:02+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-04-06T21:47:03+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/ff2017fcfa6b5113f5edb61da4ea51d39b2e4fdb72709fe2415f34264450ee37-updateinfo.xml.gz
+2026-04-06T21:48:05+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/repomd.xml
+2026-04-06T21:48:06+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/repomd.xml
+2026-04-06T21:48:07+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/654e6ee8f86564df096a4441a9c222a81f4059d3e562d3da7e1c2251fbeec556-primary.xml.gz
+2026-04-06T21:48:07+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/4cbe9c3d18bbec10d707b3f1a10b2ed056d66481b35526a224eae60cea2fc261-filelists.xml.gz
+2026-04-06T21:48:07+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/e20a97a1a31db2aa733508169aa027fb5be338f2430be4981a0a63ac8bcbac98-comps.xml
+2026-04-06T21:48:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/5c0dd8328bc3879245d1f31520ed71f202cc3d19cef2963e5f2e97aa1295e73e-modules.yaml.gz
+2026-04-06T21:48:09+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/b84aad91-7e13-4138-b4ef-06620939aa5f
+2026-04-06T21:48:10+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/8fbacd723889ef8c7c7f3b3c5afb2e2de34e519b5e9b5094aea2619e5d784f07-updateinfo.xml.gz
+2026-04-06T21:48:20+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-04-06T21:48:21+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-04-06T21:48:22+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/fd2799bcf90a32dead66138e8eac13697707105b598fcebfd11a9f4c6faca4ad-primary.xml.gz
+2026-04-06T21:48:22+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/d3c9eaeb08d13949c16afbfd7f989e32a3ab5dc77151724703c2a3692c84664d-filelists.xml.gz
+2026-04-06T21:48:22+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-04-06T21:48:24+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-04-06T21:48:24+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/5e3da2e96752982cd7c82d510f84b171ec1a5554f1cf457ef82739f5117659d8-updateinfo.xml.gz
+2026-04-06T21:50:56+0200 INFO Downloading: http://mirrors.rpmfusion.org/metalink?repo=free-el-updates-released-9&arch=x86_64
+2026-04-06T21:50:57+0200 INFO Downloading: http://mirrors.rpmfusion.org/metalink?repo=nonfree-el-updates-released-9&arch=x86_64
+2026-04-06T22:55:01+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-04-08T20:45:00+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2026-04-08T20:45:02+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2026-04-08T20:45:03+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=$contentdir
+2026-04-08T20:45:04+0200 INFO Downloading: http://mirror.its.umich.edu/epel/9/Everything/x86_64/repodata/repomd.xml
+2026-04-08T20:45:05+0200 INFO Downloading: http://mirror.its.umich.edu/epel/9/Everything/x86_64/repodata/924fa6de2d93658a9dd7cd9f1674d6db1303e8d406dad37ca98cc08d6d5e46fc-primary.xml.xz
+2026-04-08T20:45:05+0200 INFO Downloading: http://mirror.its.umich.edu/epel/9/Everything/x86_64/repodata/de4cb8dc9788028307f4c7fdcf4b8ba09bde4fae9f19e6863152b891ebaf5954-filelists.xml.xz
+2026-04-08T20:45:05+0200 INFO Downloading: http://mirror.its.umich.edu/epel/9/Everything/x86_64/repodata/c966550223aed8b6ecf595fc4da22ab447857f783fceb8548be52d72dbd8893d-comps-Everything.x86_64.xml.xz
+2026-04-08T20:45:06+0200 INFO Downloading: http://mirror.its.umich.edu/epel/9/Everything/x86_64/repodata/682dbf8b6e05aa9935df1e3185a6bfdc83da445f927406064be9780d76a2baf9-updateinfo.xml.bz2
+2026-04-08T20:45:21+0200 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2026-04-08T20:45:22+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-04-08T20:45:23+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/repomd.xml
+2026-04-08T20:45:24+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/c13ca965c34f90ee16c3aafacfcd6417f620d0f784eb0a115bd5064c1ac1a42e-primary.xml.gz
+2026-04-08T20:45:24+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/7474d1acabad3aa98889ef89c618ba0ab0dd87f4126510cce37a15e67e5279d4-filelists.xml.gz
+2026-04-08T20:45:24+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3423e358737b5eca6a12464c0143a7766117a0ef0329d8a295cc22c9b337fa56-comps.xml
+2026-04-08T20:45:26+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/28089b1adf08995b506423822d51885036bf0bb8a7c62b8f1eb6c14b9d563263-modules.yaml.gz
+2026-04-08T20:45:26+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/3184e93f-7814-4147-aa62-4a0f6ff840e4
+2026-04-08T20:45:28+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/appstream/os/repodata/6ea7ff5ac0cbd106b83f40cf1628e0ca7fea8cd4194554a7052d28613996b5dd-updateinfo.xml.gz
+2026-04-08T20:45:55+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/repomd.xml
+2026-04-08T20:45:56+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/repomd.xml
+2026-04-08T20:45:57+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/805103442d4fd7943b219f5354aa4d5b1ee292983420b747b0e54cfbca1d0f07-primary.xml.gz
+2026-04-08T20:45:57+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/2c92f068b0085cbfda66b28b9bb5f44877f08324b4310a3d253995bb68957fce-filelists.xml.gz
+2026-04-08T20:45:57+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/e20a97a1a31db2aa733508169aa027fb5be338f2430be4981a0a63ac8bcbac98-comps.xml
+2026-04-08T20:45:59+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/a70f387352186ba9c8eca49acc5f659787a08aa446bb7f5471350ed80e1845a4-modules.yaml.gz
+2026-04-08T20:45:59+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/b84aad91-7e13-4138-b4ef-06620939aa5f
+2026-04-08T20:45:59+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/codeready-builder/os/repodata/262dc6855e2b499bf599cbd773438505f98fd26459da8389c9eb398d7bfb3d64-updateinfo.xml.gz
+2026-04-08T20:46:05+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-04-08T20:46:06+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/repomd.xml
+2026-04-08T20:46:07+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/fe5484804cbeec5c1df84688b1cc453a8fe939d1f36abbf508f8e52022eed2be-primary.xml.gz
+2026-04-08T20:46:07+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/2b26e34d7df0d7d705e9c2ac9ef616c27c96a5ab5ac995b87af99b4e2860e5d0-filelists.xml.gz
+2026-04-08T20:46:07+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/569919858e14f8757a83201600869a44e22a70aa7e4538e94d9ed07e607cc13e-comps.xml
+2026-04-08T20:46:08+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/6e920549-df7c-4ef2-b641-7f91d8ed2c16
+2026-04-08T20:46:08+0200 INFO Downloading: https://cdn.redhat.com/content/dist/rhel9/9/x86_64/baseos/os/repodata/18b708bcc90f780e9406a2512c56ec352492a03ab84c8818c79cb399f7bda2af-updateinfo.xml.gz
+2026-04-08T20:46:45+0200 INFO Downloading: http://mirrors.rpmfusion.org/metalink?repo=free-el-updates-released-9&arch=x86_64
+2026-04-08T20:46:46+0200 INFO Downloading: http://mirrors.rpmfusion.org/metalink?repo=nonfree-el-updates-released-9&arch=x86_64
+2026-04-08T22:49:05+0200 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.5.1 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)

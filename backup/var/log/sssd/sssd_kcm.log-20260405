@@ -1,0 +1,8 @@
+(2026-03-31 10:48:48): [kcm] [orderly_shutdown] (0x3f7c0): SIGTERM: killing children
+(2026-03-31 10:48:48): [kcm] [orderly_shutdown] (0x3f7c0): Shutting down (status = 0)
+(2026-03-31 10:50:39): [kcm] [server_setup] (0x3f7c0): Starting with debug level = 0x0070
+(2026-03-31 11:43:44): [kcm] [orderly_shutdown] (0x3f7c0): SIGTERM: killing children
+(2026-03-31 11:43:44): [kcm] [orderly_shutdown] (0x3f7c0): Shutting down (status = 0)
+(2026-03-31 11:44:18): [kcm] [server_setup] (0x3f7c0): Starting with debug level = 0x0070
+(2026-03-31 12:07:53): [kcm] [orderly_shutdown] (0x3f7c0): SIGTERM: killing children
+(2026-03-31 12:07:53): [kcm] [orderly_shutdown] (0x3f7c0): Shutting down (status = 0)

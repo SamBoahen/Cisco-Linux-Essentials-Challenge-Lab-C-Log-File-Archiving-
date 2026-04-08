@@ -1,0 +1,465 @@
+Mar 29 20:01:34 obbserver gdm-password][46127]: gkr-pam: unlocked login keyring
+Mar 29 20:05:30 obbserver sudo[46356]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install git -y
+Mar 29 20:05:30 obbserver sudo[46356]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 20:05:41 obbserver sudo[46356]: pam_unix(sudo:session): session closed for user root
+Mar 29 21:06:42 obbserver gdm-password][78796]: gkr-pam: unlocked login keyring
+Mar 29 21:22:53 obbserver sudo[79678]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install simplescreenrecorder
+Mar 29 21:22:53 obbserver sudo[79678]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 21:23:01 obbserver sudo[79678]: pam_unix(sudo:session): session closed for user root
+Mar 29 21:23:34 obbserver sudo[79787]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install kooha
+Mar 29 21:23:34 obbserver sudo[79787]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 21:23:40 obbserver sudo[79787]: pam_unix(sudo:session): session closed for user root
+Mar 29 21:26:46 obbserver sudo[79894]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf update
+Mar 29 21:26:46 obbserver sudo[79894]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 21:30:46 obbserver sshd[1183]: Received signal 15; terminating.
+Mar 29 21:30:46 obbserver sshd[94641]: Server listening on 0.0.0.0 port 22.
+Mar 29 21:30:46 obbserver sshd[94641]: Server listening on :: port 22.
+Mar 29 21:33:40 obbserver sudo[79894]: pam_unix(sudo:session): session closed for user root
+Mar 29 21:34:59 obbserver sudo[129703]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install kazam
+Mar 29 21:34:59 obbserver sudo[129703]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 21:35:03 obbserver sudo[129703]: pam_unix(sudo:session): session closed for user root
+Mar 29 21:38:43 obbserver su[5453]: pam_unix(su:session): session closed for user obb
+Mar 29 21:38:48 obbserver su[129975]: pam_unix(su:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 29 21:39:04 obbserver su[129975]: pam_unix(su:session): session closed for user obb
+Mar 29 21:39:04 obbserver su[4565]: pam_unix(su:session): session closed for user root
+Mar 29 21:45:49 obbserver sudo[130954]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/yum install simplescreenrecorder
+Mar 29 21:45:49 obbserver sudo[130954]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 21:45:53 obbserver sudo[130954]: pam_unix(sudo:session): session closed for user root
+Mar 29 21:46:21 obbserver sudo[130979]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/yum install recordmydesktop
+Mar 29 21:46:21 obbserver sudo[130979]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 21:46:24 obbserver sudo[130979]: pam_unix(sudo:session): session closed for user root
+Mar 29 21:46:44 obbserver sudo[130989]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/yum install vokoscreenNG
+Mar 29 21:46:44 obbserver sudo[130989]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 21:46:47 obbserver sudo[130989]: pam_unix(sudo:session): session closed for user root
+Mar 29 21:47:13 obbserver sudo[131006]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/yum install kazam
+Mar 29 21:47:13 obbserver sudo[131006]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 21:47:16 obbserver sudo[131006]: pam_unix(sudo:session): session closed for user root
+Mar 29 21:47:48 obbserver sudo[131019]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/yum install byzanz
+Mar 29 21:47:48 obbserver sudo[131019]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 21:47:51 obbserver sudo[131019]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:06:26 obbserver gdm-password][131629]: gkr-pam: unlocked login keyring
+Mar 29 22:07:00 obbserver sudo[131696]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install epel-release
+Mar 29 22:07:00 obbserver sudo[131696]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:07:03 obbserver sudo[131696]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:07:03 obbserver sudo[131708]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install kazam
+Mar 29 22:07:03 obbserver sudo[131708]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:07:06 obbserver sudo[131708]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:08:12 obbserver sudo[131740]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install https://download1.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm
+Mar 29 22:08:12 obbserver sudo[131740]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:08:17 obbserver sudo[131740]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:09:02 obbserver sudo[131759]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf update
+Mar 29 22:09:02 obbserver sudo[131759]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:09:05 obbserver sudo[131759]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:09:21 obbserver sudo[131775]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install obs-studio
+Mar 29 22:09:21 obbserver sudo[131775]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:09:24 obbserver sudo[131775]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:09:49 obbserver sudo[131789]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install epel-release
+Mar 29 22:09:49 obbserver sudo[131789]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:09:52 obbserver sudo[131789]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:10:57 obbserver sudo[131807]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+Mar 29 22:10:57 obbserver sudo[131807]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:11:13 obbserver sudo[131807]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:11:24 obbserver sudo[131888]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf repolist
+Mar 29 22:11:24 obbserver sudo[131888]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:11:26 obbserver sudo[131888]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:11:38 obbserver sudo[131902]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install https://download1.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm
+Mar 29 22:11:38 obbserver sudo[131902]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:12:01 obbserver sudo[131902]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:12:03 obbserver sudo[131935]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install obs-studio
+Mar 29 22:12:03 obbserver sudo[131935]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:12:10 obbserver sudo[131935]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:13:17 obbserver sudo[131961]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install flatpak
+Mar 29 22:13:17 obbserver sudo[131961]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:13:20 obbserver sudo[131961]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:13:31 obbserver sudo[131970]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+Mar 29 22:13:31 obbserver sudo[131970]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:13:31 obbserver polkitd[923]: Registered Authentication Agent for unix-process:131972:9624947 (system bus name :1.586 [flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 29 22:13:34 obbserver polkitd[923]: Unregistered Authentication Agent for unix-process:131972:9624947 (system bus name :1.586, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 29 22:13:34 obbserver sudo[131970]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:13:42 obbserver sudo[132069]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/flatpak install flathub com.obsproject.Studio
+Mar 29 22:13:42 obbserver sudo[132069]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:13:42 obbserver polkitd[923]: Registered Authentication Agent for unix-process:132071:9626109 (system bus name :1.588 [flatpak install flathub com.obsproject.Studio], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 29 22:15:07 obbserver polkitd[923]: Unregistered Authentication Agent for unix-process:132071:9626109 (system bus name :1.588, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 29 22:15:07 obbserver sudo[132069]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:29:04 obbserver sudo[135614]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install ffmpeg
+Mar 29 22:29:04 obbserver sudo[135614]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:29:09 obbserver sudo[135614]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:33:58 obbserver sudo[136317]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf remove obs-studio
+Mar 29 22:33:58 obbserver sudo[136317]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:34:01 obbserver sudo[136317]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:34:10 obbserver sudo[136342]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf remove rpmfusion-free-release rpmfusion-nonfree-release
+Mar 29 22:34:10 obbserver sudo[136342]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:34:20 obbserver sudo[136342]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:34:29 obbserver sudo[136357]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf remove epel-release
+Mar 29 22:34:29 obbserver sudo[136357]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:34:34 obbserver sudo[136357]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:34:45 obbserver sudo[136368]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf remove ffmpeg
+Mar 29 22:34:45 obbserver sudo[136368]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:34:47 obbserver sudo[136368]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:34:53 obbserver sudo[136380]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/flatpak uninstall com.obsproject.Studio
+Mar 29 22:34:53 obbserver sudo[136380]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:34:53 obbserver polkitd[923]: Registered Authentication Agent for unix-process:136382:9753205 (system bus name :1.667 [flatpak uninstall com.obsproject.Studio], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 29 22:34:58 obbserver polkitd[923]: Unregistered Authentication Agent for unix-process:136382:9753205 (system bus name :1.667, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 29 22:34:58 obbserver sudo[136380]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:34:58 obbserver sudo[136412]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/flatpak remote-delete flathub
+Mar 29 22:34:58 obbserver sudo[136412]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:34:58 obbserver polkitd[923]: Registered Authentication Agent for unix-process:136416:9753652 (system bus name :1.670 [flatpak remote-delete flathub], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 29 22:35:06 obbserver polkitd[923]: Unregistered Authentication Agent for unix-process:136416:9753652 (system bus name :1.670, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 29 22:35:06 obbserver sudo[136412]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:35:06 obbserver sudo[136452]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf remove flatpak
+Mar 29 22:35:06 obbserver sudo[136452]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:35:15 obbserver polkitd[923]: Reloading rules
+Mar 29 22:35:15 obbserver polkitd[923]: Collecting garbage unconditionally...
+Mar 29 22:35:15 obbserver polkitd[923]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 29 22:35:15 obbserver polkitd[923]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 29 22:35:15 obbserver polkitd[923]: Finished loading, compiling and executing 12 rules
+Mar 29 22:35:17 obbserver sudo[136452]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:35:25 obbserver sudo[136785]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf remove flatpak
+Mar 29 22:35:25 obbserver sudo[136785]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:35:28 obbserver sudo[136785]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:38:02 obbserver sudo[136826]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install simplescreenrecorder -y
+Mar 29 22:38:02 obbserver sudo[136826]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:38:05 obbserver sudo[136826]: pam_unix(sudo:session): session closed for user root
+Mar 29 22:56:55 obbserver sudo[138066]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/rm -rf opt
+Mar 29 22:56:55 obbserver sudo[138066]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 22:56:55 obbserver sudo[138066]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:04:59 obbserver sudo[138890]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/git init
+Mar 29 23:04:59 obbserver sudo[138890]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:04:59 obbserver sudo[138890]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:05:45 obbserver sudo[138986]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/mkdir Cisco-Challenge-Labs
+Mar 29 23:05:45 obbserver sudo[138986]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:05:45 obbserver sudo[138986]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:07:15 obbserver sudo[139130]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/mkdir -p LabA-User-Management
+Mar 29 23:07:15 obbserver sudo[139130]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:07:15 obbserver sudo[139130]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:09:02 obbserver sudo[139278]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/mkdir commands notes
+Mar 29 23:09:02 obbserver sudo[139278]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:09:02 obbserver sudo[139278]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:16:45 obbserver unix_chkpwd[139653]: password check failed for user (obb)
+Mar 29 23:16:45 obbserver sudo[139644]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar 29 23:17:06 obbserver sudo[139644]: pam_unix(sudo:auth): conversation failed
+Mar 29 23:17:06 obbserver sudo[139644]: pam_unix(sudo:auth): auth could not identify password for [obb]
+Mar 29 23:17:07 obbserver sudo[139644]:     obb : 1 incorrect password attempt ; TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/vim notes/note.md
+Mar 29 23:17:22 obbserver sudo[139668]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/vim notes/note.md
+Mar 29 23:17:22 obbserver sudo[139668]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:17:52 obbserver sudo[139668]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:19:37 obbserver sudo[139772]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/vim commands/labA_commands.sh
+Mar 29 23:19:37 obbserver sudo[139772]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:21:06 obbserver sudo[139772]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:27:27 obbserver sudo[139908]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/commands ; USER=root ; COMMAND=/bin/chmod 774 labA_commands.sh
+Mar 29 23:27:27 obbserver sudo[139908]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:27:27 obbserver sudo[139908]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:28:38 obbserver sudo[139956]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/commands ; USER=root ; COMMAND=/bin/rm -f labA_commands.sh
+Mar 29 23:28:38 obbserver sudo[139956]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:28:38 obbserver sudo[139956]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:29:46 obbserver sudo[140027]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/commands ; USER=root ; COMMAND=/bin/vim labA_commands.sh
+Mar 29 23:29:46 obbserver sudo[140027]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:31:11 obbserver sudo[140027]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:34:16 obbserver sudo[140150]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/chmod u+x LabA-User-Management/commands/labA_commands.sh
+Mar 29 23:34:16 obbserver sudo[140150]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:34:16 obbserver sudo[140150]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:36:00 obbserver sudo[140228]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git init
+Mar 29 23:36:00 obbserver sudo[140228]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:36:00 obbserver sudo[140228]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:36:43 obbserver sudo[140247]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git branch -M main
+Mar 29 23:36:43 obbserver sudo[140247]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:36:43 obbserver sudo[140247]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:37:00 obbserver sudo[140268]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git add .
+Mar 29 23:37:00 obbserver sudo[140268]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:37:00 obbserver sudo[140268]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:37:11 obbserver sudo[140276]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git commit -m 'Initial commit - folder structure and starter files'
+Mar 29 23:37:11 obbserver sudo[140276]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:37:26 obbserver sudo[140276]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:37:33 obbserver sudo[140286]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git commit -m 'Initial commit - folder structure and starter files'
+Mar 29 23:37:33 obbserver sudo[140286]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:37:48 obbserver sudo[140286]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:39:22 obbserver sudo[140394]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git commit -m 'Initial commit - folder structure and starter filesgit' config --global user.email samuel.boahen.aws@proton.me
+Mar 29 23:39:22 obbserver sudo[140394]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:39:22 obbserver sudo[140394]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:39:33 obbserver sudo[140402]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git commit -m 'Initial commit - folder structure and starter filesgit' config --global user.email samuel.boahen.aws@proton.me
+Mar 29 23:39:33 obbserver sudo[140402]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:39:33 obbserver sudo[140402]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:40:56 obbserver sudo[140459]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git init
+Mar 29 23:40:56 obbserver sudo[140459]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:40:56 obbserver sudo[140459]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:41:05 obbserver sudo[140467]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git status
+Mar 29 23:41:05 obbserver sudo[140467]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:41:05 obbserver sudo[140467]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:41:40 obbserver sudo[140503]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git branch -M main
+Mar 29 23:41:40 obbserver sudo[140503]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:41:40 obbserver sudo[140503]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:41:53 obbserver sudo[140514]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git add .
+Mar 29 23:41:53 obbserver sudo[140514]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:41:53 obbserver sudo[140514]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:42:03 obbserver sudo[140521]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git commit -m 'Initial commit - folder structure and starter files'
+Mar 29 23:42:03 obbserver sudo[140521]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:42:18 obbserver sudo[140521]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:43:18 obbserver sudo[140572]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git remote add origin https://github.com/SamBoahen/Cisco-Linux-Essentials-Challenge-Lab-A-User-Management.git
+Mar 29 23:43:18 obbserver sudo[140572]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:43:18 obbserver sudo[140572]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:43:28 obbserver sudo[140581]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git commit -m 'Initial commit - folder structure and starter files'
+Mar 29 23:43:28 obbserver sudo[140581]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:43:43 obbserver sudo[140581]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:44:26 obbserver sudo[140636]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git init
+Mar 29 23:44:26 obbserver sudo[140636]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:44:26 obbserver sudo[140636]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:45:18 obbserver sudo[140672]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git branch -M main
+Mar 29 23:45:18 obbserver sudo[140672]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:45:18 obbserver sudo[140672]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:45:40 obbserver sudo[140709]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git add .
+Mar 29 23:45:40 obbserver sudo[140709]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:45:40 obbserver sudo[140709]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:46:36 obbserver sudo[140728]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git remote add origin https://github.com/yourusername/rhcsa-labA.git
+Mar 29 23:46:36 obbserver sudo[140728]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:46:36 obbserver sudo[140728]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:47:05 obbserver sudo[140747]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git commit -m 'Initial commit - folder structure and starter files'
+Mar 29 23:47:05 obbserver sudo[140747]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:47:20 obbserver sudo[140747]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:49:01 obbserver sudo[140797]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git push -u origin main
+Mar 29 23:49:01 obbserver sudo[140797]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:49:01 obbserver sudo[140797]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:52:20 obbserver sudo[140888]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git commit -m 'Initial commit - folder structure and starter files'
+Mar 29 23:52:20 obbserver sudo[140888]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:52:35 obbserver sudo[140888]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:55:49 obbserver sudo[140965]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/mv /Cisco-Challenge-Labs /home/obb/Cisco-Challenge-Labs
+Mar 29 23:55:49 obbserver sudo[140965]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:55:49 obbserver sudo[140965]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:57:55 obbserver sudo[141014]:     obb : TTY=pts/0 ; PWD=/home/obb/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/mv /home/obb/Cisco-Challenge-Labs /Cisco-Challenge-Labs
+Mar 29 23:57:55 obbserver sudo[141014]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:57:55 obbserver sudo[141014]: pam_unix(sudo:session): session closed for user root
+Mar 29 23:58:37 obbserver sudo[141050]:     obb : TTY=pts/0 ; PWD=unknown ; USER=root ; COMMAND=/bin/mv /home/obb/Cisco-Challenge-Labs /Cisco-Challenge-Labscd /Cisco-Challenge-Labs
+Mar 29 23:58:37 obbserver sudo[141050]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 29 23:58:37 obbserver sudo[141050]: pam_unix(sudo:session): session closed for user root
+Mar 30 00:02:14 obbserver sudo[141192]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git config --global --add safe.directory /Cisco-Challenge-Labs
+Mar 30 00:02:14 obbserver sudo[141192]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 30 00:02:14 obbserver sudo[141192]: pam_unix(sudo:session): session closed for user root
+Mar 30 00:02:44 obbserver sudo[141228]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/sbin/init
+Mar 30 00:02:44 obbserver sudo[141228]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 30 00:02:44 obbserver sudo[141228]: pam_unix(sudo:session): session closed for user root
+Mar 30 00:02:50 obbserver sudo[141236]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git init
+Mar 30 00:02:50 obbserver sudo[141236]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 30 00:02:50 obbserver sudo[141236]: pam_unix(sudo:session): session closed for user root
+Mar 30 00:03:06 obbserver sudo[141248]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git add .
+Mar 30 00:03:06 obbserver sudo[141248]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 30 00:03:06 obbserver sudo[141248]: pam_unix(sudo:session): session closed for user root
+Mar 30 00:03:06 obbserver sudo[141251]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git commit -m 'Initial commit - folder structure and starter files'
+Mar 30 00:03:06 obbserver sudo[141251]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 30 00:03:21 obbserver sudo[141251]: pam_unix(sudo:session): session closed for user root
+Mar 30 00:06:57 obbserver sudo[141466]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git add .
+Mar 30 00:06:57 obbserver sudo[141466]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 30 00:06:57 obbserver sudo[141466]: pam_unix(sudo:session): session closed for user root
+Mar 30 00:07:07 obbserver sudo[141476]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/git commit -m 'Initial commit - folder structure and starter files'
+Mar 30 00:07:07 obbserver sudo[141476]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 30 00:07:22 obbserver sudo[141476]: pam_unix(sudo:session): session closed for user root
+Mar 30 00:09:02 obbserver sudo[141553]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/chown -R obb:obb /Cisco-Challenge-Labs
+Mar 30 00:09:02 obbserver sudo[141553]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 30 00:09:02 obbserver sudo[141553]: pam_unix(sudo:session): session closed for user root
+Mar 30 00:10:15 obbserver sudo[141591]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs ; USER=root ; COMMAND=/bin/ls -l Cisco-Challenge-Labs
+Mar 30 00:10:15 obbserver sudo[141591]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 30 00:10:15 obbserver sudo[141591]: pam_unix(sudo:session): session closed for user root
+Mar 30 00:10:24 obbserver sudo[141604]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/ls -l Cisco-Challenge-Labs
+Mar 30 00:10:24 obbserver sudo[141604]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 30 00:10:24 obbserver sudo[141604]: pam_unix(sudo:session): session closed for user root
+Mar 31 10:09:52 obbserver unix_chkpwd[201313]: password check failed for user (obb)
+Mar 31 10:09:52 obbserver gdm-password][201306]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Mar 31 10:09:52 obbserver gdm-password][201306]: gkr-pam: the password for the login keyring was invalid.
+Mar 31 10:10:02 obbserver gdm-password][201316]: gkr-pam: unlocked login keyring
+Mar 31 10:40:13 obbserver gdm-password][202938]: gkr-pam: unlocked login keyring
+Mar 31 10:45:10 obbserver sudo[203875]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install flatpak
+Mar 31 10:45:10 obbserver sudo[203875]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 10:45:30 obbserver polkitd[923]: Reloading rules
+Mar 31 10:45:30 obbserver polkitd[923]: Collecting garbage unconditionally...
+Mar 31 10:45:30 obbserver polkitd[923]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 31 10:45:30 obbserver polkitd[923]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 31 10:45:30 obbserver polkitd[923]: Finished loading, compiling and executing 13 rules
+Mar 31 10:45:30 obbserver polkitd[923]: Reloading rules
+Mar 31 10:45:30 obbserver polkitd[923]: Collecting garbage unconditionally...
+Mar 31 10:45:30 obbserver polkitd[923]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 31 10:45:30 obbserver polkitd[923]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 31 10:45:30 obbserver polkitd[923]: Finished loading, compiling and executing 13 rules
+Mar 31 10:45:32 obbserver sudo[203875]: pam_unix(sudo:session): session closed for user root
+Mar 31 10:46:34 obbserver polkitd[923]: Registered Authentication Agent for unix-process:204517:22783240 (system bus name :1.962 [flatpak remote-add --if-not-exists flathub https://flathub.org], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 10:46:43 obbserver polkitd[923]: Operator of unix-session:2 successfully authenticated as unix-user:obb to gain TEMPORARY authorization for action org.freedesktop.Flatpak.configure-remote for system-bus-name::1.962 [flatpak remote-add --if-not-exists flathub https://flathub.org] (owned by unix-user:obb)
+Mar 31 10:46:46 obbserver polkitd[923]: Unregistered Authentication Agent for unix-process:204517:22783240 (system bus name :1.962, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 10:47:29 obbserver polkitd[923]: Registered Authentication Agent for unix-process:204612:22788815 (system bus name :1.967 [flatpak remote-add --if-not-exists flathub https://flathub.org], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 10:47:29 obbserver polkitd[923]: Unregistered Authentication Agent for unix-process:204612:22788815 (system bus name :1.967, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 10:47:33 obbserver polkitd[923]: Registered Authentication Agent for unix-process:204639:22789212 (system bus name :1.968 [flatpak remote-add --if-not-exists flathub https://flathub.org], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 10:47:33 obbserver polkitd[923]: Unregistered Authentication Agent for unix-process:204639:22789212 (system bus name :1.968, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 10:48:10 obbserver unix_chkpwd[204745]: password check failed for user (obb)
+Mar 31 10:48:10 obbserver sudo[204738]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar 31 10:48:18 obbserver unix_chkpwd[204748]: password check failed for user (obb)
+Mar 31 10:48:27 obbserver unix_chkpwd[204751]: password check failed for user (obb)
+Mar 31 10:48:29 obbserver sudo[204738]:     obb : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/reboot now
+Mar 31 10:48:34 obbserver sudo[204757]: pam_unix(sudo:auth): conversation failed
+Mar 31 10:48:34 obbserver sudo[204757]: pam_unix(sudo:auth): auth could not identify password for [obb]
+Mar 31 10:49:09 obbserver polkitd[922]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 31 10:49:09 obbserver polkitd[922]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 31 10:49:09 obbserver polkitd[922]: Finished loading, compiling and executing 13 rules
+Mar 31 10:49:09 obbserver polkitd[922]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 31 10:49:10 obbserver sshd[1108]: Server listening on 0.0.0.0 port 22.
+Mar 31 10:49:10 obbserver sshd[1108]: Server listening on :: port 22.
+Mar 31 10:49:10 obbserver systemd[1180]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 31 10:49:10 obbserver gdm-launch-environment][1142]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 31 10:49:13 obbserver polkitd[922]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 10:50:24 obbserver unix_chkpwd[5555]: password check failed for user (obb)
+Mar 31 10:50:24 obbserver gdm-password][5541]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Mar 31 10:50:24 obbserver gdm-password][5541]: gkr-pam: unable to locate daemon control file
+Mar 31 10:50:24 obbserver gdm-password][5541]: gkr-pam: stashed password to try later in open session
+Mar 31 10:50:36 obbserver gdm-password][5556]: gkr-pam: unable to locate daemon control file
+Mar 31 10:50:36 obbserver gdm-password][5556]: gkr-pam: stashed password to try later in open session
+Mar 31 10:50:36 obbserver systemd[5563]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 31 10:50:37 obbserver gdm-password][5556]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 31 10:50:37 obbserver gdm-password][5556]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 31 10:50:38 obbserver polkitd[922]: Registered Authentication Agent for unix-session:2 (system bus name :1.71 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 10:50:42 obbserver gdm-launch-environment][1142]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 31 10:50:42 obbserver polkitd[922]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 31 10:54:12 obbserver sudo[6836]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install open-vm-tools -y
+Mar 31 10:54:12 obbserver sudo[6836]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 10:54:17 obbserver sudo[6836]: pam_unix(sudo:session): session closed for user root
+Mar 31 10:54:48 obbserver polkitd[922]: Registered Authentication Agent for unix-process:6880:34915 (system bus name :1.136 [flatpak install flathub io.github.seadve.Kooha], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 10:54:52 obbserver polkitd[922]: Unregistered Authentication Agent for unix-process:6880:34915 (system bus name :1.136, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:12:16 obbserver sudo[9704]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install ffmpeg ffmpeg-devel
+Mar 31 11:12:16 obbserver sudo[9704]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:12:20 obbserver sudo[9704]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:18:04 obbserver sudo[9836]:     obb : TTY=pts/0 ; PWD=/home/obb/Videos ; USER=root ; COMMAND=/bin/dnf install ffmpeg ffmpeg-devel
+Mar 31 11:18:04 obbserver sudo[9836]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:18:07 obbserver sudo[9836]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:18:52 obbserver sudo[9857]:     obb : TTY=pts/0 ; PWD=/home/obb/Videos ; USER=root ; COMMAND=/bin/dnf install epel-release
+Mar 31 11:18:52 obbserver sudo[9857]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:18:55 obbserver sudo[9857]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:18:55 obbserver sudo[9861]:     obb : TTY=pts/0 ; PWD=/home/obb/Videos ; USER=root ; COMMAND=/bin/dnf install https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm
+Mar 31 11:18:55 obbserver sudo[9861]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:19:00 obbserver sudo[9861]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:19:40 obbserver sudo[9887]:     obb : TTY=pts/0 ; PWD=/home/obb/Videos ; USER=root ; COMMAND=/sbin/subscription-manager repos --enable codeready-builder-for-rhel-9-x86_64-rpms
+Mar 31 11:19:40 obbserver sudo[9887]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:20:32 obbserver sudo[9887]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:20:54 obbserver sudo[10105]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/subscription-manager repos --enable codeready-builder-for-rhel-9-x86_64-rpms
+Mar 31 11:20:54 obbserver sudo[10105]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:21:18 obbserver sudo[10105]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:21:33 obbserver sudo[10308]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm
+Mar 31 11:21:33 obbserver sudo[10308]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:21:55 obbserver sudo[10308]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:21:58 obbserver sudo[10359]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf makecache
+Mar 31 11:21:58 obbserver sudo[10359]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:22:16 obbserver sudo[10359]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:22:18 obbserver sudo[10378]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-9.noarch.rpm
+Mar 31 11:22:18 obbserver sudo[10378]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:22:27 obbserver sudo[10378]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:22:27 obbserver sudo[10384]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install https://mirrors.rpmfusion.org/nonfree/el/rpmfusion-nonfree-release-9.noarch.rpm
+Mar 31 11:22:27 obbserver sudo[10384]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:22:40 obbserver sudo[10384]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:22:49 obbserver sudo[10397]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install ffmpeg ffmpeg‑libs
+Mar 31 11:22:49 obbserver sudo[10397]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:22:56 obbserver sudo[10397]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:24:36 obbserver sudo[10430]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install subscription-manager
+Mar 31 11:24:36 obbserver sudo[10430]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:24:39 obbserver sudo[10430]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:25:06 obbserver sudo[10439]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install flatpak
+Mar 31 11:25:06 obbserver sudo[10439]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:25:09 obbserver sudo[10439]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:25:09 obbserver polkitd[922]: Registered Authentication Agent for unix-process:10443:216987 (system bus name :1.207 [flatpak install flathub org.freedesktop.Platform.ffmpeg], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:25:12 obbserver polkitd[922]: Unregistered Authentication Agent for unix-process:10443:216987 (system bus name :1.207, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:25:44 obbserver polkitd[922]: Registered Authentication Agent for unix-process:10474:220446 (system bus name :1.208 [flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:25:45 obbserver polkitd[922]: Unregistered Authentication Agent for unix-process:10474:220446 (system bus name :1.208, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:25:56 obbserver polkitd[922]: Registered Authentication Agent for unix-process:10499:221728 (system bus name :1.209 [flatpak update --appstream], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:25:59 obbserver polkitd[922]: Unregistered Authentication Agent for unix-process:10499:221728 (system bus name :1.209, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:25:59 obbserver polkitd[922]: Registered Authentication Agent for unix-process:10513:221989 (system bus name :1.210 [flatpak update], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:26:02 obbserver polkitd[922]: Unregistered Authentication Agent for unix-process:10513:221989 (system bus name :1.210, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:36:12 obbserver unix_chkpwd[10721]: password check failed for user (obb)
+Mar 31 11:36:12 obbserver sudo[10714]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar 31 11:36:21 obbserver unix_chkpwd[10723]: password check failed for user (obb)
+Mar 31 11:36:29 obbserver sudo[10714]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install gnome-clocks
+Mar 31 11:36:29 obbserver sudo[10714]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:36:32 obbserver sudo[10714]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:37:14 obbserver sudo[10738]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install gnome-extensions-app
+Mar 31 11:37:14 obbserver sudo[10738]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:37:21 obbserver sudo[10738]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:42:09 obbserver sudo[11396]: pam_unix(sudo:auth): conversation failed
+Mar 31 11:42:09 obbserver sudo[11396]: pam_unix(sudo:auth): auth could not identify password for [obb]
+Mar 31 11:44:00 obbserver polkitd[921]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 31 11:44:00 obbserver polkitd[921]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 31 11:44:00 obbserver polkitd[921]: Finished loading, compiling and executing 13 rules
+Mar 31 11:44:00 obbserver polkitd[921]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 31 11:44:02 obbserver sshd[1108]: Server listening on 0.0.0.0 port 22.
+Mar 31 11:44:02 obbserver sshd[1108]: Server listening on :: port 22.
+Mar 31 11:44:02 obbserver systemd[1165]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 31 11:44:02 obbserver gdm-launch-environment][1137]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 31 11:44:04 obbserver polkitd[921]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:44:16 obbserver gdm-password][2031]: gkr-pam: unable to locate daemon control file
+Mar 31 11:44:16 obbserver gdm-password][2031]: gkr-pam: stashed password to try later in open session
+Mar 31 11:44:16 obbserver systemd[2044]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 31 11:44:17 obbserver gdm-password][2031]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 31 11:44:17 obbserver gdm-password][2031]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 31 11:44:18 obbserver polkitd[921]: Registered Authentication Agent for unix-session:2 (system bus name :1.68 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 31 11:44:22 obbserver gdm-launch-environment][1137]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 31 11:44:22 obbserver polkitd[921]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 31 11:53:29 obbserver unix_chkpwd[3110]: password check failed for user (obb)
+Mar 31 11:53:29 obbserver gdm-password][3105]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Mar 31 11:53:29 obbserver gdm-password][3105]: gkr-pam: the password for the login keyring was invalid.
+Mar 31 11:53:54 obbserver unix_chkpwd[3138]: password check failed for user (obb)
+Mar 31 11:53:54 obbserver gdm-password][3132]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Mar 31 11:53:54 obbserver gdm-password][3132]: gkr-pam: the password for the login keyring was invalid.
+Mar 31 11:54:05 obbserver unix_chkpwd[3146]: password check failed for user (obb)
+Mar 31 11:54:05 obbserver gdm-password][3140]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Mar 31 11:54:05 obbserver gdm-password][3140]: gkr-pam: the password for the login keyring was invalid.
+Mar 31 11:54:25 obbserver gdm-password][3148]: gkr-pam: unlocked login keyring
+Mar 31 11:54:49 obbserver sudo[3236]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf update
+Mar 31 11:54:49 obbserver sudo[3236]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:56:29 obbserver sudo[3236]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:57:07 obbserver sudo[24213]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/userdel -rf Jane
+Mar 31 11:57:07 obbserver sudo[24213]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:57:07 obbserver userdel[24215]: delete user 'Jane'
+Mar 31 11:57:08 obbserver userdel[24215]: removed group 'Jane' owned by 'Jane'
+Mar 31 11:57:08 obbserver userdel[24215]: removed shadow group 'Jane' owned by 'Jane'
+Mar 31 11:57:08 obbserver sudo[24213]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:58:12 obbserver sudo[24241]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel -rf team1 developers testers
+Mar 31 11:58:12 obbserver sudo[24241]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:58:12 obbserver sudo[24241]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:58:21 obbserver sudo[24248]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel -rf team1
+Mar 31 11:58:21 obbserver sudo[24248]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:58:21 obbserver sudo[24248]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:58:38 obbserver sudo[24260]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel devs
+Mar 31 11:58:38 obbserver sudo[24260]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:58:38 obbserver groupdel[24262]: group 'devs' removed from /etc/group
+Mar 31 11:58:38 obbserver groupdel[24262]: group 'devs' removed from /etc/gshadow
+Mar 31 11:58:38 obbserver groupdel[24262]: group 'devs' removed
+Mar 31 11:58:38 obbserver sudo[24260]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:59:02 obbserver sudo[24283]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel dbadmins
+Mar 31 11:59:02 obbserver sudo[24283]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:59:02 obbserver groupdel[24287]: group 'dbadmins' removed from /etc/group
+Mar 31 11:59:02 obbserver groupdel[24287]: group 'dbadmins' removed from /etc/gshadow
+Mar 31 11:59:02 obbserver groupdel[24287]: group 'dbadmins' removed
+Mar 31 11:59:02 obbserver sudo[24283]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:59:16 obbserver sudo[24314]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel finance
+Mar 31 11:59:16 obbserver sudo[24314]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:59:16 obbserver groupdel[24316]: group 'finance' removed from /etc/group
+Mar 31 11:59:16 obbserver groupdel[24316]: group 'finance' removed from /etc/gshadow
+Mar 31 11:59:16 obbserver groupdel[24316]: group 'finance' removed
+Mar 31 11:59:16 obbserver sudo[24314]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:59:26 obbserver sudo[24326]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel docs_team
+Mar 31 11:59:26 obbserver sudo[24326]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:59:26 obbserver groupdel[24328]: group 'docs_team' removed from /etc/group
+Mar 31 11:59:26 obbserver groupdel[24328]: group 'docs_team' removed from /etc/gshadow
+Mar 31 11:59:26 obbserver groupdel[24328]: group 'docs_team' removed
+Mar 31 11:59:26 obbserver sudo[24326]: pam_unix(sudo:session): session closed for user root
+Mar 31 11:59:44 obbserver sudo[24339]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel testers
+Mar 31 11:59:44 obbserver sudo[24339]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 11:59:44 obbserver groupdel[24341]: group 'testers' removed from /etc/group
+Mar 31 11:59:44 obbserver groupdel[24341]: group 'testers' removed from /etc/gshadow
+Mar 31 11:59:44 obbserver groupdel[24341]: group 'testers' removed
+Mar 31 11:59:44 obbserver sudo[24339]: pam_unix(sudo:session): session closed for user root
+Mar 31 12:00:04 obbserver sudo[24360]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel team1
+Mar 31 12:00:04 obbserver sudo[24360]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 12:00:04 obbserver groupdel[24362]: group 'team1' removed from /etc/group
+Mar 31 12:00:04 obbserver groupdel[24362]: group 'team1' removed from /etc/gshadow
+Mar 31 12:00:04 obbserver groupdel[24362]: group 'team1' removed
+Mar 31 12:00:04 obbserver sudo[24360]: pam_unix(sudo:session): session closed for user root
+Mar 31 12:00:14 obbserver sudo[24372]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel developers
+Mar 31 12:00:14 obbserver sudo[24372]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 12:00:14 obbserver groupdel[24374]: group 'developers' removed from /etc/group
+Mar 31 12:00:14 obbserver groupdel[24374]: group 'developers' removed from /etc/gshadow
+Mar 31 12:00:14 obbserver groupdel[24374]: group 'developers' removed
+Mar 31 12:00:14 obbserver sudo[24372]: pam_unix(sudo:session): session closed for user root
+Mar 31 12:01:11 obbserver sudo[24417]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -f Screencast from 03-31-2026 11:39:25 AM.webm
+Mar 31 12:01:12 obbserver sudo[24417]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 31 12:01:12 obbserver sudo[24417]: pam_unix(sudo:session): session closed for user root

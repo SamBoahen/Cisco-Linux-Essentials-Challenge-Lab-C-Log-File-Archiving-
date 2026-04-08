@@ -1,0 +1,30 @@
+Sun Mar 29 03:09:23 2026 [INFO] (Cert Check) Certificates updated.
+Sun Mar 29 07:09:23 2026 [INFO] (Cert Check) Certificates updated.
+Sun Mar 29 11:09:23 2026 [INFO] (Cert Check) Certificates updated.
+Sun Mar 29 15:09:25 2026 [INFO] (Cert Check) Certificates updated.
+Sun Mar 29 16:57:00 2026 [INFO] (Auto-attach) Certificates updated.
+Sun Mar 29 19:09:23 2026 [INFO] (Cert Check) Certificates updated.
+Sun Mar 29 23:09:24 2026 [INFO] (Cert Check) Certificates updated.
+Mon Mar 30 03:09:24 2026 [INFO] (Cert Check) Certificates updated.
+Mon Mar 30 07:09:24 2026 [INFO] (Cert Check) Certificates updated.
+Mon Mar 30 11:09:23 2026 [INFO] (Cert Check) Certificates updated.
+Mon Mar 30 15:09:23 2026 [INFO] (Cert Check) Certificates updated.
+Mon Mar 30 16:57:03 2026 [INFO] (Auto-attach) Certificates updated.
+Mon Mar 30 19:09:23 2026 [INFO] (Cert Check) Certificates updated.
+Mon Mar 30 23:09:24 2026 [INFO] (Cert Check) Certificates updated.
+Tue Mar 31 03:09:24 2026 [INFO] (Cert Check) Certificates updated.
+Tue Mar 31 07:09:24 2026 [INFO] (Cert Check) Certificates updated.
+Tue Mar 31 10:48:48 2026 [INFO] rhsmcertd is shutting down...
+Tue Mar 31 10:49:10 2026 [INFO] Starting rhsmcertd...
+Tue Mar 31 10:49:10 2026 [INFO] Auto-attach interval: 1440.0 minutes [86400 seconds]
+Tue Mar 31 10:49:10 2026 [INFO] Cert check interval: 240.0 minutes [14400 seconds]
+Tue Mar 31 10:49:10 2026 [INFO] Waiting 2.0 minutes plus 25755 splay seconds [25875 seconds total] before performing first auto-attach.
+Tue Mar 31 10:49:10 2026 [INFO] Waiting 2.0 minutes plus 472 splay seconds [592 seconds total] before performing first cert check.
+Tue Mar 31 10:59:36 2026 [INFO] (Cert Check) Certificates updated.
+Tue Mar 31 11:43:44 2026 [INFO] rhsmcertd is shutting down...
+Tue Mar 31 11:44:01 2026 [INFO] Starting rhsmcertd...
+Tue Mar 31 11:44:01 2026 [INFO] Auto-attach interval: 1440.0 minutes [86400 seconds]
+Tue Mar 31 11:44:01 2026 [INFO] Cert check interval: 240.0 minutes [14400 seconds]
+Tue Mar 31 11:44:01 2026 [INFO] Waiting 2.0 minutes plus 36971 splay seconds [37091 seconds total] before performing first auto-attach.
+Tue Mar 31 11:44:01 2026 [INFO] Waiting 2.0 minutes plus 3712 splay seconds [3832 seconds total] before performing first cert check.
+Tue Mar 31 12:07:53 2026 [INFO] rhsmcertd is shutting down...

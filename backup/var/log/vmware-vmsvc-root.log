@@ -1,0 +1,655 @@
+[2026-03-09T21:59:07.700Z] [ message] [vmsvc] [943] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-09T21:59:07.700Z] [ message] [vmsvc] [943] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.5.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-09T21:59:07.700Z] [ message] [vmsvc] [943] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-09T21:59:07.700Z] [ message] [vmsvc] [943] Core dump limit set to -1
+[2026-03-09T21:59:07.798Z] [ message] [vmtoolsd] [943] Plugin 'hgfsServer' initialized.
+[2026-03-09T21:59:07.798Z] [ message] [vix] [943] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-09T21:59:07.798Z] [ message] [vmtoolsd] [943] Plugin 'vix' initialized.
+[2026-03-09T21:59:07.798Z] [ message] [vmtoolsd] [943] Plugin 'appInfo' initialized.
+[2026-03-09T21:59:07.798Z] [ message] [vmtoolsd] [943] Plugin 'componentMgr' initialized.
+[2026-03-09T21:59:07.799Z] [ message] [vmtoolsd] [943] Plugin 'guestInfo' initialized.
+[2026-03-09T21:59:07.799Z] [ message] [vmtoolsd] [943] Plugin 'powerops' initialized.
+[2026-03-09T21:59:07.799Z] [ message] [resolutionCommon] [943] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-09T21:59:07.800Z] [ message] [resolutionCommon] [943] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-09T21:59:07.800Z] [ message] [vmtoolsd] [943] Plugin 'resolutionKMS' initialized.
+[2026-03-09T21:59:07.800Z] [ message] [vmtoolsd] [943] Plugin 'timeSync' initialized.
+[2026-03-09T21:59:07.800Z] [ message] [vmtoolsd] [943] Plugin 'vmbackup' initialized.
+[2026-03-09T21:59:07.853Z] [ message] [vix] [943] VixTools_ProcessVixCommand: command 62
+[2026-03-09T21:59:07.855Z] [ message] [vmsvc] [943] Executing script for state change 'OS_PowerOn'.
+[2026-03-09T21:59:07.855Z] [ message] [powerops] [943] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-09T21:59:08.228Z] [ message] [vmsvc] [943] Script exit code: 0, success = 1
+[2026-03-09T22:03:25.039Z] [ message] [vmsvc] [933] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-09T22:03:25.040Z] [ message] [vmsvc] [933] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.5.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-09T22:03:25.039Z] [ message] [vmsvc] [933] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-09T22:03:25.040Z] [ message] [vmsvc] [933] Core dump limit set to -1
+[2026-03-09T22:03:25.219Z] [ message] [vmtoolsd] [933] Plugin 'hgfsServer' initialized.
+[2026-03-09T22:03:25.219Z] [ message] [vix] [933] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-09T22:03:25.219Z] [ message] [vmtoolsd] [933] Plugin 'vix' initialized.
+[2026-03-09T22:03:25.219Z] [ message] [vmtoolsd] [933] Plugin 'appInfo' initialized.
+[2026-03-09T22:03:25.219Z] [ message] [vmtoolsd] [933] Plugin 'componentMgr' initialized.
+[2026-03-09T22:03:25.219Z] [ message] [vmtoolsd] [933] Plugin 'guestInfo' initialized.
+[2026-03-09T22:03:25.220Z] [ message] [vmtoolsd] [933] Plugin 'powerops' initialized.
+[2026-03-09T22:03:25.220Z] [ message] [resolutionCommon] [933] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-09T22:03:25.223Z] [ message] [resolutionCommon] [933] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-09T22:03:25.223Z] [ message] [vmtoolsd] [933] Plugin 'resolutionKMS' initialized.
+[2026-03-09T22:03:25.226Z] [ message] [vmtoolsd] [933] Plugin 'timeSync' initialized.
+[2026-03-09T22:03:25.226Z] [ message] [vmtoolsd] [933] Plugin 'vmbackup' initialized.
+[2026-03-09T22:03:25.228Z] [ message] [vix] [933] VixTools_ProcessVixCommand: command 62
+[2026-03-09T22:03:25.251Z] [ message] [vix] [933] VixTools_ProcessVixCommand: command 62
+[2026-03-09T22:03:25.251Z] [ message] [vix] [933] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-09T22:03:25.252Z] [ message] [vmsvc] [933] Executing script for state change 'OS_PowerOn'.
+[2026-03-09T22:03:25.252Z] [ message] [powerops] [933] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-09T22:03:25.539Z] [ message] [vmsvc] [933] Script exit code: 0, success = 1
+[2026-03-09T22:05:22.034Z] [ message] [vmsvc] [933] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-09T22:05:22.038Z] [ message] [vmsvc] [933] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.5.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-09T22:05:22.034Z] [ message] [vmsvc] [933] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-09T22:05:22.038Z] [ message] [vmsvc] [933] Core dump limit set to -1
+[2026-03-09T22:05:22.170Z] [ message] [vmtoolsd] [933] Plugin 'hgfsServer' initialized.
+[2026-03-09T22:05:22.170Z] [ message] [vix] [933] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-09T22:05:22.170Z] [ message] [vmtoolsd] [933] Plugin 'vix' initialized.
+[2026-03-09T22:05:22.170Z] [ message] [vmtoolsd] [933] Plugin 'appInfo' initialized.
+[2026-03-09T22:05:22.170Z] [ message] [vmtoolsd] [933] Plugin 'componentMgr' initialized.
+[2026-03-09T22:05:22.171Z] [ message] [vmtoolsd] [933] Plugin 'guestInfo' initialized.
+[2026-03-09T22:05:22.172Z] [ message] [vmtoolsd] [933] Plugin 'powerops' initialized.
+[2026-03-09T22:05:22.172Z] [ message] [resolutionCommon] [933] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-09T22:05:22.182Z] [ message] [resolutionCommon] [933] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-09T22:05:22.184Z] [ message] [vmtoolsd] [933] Plugin 'resolutionKMS' initialized.
+[2026-03-09T22:05:22.184Z] [ message] [vmtoolsd] [933] Plugin 'timeSync' initialized.
+[2026-03-09T22:05:22.184Z] [ message] [vmtoolsd] [933] Plugin 'vmbackup' initialized.
+[2026-03-09T22:05:22.188Z] [ message] [vix] [933] VixTools_ProcessVixCommand: command 62
+[2026-03-09T22:05:22.195Z] [ message] [vix] [933] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-09T22:05:22.219Z] [ message] [vix] [933] VixTools_ProcessVixCommand: command 62
+[2026-03-09T22:05:22.219Z] [ message] [vix] [933] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-09T22:05:22.220Z] [ message] [vmsvc] [933] Executing script for state change 'OS_PowerOn'.
+[2026-03-09T22:05:22.220Z] [ message] [powerops] [933] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-09T22:05:22.474Z] [ message] [vmsvc] [933] Script exit code: 0, success = 1
+[2026-03-09T22:25:57.034Z] [ warning] [GLib-GObject] [933] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2026-03-09T22:25:57.077Z] [ message] [vmtoolsd] [933] Unloading plugin 'vmbackup'.
+[2026-03-09T22:25:57.077Z] [ message] [vmtoolsd] [933] Unloading plugin 'timeSync'.
+[2026-03-09T22:25:57.077Z] [ message] [vmtoolsd] [933] Unloading plugin 'resolutionKMS'.
+[2026-03-09T22:25:57.077Z] [ message] [vmtoolsd] [933] Unloading plugin 'powerops'.
+[2026-03-09T22:25:57.077Z] [ message] [vmtoolsd] [933] Unloading plugin 'guestInfo'.
+[2026-03-09T22:25:57.077Z] [ message] [vmtoolsd] [933] Unloading plugin 'componentMgr'.
+[2026-03-09T22:25:57.077Z] [ message] [vmtoolsd] [933] Unloading plugin 'appInfo'.
+[2026-03-09T22:25:57.077Z] [ message] [vmtoolsd] [933] Unloading plugin 'vix'.
+[2026-03-09T22:25:57.077Z] [ message] [vmtoolsd] [933] Unloading plugin 'hgfsServer'.
+[2026-03-09T22:26:10.769Z] [ message] [vmsvc] [932] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-09T22:26:10.770Z] [ message] [vmsvc] [932] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.5.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-09T22:26:10.769Z] [ message] [vmsvc] [932] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-09T22:26:10.774Z] [ message] [vmsvc] [932] Core dump limit set to -1
+[2026-03-09T22:26:10.875Z] [ message] [vmtoolsd] [932] Plugin 'hgfsServer' initialized.
+[2026-03-09T22:26:10.875Z] [ message] [vix] [932] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-09T22:26:10.875Z] [ message] [vmtoolsd] [932] Plugin 'vix' initialized.
+[2026-03-09T22:26:10.875Z] [ message] [vmtoolsd] [932] Plugin 'appInfo' initialized.
+[2026-03-09T22:26:10.875Z] [ message] [vmtoolsd] [932] Plugin 'componentMgr' initialized.
+[2026-03-09T22:26:10.875Z] [ message] [vmtoolsd] [932] Plugin 'guestInfo' initialized.
+[2026-03-09T22:26:10.875Z] [ message] [vmtoolsd] [932] Plugin 'powerops' initialized.
+[2026-03-09T22:26:10.875Z] [ message] [resolutionCommon] [932] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-09T22:26:10.877Z] [ message] [resolutionCommon] [932] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-09T22:26:10.877Z] [ message] [vmtoolsd] [932] Plugin 'resolutionKMS' initialized.
+[2026-03-09T22:26:10.877Z] [ message] [vmtoolsd] [932] Plugin 'timeSync' initialized.
+[2026-03-09T22:26:10.877Z] [ message] [vmtoolsd] [932] Plugin 'vmbackup' initialized.
+[2026-03-09T22:26:10.895Z] [ message] [vix] [932] VixTools_ProcessVixCommand: command 62
+[2026-03-09T22:41:20.251Z] [ warning] [GLib-GObject] [932] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2026-03-09T22:41:20.316Z] [ message] [vmtoolsd] [932] Unloading plugin 'vmbackup'.
+[2026-03-09T22:41:20.316Z] [ message] [vmtoolsd] [932] Unloading plugin 'timeSync'.
+[2026-03-09T22:41:20.316Z] [ message] [vmtoolsd] [932] Unloading plugin 'resolutionKMS'.
+[2026-03-09T22:41:20.316Z] [ message] [vmtoolsd] [932] Unloading plugin 'powerops'.
+[2026-03-09T22:41:20.316Z] [ message] [vmtoolsd] [932] Unloading plugin 'guestInfo'.
+[2026-03-09T22:41:20.316Z] [ message] [vmtoolsd] [932] Unloading plugin 'componentMgr'.
+[2026-03-09T22:41:20.316Z] [ message] [vmtoolsd] [932] Unloading plugin 'appInfo'.
+[2026-03-09T22:41:20.316Z] [ message] [vmtoolsd] [932] Unloading plugin 'vix'.
+[2026-03-09T22:41:20.316Z] [ message] [vmtoolsd] [932] Unloading plugin 'hgfsServer'.
+[2026-03-09T22:48:06.951Z] [ message] [vmsvc] [932] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-09T22:48:06.955Z] [ message] [vmsvc] [932] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-09T22:48:06.951Z] [ message] [vmsvc] [932] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-09T22:48:06.956Z] [ message] [vmsvc] [932] Core dump limit set to -1
+[2026-03-09T22:48:07.132Z] [ message] [vmtoolsd] [932] Plugin 'hgfsServer' initialized.
+[2026-03-09T22:48:07.132Z] [ message] [vix] [932] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-09T22:48:07.132Z] [ message] [vmtoolsd] [932] Plugin 'vix' initialized.
+[2026-03-09T22:48:07.132Z] [ message] [vmtoolsd] [932] Plugin 'appInfo' initialized.
+[2026-03-09T22:48:07.132Z] [ message] [vmtoolsd] [932] Plugin 'componentMgr' initialized.
+[2026-03-09T22:48:07.133Z] [ message] [vmtoolsd] [932] Plugin 'guestInfo' initialized.
+[2026-03-09T22:48:07.133Z] [ message] [vmtoolsd] [932] Plugin 'powerops' initialized.
+[2026-03-09T22:48:07.133Z] [ message] [resolutionCommon] [932] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-09T22:48:07.135Z] [ message] [resolutionCommon] [932] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-09T22:48:07.136Z] [ message] [vmtoolsd] [932] Plugin 'resolutionKMS' initialized.
+[2026-03-09T22:48:07.136Z] [ message] [vmtoolsd] [932] Plugin 'timeSync' initialized.
+[2026-03-09T22:48:07.136Z] [ message] [vmtoolsd] [932] Plugin 'vmbackup' initialized.
+[2026-03-09T22:48:07.138Z] [ message] [vix] [932] VixTools_ProcessVixCommand: command 62
+[2026-03-09T22:48:07.139Z] [ message] [vix] [932] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-09T22:48:07.152Z] [ message] [vix] [932] VixTools_ProcessVixCommand: command 62
+[2026-03-09T22:48:07.152Z] [ message] [vix] [932] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-09T22:48:07.153Z] [ message] [vmsvc] [932] Executing script for state change 'OS_PowerOn'.
+[2026-03-09T22:48:07.153Z] [ message] [powerops] [932] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-09T22:48:07.391Z] [ message] [vmsvc] [932] Script exit code: 0, success = 1
+[2026-03-09T23:19:48.620Z] [ warning] [GLib-GObject] [932] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2026-03-09T23:19:48.984Z] [ message] [vmtoolsd] [932] Unloading plugin 'vmbackup'.
+[2026-03-09T23:19:49.003Z] [ message] [vmtoolsd] [932] Unloading plugin 'timeSync'.
+[2026-03-09T23:19:49.003Z] [ message] [vmtoolsd] [932] Unloading plugin 'resolutionKMS'.
+[2026-03-09T23:19:49.003Z] [ message] [vmtoolsd] [932] Unloading plugin 'powerops'.
+[2026-03-09T23:19:49.003Z] [ message] [vmtoolsd] [932] Unloading plugin 'guestInfo'.
+[2026-03-09T23:19:49.003Z] [ message] [vmtoolsd] [932] Unloading plugin 'componentMgr'.
+[2026-03-09T23:19:49.003Z] [ message] [vmtoolsd] [932] Unloading plugin 'appInfo'.
+[2026-03-09T23:19:49.014Z] [ message] [vmtoolsd] [932] Unloading plugin 'vix'.
+[2026-03-09T23:19:49.014Z] [ message] [vmtoolsd] [932] Unloading plugin 'hgfsServer'.
+[2026-03-15T06:00:01.210Z] [ message] [vmsvc] [933] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T06:00:01.220Z] [ message] [vmsvc] [933] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T06:00:01.210Z] [ message] [vmsvc] [933] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T06:00:01.220Z] [ message] [vmsvc] [933] Core dump limit set to -1
+[2026-03-15T06:00:01.385Z] [ message] [vmtoolsd] [933] Plugin 'hgfsServer' initialized.
+[2026-03-15T06:00:01.386Z] [ message] [vix] [933] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T06:00:01.386Z] [ message] [vmtoolsd] [933] Plugin 'vix' initialized.
+[2026-03-15T06:00:01.387Z] [ message] [vmtoolsd] [933] Plugin 'appInfo' initialized.
+[2026-03-15T06:00:01.387Z] [ message] [vmtoolsd] [933] Plugin 'componentMgr' initialized.
+[2026-03-15T06:00:01.388Z] [ message] [vmtoolsd] [933] Plugin 'guestInfo' initialized.
+[2026-03-15T06:00:01.388Z] [ message] [vmtoolsd] [933] Plugin 'powerops' initialized.
+[2026-03-15T06:00:01.388Z] [ message] [resolutionCommon] [933] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T06:00:01.394Z] [ message] [resolutionCommon] [933] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T06:00:01.395Z] [ message] [vmtoolsd] [933] Plugin 'resolutionKMS' initialized.
+[2026-03-15T06:00:01.395Z] [ message] [vmtoolsd] [933] Plugin 'timeSync' initialized.
+[2026-03-15T06:00:01.395Z] [ message] [vmtoolsd] [933] Plugin 'vmbackup' initialized.
+[2026-03-15T06:00:01.401Z] [ message] [vix] [933] VixTools_ProcessVixCommand: command 62
+[2026-03-15T06:00:01.401Z] [ message] [vix] [933] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-15T06:00:01.413Z] [ message] [vix] [933] VixTools_ProcessVixCommand: command 62
+[2026-03-15T06:00:01.413Z] [ message] [vix] [933] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-15T06:00:01.413Z] [ message] [vmsvc] [933] Executing script for state change 'OS_PowerOn'.
+[2026-03-15T06:00:01.413Z] [ message] [powerops] [933] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-15T06:00:01.675Z] [ message] [vmsvc] [933] Script exit code: 0, success = 1
+[2026-03-15T06:25:58.738Z] [ message] [vmsvc] [930] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T06:25:58.738Z] [ message] [vmsvc] [930] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T06:25:58.738Z] [ message] [vmsvc] [930] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T06:25:58.738Z] [ message] [vmsvc] [930] Core dump limit set to -1
+[2026-03-15T06:25:59.000Z] [ message] [vmtoolsd] [930] Plugin 'hgfsServer' initialized.
+[2026-03-15T06:25:59.001Z] [ message] [vix] [930] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T06:25:59.001Z] [ message] [vmtoolsd] [930] Plugin 'vix' initialized.
+[2026-03-15T06:25:59.001Z] [ message] [vmtoolsd] [930] Plugin 'appInfo' initialized.
+[2026-03-15T06:25:59.001Z] [ message] [vmtoolsd] [930] Plugin 'componentMgr' initialized.
+[2026-03-15T06:25:59.001Z] [ message] [vmtoolsd] [930] Plugin 'guestInfo' initialized.
+[2026-03-15T06:25:59.001Z] [ message] [vmtoolsd] [930] Plugin 'powerops' initialized.
+[2026-03-15T06:25:59.001Z] [ message] [resolutionCommon] [930] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T06:25:59.002Z] [ message] [resolutionCommon] [930] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T06:25:59.002Z] [ message] [vmtoolsd] [930] Plugin 'resolutionKMS' initialized.
+[2026-03-15T06:25:59.003Z] [ message] [vmtoolsd] [930] Plugin 'timeSync' initialized.
+[2026-03-15T06:25:59.003Z] [ message] [vmtoolsd] [930] Plugin 'vmbackup' initialized.
+[2026-03-15T06:25:59.011Z] [ message] [vix] [930] VixTools_ProcessVixCommand: command 62
+[2026-03-15T06:25:59.034Z] [ message] [vix] [930] VixTools_ProcessVixCommand: command 62
+[2026-03-15T06:25:59.034Z] [ message] [vix] [930] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-15T06:25:59.035Z] [ message] [vmsvc] [930] Executing script for state change 'OS_PowerOn'.
+[2026-03-15T06:25:59.035Z] [ message] [powerops] [930] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-15T06:25:59.324Z] [ message] [vmsvc] [930] Script exit code: 0, success = 1
+[2026-03-15T07:40:43.755Z] [ warning] [GLib-GObject] [930] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2026-03-15T07:40:43.887Z] [ message] [vmtoolsd] [930] Unloading plugin 'vmbackup'.
+[2026-03-15T07:40:43.889Z] [ message] [vmtoolsd] [930] Unloading plugin 'timeSync'.
+[2026-03-15T07:40:43.889Z] [ message] [vmtoolsd] [930] Unloading plugin 'resolutionKMS'.
+[2026-03-15T07:40:43.889Z] [ message] [vmtoolsd] [930] Unloading plugin 'powerops'.
+[2026-03-15T07:40:43.889Z] [ message] [vmtoolsd] [930] Unloading plugin 'guestInfo'.
+[2026-03-15T07:40:43.889Z] [ message] [vmtoolsd] [930] Unloading plugin 'componentMgr'.
+[2026-03-15T07:40:43.889Z] [ message] [vmtoolsd] [930] Unloading plugin 'appInfo'.
+[2026-03-15T07:40:43.891Z] [ message] [vmtoolsd] [930] Unloading plugin 'vix'.
+[2026-03-15T07:40:43.891Z] [ message] [vmtoolsd] [930] Unloading plugin 'hgfsServer'.
+[2026-03-15T07:41:12.628Z] [ message] [vmsvc] [939] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T07:41:12.628Z] [ message] [vmsvc] [939] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T07:41:12.628Z] [ message] [vmsvc] [939] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T07:41:12.628Z] [ message] [vmsvc] [939] Core dump limit set to -1
+[2026-03-15T07:41:12.839Z] [ message] [vmtoolsd] [939] Plugin 'hgfsServer' initialized.
+[2026-03-15T07:41:12.839Z] [ message] [vix] [939] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T07:41:12.839Z] [ message] [vmtoolsd] [939] Plugin 'vix' initialized.
+[2026-03-15T07:41:12.839Z] [ message] [vmtoolsd] [939] Plugin 'appInfo' initialized.
+[2026-03-15T07:41:12.839Z] [ message] [vmtoolsd] [939] Plugin 'componentMgr' initialized.
+[2026-03-15T07:41:12.839Z] [ message] [vmtoolsd] [939] Plugin 'guestInfo' initialized.
+[2026-03-15T07:41:12.839Z] [ message] [vmtoolsd] [939] Plugin 'powerops' initialized.
+[2026-03-15T07:41:12.839Z] [ message] [resolutionCommon] [939] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T07:41:12.843Z] [ message] [resolutionCommon] [939] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T07:41:12.845Z] [ message] [vmtoolsd] [939] Plugin 'resolutionKMS' initialized.
+[2026-03-15T07:41:12.845Z] [ message] [vmtoolsd] [939] Plugin 'timeSync' initialized.
+[2026-03-15T07:41:12.846Z] [ message] [vmtoolsd] [939] Plugin 'vmbackup' initialized.
+[2026-03-15T07:41:12.882Z] [ message] [vix] [939] VixTools_ProcessVixCommand: command 62
+[2026-03-15T19:44:08.873Z] [ message] [vmsvc] [929] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T19:44:08.875Z] [ message] [vmsvc] [929] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T19:44:08.873Z] [ message] [vmsvc] [929] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T19:44:08.875Z] [ message] [vmsvc] [929] Core dump limit set to -1
+[2026-03-15T19:44:09.076Z] [ message] [vmtoolsd] [929] Plugin 'hgfsServer' initialized.
+[2026-03-15T19:44:09.076Z] [ message] [vix] [929] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T19:44:09.076Z] [ message] [vmtoolsd] [929] Plugin 'vix' initialized.
+[2026-03-15T19:44:09.076Z] [ message] [vmtoolsd] [929] Plugin 'appInfo' initialized.
+[2026-03-15T19:44:09.076Z] [ message] [vmtoolsd] [929] Plugin 'componentMgr' initialized.
+[2026-03-15T19:44:09.077Z] [ message] [vmtoolsd] [929] Plugin 'guestInfo' initialized.
+[2026-03-15T19:44:09.077Z] [ message] [vmtoolsd] [929] Plugin 'powerops' initialized.
+[2026-03-15T19:44:09.077Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T19:44:09.078Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T19:44:09.078Z] [ message] [vmtoolsd] [929] Plugin 'resolutionKMS' initialized.
+[2026-03-15T19:44:09.079Z] [ message] [vmtoolsd] [929] Plugin 'timeSync' initialized.
+[2026-03-15T19:44:09.079Z] [ message] [vmtoolsd] [929] Plugin 'vmbackup' initialized.
+[2026-03-15T19:44:09.083Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-03-15T19:44:09.097Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-03-15T19:44:09.097Z] [ message] [vix] [929] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-15T19:44:09.098Z] [ message] [vmsvc] [929] Executing script for state change 'OS_PowerOn'.
+[2026-03-15T19:44:09.098Z] [ message] [powerops] [929] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-15T19:44:09.412Z] [ message] [vmsvc] [929] Script exit code: 0, success = 1
+[2026-03-15T19:53:43.838Z] [ message] [vmsvc] [929] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T19:53:43.838Z] [ message] [vmsvc] [929] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T19:53:43.838Z] [ message] [vmsvc] [929] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T19:53:43.838Z] [ message] [vmsvc] [929] Core dump limit set to -1
+[2026-03-15T19:53:44.017Z] [ message] [vmtoolsd] [929] Plugin 'hgfsServer' initialized.
+[2026-03-15T19:53:44.018Z] [ message] [vix] [929] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T19:53:44.018Z] [ message] [vmtoolsd] [929] Plugin 'vix' initialized.
+[2026-03-15T19:53:44.018Z] [ message] [vmtoolsd] [929] Plugin 'appInfo' initialized.
+[2026-03-15T19:53:44.018Z] [ message] [vmtoolsd] [929] Plugin 'componentMgr' initialized.
+[2026-03-15T19:53:44.023Z] [ message] [vmtoolsd] [929] Plugin 'guestInfo' initialized.
+[2026-03-15T19:53:44.023Z] [ message] [vmtoolsd] [929] Plugin 'powerops' initialized.
+[2026-03-15T19:53:44.023Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T19:53:44.025Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T19:53:44.025Z] [ message] [vmtoolsd] [929] Plugin 'resolutionKMS' initialized.
+[2026-03-15T19:53:44.025Z] [ message] [vmtoolsd] [929] Plugin 'timeSync' initialized.
+[2026-03-15T19:53:44.025Z] [ message] [vmtoolsd] [929] Plugin 'vmbackup' initialized.
+[2026-03-15T19:53:44.031Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-03-15T19:53:44.032Z] [ message] [vix] [929] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-15T19:53:44.055Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-03-15T19:53:44.056Z] [ message] [vix] [929] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-15T19:53:44.056Z] [ message] [vmsvc] [929] Executing script for state change 'OS_PowerOn'.
+[2026-03-15T19:53:44.056Z] [ message] [powerops] [929] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-15T19:53:44.341Z] [ message] [vmsvc] [929] Script exit code: 0, success = 1
+[2026-03-15T19:56:45.608Z] [ warning] [GLib-GObject] [929] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2026-03-15T19:56:45.708Z] [ message] [vmtoolsd] [929] Unloading plugin 'vmbackup'.
+[2026-03-15T19:56:45.708Z] [ message] [vmtoolsd] [929] Unloading plugin 'timeSync'.
+[2026-03-15T19:56:45.708Z] [ message] [vmtoolsd] [929] Unloading plugin 'resolutionKMS'.
+[2026-03-15T19:56:45.708Z] [ message] [vmtoolsd] [929] Unloading plugin 'powerops'.
+[2026-03-15T19:56:45.708Z] [ message] [vmtoolsd] [929] Unloading plugin 'guestInfo'.
+[2026-03-15T19:56:45.708Z] [ message] [vmtoolsd] [929] Unloading plugin 'componentMgr'.
+[2026-03-15T19:56:45.708Z] [ message] [vmtoolsd] [929] Unloading plugin 'appInfo'.
+[2026-03-15T19:56:45.708Z] [ message] [vmtoolsd] [929] Unloading plugin 'vix'.
+[2026-03-15T19:56:45.708Z] [ message] [vmtoolsd] [929] Unloading plugin 'hgfsServer'.
+[2026-03-15T19:57:19.177Z] [ message] [vmsvc] [929] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T19:57:19.179Z] [ message] [vmsvc] [929] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T19:57:19.177Z] [ message] [vmsvc] [929] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T19:57:19.179Z] [ message] [vmsvc] [929] Core dump limit set to -1
+[2026-03-15T19:57:19.341Z] [ message] [vmtoolsd] [929] Plugin 'hgfsServer' initialized.
+[2026-03-15T19:57:19.341Z] [ message] [vix] [929] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T19:57:19.341Z] [ message] [vmtoolsd] [929] Plugin 'vix' initialized.
+[2026-03-15T19:57:19.341Z] [ message] [vmtoolsd] [929] Plugin 'appInfo' initialized.
+[2026-03-15T19:57:19.341Z] [ message] [vmtoolsd] [929] Plugin 'componentMgr' initialized.
+[2026-03-15T19:57:19.341Z] [ message] [vmtoolsd] [929] Plugin 'guestInfo' initialized.
+[2026-03-15T19:57:19.341Z] [ message] [vmtoolsd] [929] Plugin 'powerops' initialized.
+[2026-03-15T19:57:19.341Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T19:57:19.348Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T19:57:19.348Z] [ message] [vmtoolsd] [929] Plugin 'resolutionKMS' initialized.
+[2026-03-15T19:57:19.348Z] [ message] [vmtoolsd] [929] Plugin 'timeSync' initialized.
+[2026-03-15T19:57:19.348Z] [ message] [vmtoolsd] [929] Plugin 'vmbackup' initialized.
+[2026-03-15T19:57:19.351Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-03-15T19:57:19.352Z] [ message] [vix] [929] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-15T19:57:19.364Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-03-15T19:57:19.364Z] [ message] [vix] [929] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-15T19:57:19.365Z] [ message] [vmsvc] [929] Executing script for state change 'OS_PowerOn'.
+[2026-03-15T19:57:19.365Z] [ message] [powerops] [929] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-15T19:57:19.558Z] [ message] [vmsvc] [929] Script exit code: 0, success = 1
+[2026-03-15T19:59:20.336Z] [ message] [vmsvc] [930] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T19:59:20.340Z] [ message] [vmsvc] [930] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T19:59:20.336Z] [ message] [vmsvc] [930] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T19:59:20.340Z] [ message] [vmsvc] [930] Core dump limit set to -1
+[2026-03-15T19:59:20.556Z] [ message] [vmtoolsd] [930] Plugin 'hgfsServer' initialized.
+[2026-03-15T19:59:20.556Z] [ message] [vix] [930] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T19:59:20.556Z] [ message] [vmtoolsd] [930] Plugin 'vix' initialized.
+[2026-03-15T19:59:20.556Z] [ message] [vmtoolsd] [930] Plugin 'appInfo' initialized.
+[2026-03-15T19:59:20.556Z] [ message] [vmtoolsd] [930] Plugin 'componentMgr' initialized.
+[2026-03-15T19:59:20.557Z] [ message] [vmtoolsd] [930] Plugin 'guestInfo' initialized.
+[2026-03-15T19:59:20.557Z] [ message] [vmtoolsd] [930] Plugin 'powerops' initialized.
+[2026-03-15T19:59:20.557Z] [ message] [resolutionCommon] [930] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T19:59:20.559Z] [ message] [resolutionCommon] [930] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T19:59:20.559Z] [ message] [vmtoolsd] [930] Plugin 'resolutionKMS' initialized.
+[2026-03-15T19:59:20.559Z] [ message] [vmtoolsd] [930] Plugin 'timeSync' initialized.
+[2026-03-15T19:59:20.559Z] [ message] [vmtoolsd] [930] Plugin 'vmbackup' initialized.
+[2026-03-15T19:59:20.564Z] [ message] [vix] [930] VixTools_ProcessVixCommand: command 62
+[2026-03-15T19:59:20.565Z] [ message] [vix] [930] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-15T19:59:20.581Z] [ message] [vix] [930] VixTools_ProcessVixCommand: command 62
+[2026-03-15T19:59:20.581Z] [ message] [vix] [930] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-15T19:59:20.581Z] [ message] [vmsvc] [930] Executing script for state change 'OS_PowerOn'.
+[2026-03-15T19:59:20.581Z] [ message] [powerops] [930] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-15T19:59:20.772Z] [ message] [vmsvc] [930] Script exit code: 0, success = 1
+[2026-03-16T05:20:55.387Z] [ message] [vix] [930] VixTools_ProcessVixCommand: command 62
+[2026-03-16T05:20:55.393Z] [ message] [vix] [930] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-17T09:01:09.079Z] [ message] [vmsvc] [930] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-17T09:01:09.080Z] [ message] [vmsvc] [930] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-17T09:01:09.079Z] [ message] [vmsvc] [930] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-17T09:01:09.080Z] [ message] [vmsvc] [930] Core dump limit set to -1
+[2026-03-17T09:01:09.200Z] [ message] [vmtoolsd] [930] Plugin 'hgfsServer' initialized.
+[2026-03-17T09:01:09.200Z] [ message] [vix] [930] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-17T09:01:09.200Z] [ message] [vmtoolsd] [930] Plugin 'vix' initialized.
+[2026-03-17T09:01:09.200Z] [ message] [vmtoolsd] [930] Plugin 'appInfo' initialized.
+[2026-03-17T09:01:09.200Z] [ message] [vmtoolsd] [930] Plugin 'componentMgr' initialized.
+[2026-03-17T09:01:09.200Z] [ message] [vmtoolsd] [930] Plugin 'guestInfo' initialized.
+[2026-03-17T09:01:09.200Z] [ message] [vmtoolsd] [930] Plugin 'powerops' initialized.
+[2026-03-17T09:01:09.200Z] [ message] [resolutionCommon] [930] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-17T09:01:09.202Z] [ message] [resolutionCommon] [930] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-17T09:01:09.202Z] [ message] [vmtoolsd] [930] Plugin 'resolutionKMS' initialized.
+[2026-03-17T09:01:09.202Z] [ message] [vmtoolsd] [930] Plugin 'timeSync' initialized.
+[2026-03-17T09:01:09.202Z] [ message] [vmtoolsd] [930] Plugin 'vmbackup' initialized.
+[2026-03-17T09:01:09.211Z] [ message] [vix] [930] VixTools_ProcessVixCommand: command 62
+[2026-03-17T09:01:09.225Z] [ message] [vix] [930] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-17T09:01:09.245Z] [ message] [vix] [930] VixTools_ProcessVixCommand: command 62
+[2026-03-17T09:01:09.246Z] [ message] [vix] [930] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-17T09:01:09.249Z] [ message] [vmsvc] [930] Executing script for state change 'OS_PowerOn'.
+[2026-03-17T09:01:09.249Z] [ message] [powerops] [930] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-17T09:01:09.550Z] [ message] [vmsvc] [930] Script exit code: 0, success = 1
+[2026-03-18T09:03:55.702Z] [ message] [vix] [930] VixTools_ProcessVixCommand: command 62
+[2026-03-18T09:03:55.726Z] [ message] [vix] [930] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-18T09:03:55.727Z] [ message] [vix] [930] VixTools_ProcessVixCommand: command 62
+[2026-03-18T09:03:55.727Z] [ message] [vix] [930] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-18T09:03:55.728Z] [ message] [vmsvc] [930] Executing script for state change 'OS_Resume'.
+[2026-03-18T09:03:55.728Z] [ message] [powerops] [930] Executing script: '/etc/vmware-tools/resume-vm-default'
+[2026-03-18T09:03:56.720Z] [ message] [vmsvc] [930] Script exit code: 0, success = 1
+[2026-03-18T09:46:46.499Z] [ message] [vmsvc] [931] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-18T09:46:46.502Z] [ message] [vmsvc] [931] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-18T09:46:46.499Z] [ message] [vmsvc] [931] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-18T09:46:46.502Z] [ message] [vmsvc] [931] Core dump limit set to -1
+[2026-03-18T09:46:46.683Z] [ message] [vmtoolsd] [931] Plugin 'hgfsServer' initialized.
+[2026-03-18T09:46:46.683Z] [ message] [vix] [931] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-18T09:46:46.683Z] [ message] [vmtoolsd] [931] Plugin 'vix' initialized.
+[2026-03-18T09:46:46.683Z] [ message] [vmtoolsd] [931] Plugin 'appInfo' initialized.
+[2026-03-18T09:46:46.683Z] [ message] [vmtoolsd] [931] Plugin 'componentMgr' initialized.
+[2026-03-18T09:46:46.683Z] [ message] [vmtoolsd] [931] Plugin 'guestInfo' initialized.
+[2026-03-18T09:46:46.683Z] [ message] [vmtoolsd] [931] Plugin 'powerops' initialized.
+[2026-03-18T09:46:46.683Z] [ message] [resolutionCommon] [931] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-18T09:46:46.686Z] [ message] [resolutionCommon] [931] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-18T09:46:46.686Z] [ message] [vmtoolsd] [931] Plugin 'resolutionKMS' initialized.
+[2026-03-18T09:46:46.686Z] [ message] [vmtoolsd] [931] Plugin 'timeSync' initialized.
+[2026-03-18T09:46:46.686Z] [ message] [vmtoolsd] [931] Plugin 'vmbackup' initialized.
+[2026-03-18T09:46:46.691Z] [ message] [vix] [931] VixTools_ProcessVixCommand: command 62
+[2026-03-18T09:46:46.728Z] [ message] [vix] [931] VixTools_ProcessVixCommand: command 62
+[2026-03-18T09:46:46.728Z] [ message] [vix] [931] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-18T09:46:46.731Z] [ message] [vmsvc] [931] Executing script for state change 'OS_PowerOn'.
+[2026-03-18T09:46:46.731Z] [ message] [powerops] [931] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-18T09:46:47.021Z] [ message] [vmsvc] [931] Script exit code: 0, success = 1
+[2026-03-18T10:27:42.320Z] [ message] [vmsvc] [930] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-18T10:27:42.320Z] [ message] [vmsvc] [930] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-18T10:27:42.320Z] [ message] [vmsvc] [930] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-18T10:27:42.320Z] [ message] [vmsvc] [930] Core dump limit set to -1
+[2026-03-18T10:27:42.565Z] [ message] [vmtoolsd] [930] Plugin 'hgfsServer' initialized.
+[2026-03-18T10:27:42.565Z] [ message] [vix] [930] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-18T10:27:42.565Z] [ message] [vmtoolsd] [930] Plugin 'vix' initialized.
+[2026-03-18T10:27:42.565Z] [ message] [vmtoolsd] [930] Plugin 'appInfo' initialized.
+[2026-03-18T10:27:42.566Z] [ message] [vmtoolsd] [930] Plugin 'componentMgr' initialized.
+[2026-03-18T10:27:42.567Z] [ message] [vmtoolsd] [930] Plugin 'guestInfo' initialized.
+[2026-03-18T10:27:42.567Z] [ message] [vmtoolsd] [930] Plugin 'powerops' initialized.
+[2026-03-18T10:27:42.567Z] [ message] [resolutionCommon] [930] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-18T10:27:42.581Z] [ message] [resolutionCommon] [930] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-18T10:27:42.581Z] [ message] [vmtoolsd] [930] Plugin 'resolutionKMS' initialized.
+[2026-03-18T10:27:42.581Z] [ message] [vmtoolsd] [930] Plugin 'timeSync' initialized.
+[2026-03-18T10:27:42.582Z] [ message] [vmtoolsd] [930] Plugin 'vmbackup' initialized.
+[2026-03-18T10:27:42.624Z] [ message] [vix] [930] VixTools_ProcessVixCommand: command 62
+[2026-03-18T10:27:42.627Z] [ message] [vix] [930] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-18T10:27:42.656Z] [ message] [vix] [930] VixTools_ProcessVixCommand: command 62
+[2026-03-18T10:27:42.657Z] [ message] [vix] [930] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-18T10:27:42.658Z] [ message] [vmsvc] [930] Executing script for state change 'OS_PowerOn'.
+[2026-03-18T10:27:42.658Z] [ message] [powerops] [930] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-18T10:27:43.167Z] [ message] [vmsvc] [930] Script exit code: 0, success = 1
+[2026-03-19T10:38:44.926Z] [ message] [vmsvc] [936] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-19T10:38:44.945Z] [ message] [vmsvc] [936] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-19T10:38:44.926Z] [ message] [vmsvc] [936] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-19T10:38:44.945Z] [ message] [vmsvc] [936] Core dump limit set to -1
+[2026-03-19T10:38:45.117Z] [ message] [vmtoolsd] [936] Plugin 'hgfsServer' initialized.
+[2026-03-19T10:38:45.119Z] [ message] [vix] [936] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-19T10:38:45.119Z] [ message] [vmtoolsd] [936] Plugin 'vix' initialized.
+[2026-03-19T10:38:45.119Z] [ message] [vmtoolsd] [936] Plugin 'appInfo' initialized.
+[2026-03-19T10:38:45.124Z] [ message] [vmtoolsd] [936] Plugin 'componentMgr' initialized.
+[2026-03-19T10:38:45.124Z] [ message] [vmtoolsd] [936] Plugin 'guestInfo' initialized.
+[2026-03-19T10:38:45.131Z] [ message] [vmtoolsd] [936] Plugin 'powerops' initialized.
+[2026-03-19T10:38:45.132Z] [ message] [resolutionCommon] [936] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-19T10:38:45.141Z] [ message] [resolutionCommon] [936] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-19T10:38:45.141Z] [ message] [vmtoolsd] [936] Plugin 'resolutionKMS' initialized.
+[2026-03-19T10:38:45.141Z] [ message] [vmtoolsd] [936] Plugin 'timeSync' initialized.
+[2026-03-19T10:38:45.142Z] [ message] [vmtoolsd] [936] Plugin 'vmbackup' initialized.
+[2026-03-19T10:38:45.149Z] [ message] [vix] [936] VixTools_ProcessVixCommand: command 62
+[2026-03-19T10:38:45.192Z] [ message] [vix] [936] VixTools_ProcessVixCommand: command 62
+[2026-03-19T10:38:45.194Z] [ message] [vix] [936] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-19T10:38:45.196Z] [ message] [vmsvc] [936] Executing script for state change 'OS_PowerOn'.
+[2026-03-19T10:38:45.196Z] [ message] [powerops] [936] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-19T10:38:45.472Z] [ message] [vmsvc] [936] Script exit code: 0, success = 1
+[2026-03-19T10:54:55.107Z] [ message] [vix] [936] VixTools_ProcessVixCommand: command 62
+[2026-03-19T10:54:55.108Z] [ message] [vix] [936] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-19T11:47:12.211Z] [ warning] [GLib-GObject] [936] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2026-03-19T11:47:12.321Z] [ message] [vmtoolsd] [936] Unloading plugin 'vmbackup'.
+[2026-03-19T11:47:12.325Z] [ message] [vmtoolsd] [936] Unloading plugin 'timeSync'.
+[2026-03-19T11:47:12.325Z] [ message] [vmtoolsd] [936] Unloading plugin 'resolutionKMS'.
+[2026-03-19T11:47:12.325Z] [ message] [vmtoolsd] [936] Unloading plugin 'powerops'.
+[2026-03-19T11:47:12.325Z] [ message] [vmtoolsd] [936] Unloading plugin 'guestInfo'.
+[2026-03-19T11:47:12.325Z] [ message] [vmtoolsd] [936] Unloading plugin 'componentMgr'.
+[2026-03-19T11:47:12.325Z] [ message] [vmtoolsd] [936] Unloading plugin 'appInfo'.
+[2026-03-19T11:47:12.325Z] [ message] [vmtoolsd] [936] Unloading plugin 'vix'.
+[2026-03-19T11:47:12.325Z] [ message] [vmtoolsd] [936] Unloading plugin 'hgfsServer'.
+[2026-03-28T17:29:29.021Z] [ message] [vmsvc] [934] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-28T17:29:29.025Z] [ message] [vmsvc] [934] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-28T17:29:29.021Z] [ message] [vmsvc] [934] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-28T17:29:29.025Z] [ message] [vmsvc] [934] Core dump limit set to -1
+[2026-03-28T17:29:29.206Z] [ message] [vmtoolsd] [934] Plugin 'hgfsServer' initialized.
+[2026-03-28T17:29:29.206Z] [ message] [vix] [934] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-28T17:29:29.206Z] [ message] [vmtoolsd] [934] Plugin 'vix' initialized.
+[2026-03-28T17:29:29.206Z] [ message] [vmtoolsd] [934] Plugin 'appInfo' initialized.
+[2026-03-28T17:29:29.206Z] [ message] [vmtoolsd] [934] Plugin 'componentMgr' initialized.
+[2026-03-28T17:29:29.207Z] [ message] [vmtoolsd] [934] Plugin 'guestInfo' initialized.
+[2026-03-28T17:29:29.207Z] [ message] [vmtoolsd] [934] Plugin 'powerops' initialized.
+[2026-03-28T17:29:29.207Z] [ message] [resolutionCommon] [934] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-28T17:29:29.212Z] [ message] [resolutionCommon] [934] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-28T17:29:29.212Z] [ message] [vmtoolsd] [934] Plugin 'resolutionKMS' initialized.
+[2026-03-28T17:29:29.212Z] [ message] [vmtoolsd] [934] Plugin 'timeSync' initialized.
+[2026-03-28T17:29:29.212Z] [ message] [vmtoolsd] [934] Plugin 'vmbackup' initialized.
+[2026-03-28T17:29:29.215Z] [ message] [vix] [934] VixTools_ProcessVixCommand: command 62
+[2026-03-28T17:29:29.233Z] [ message] [vix] [934] VixTools_ProcessVixCommand: command 62
+[2026-03-28T17:29:29.233Z] [ message] [vix] [934] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-03-28T17:29:29.234Z] [ message] [vmsvc] [934] Executing script for state change 'OS_PowerOn'.
+[2026-03-28T17:29:29.234Z] [ message] [powerops] [934] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-03-28T17:29:29.532Z] [ message] [vmsvc] [934] Script exit code: 0, success = 1
+[2026-03-31T08:48:48.548Z] [ warning] [GLib-GObject] [934] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2026-03-31T08:48:48.713Z] [ message] [vmtoolsd] [934] Unloading plugin 'vmbackup'.
+[2026-03-31T08:48:48.724Z] [ message] [vmtoolsd] [934] Unloading plugin 'timeSync'.
+[2026-03-31T08:48:48.724Z] [ message] [vmtoolsd] [934] Unloading plugin 'resolutionKMS'.
+[2026-03-31T08:48:48.724Z] [ message] [vmtoolsd] [934] Unloading plugin 'powerops'.
+[2026-03-31T08:48:48.724Z] [ message] [vmtoolsd] [934] Unloading plugin 'guestInfo'.
+[2026-03-31T08:48:48.724Z] [ message] [vmtoolsd] [934] Unloading plugin 'componentMgr'.
+[2026-03-31T08:48:48.724Z] [ message] [vmtoolsd] [934] Unloading plugin 'appInfo'.
+[2026-03-31T08:48:48.724Z] [ message] [vmtoolsd] [934] Unloading plugin 'vix'.
+[2026-03-31T08:48:48.725Z] [ message] [vmtoolsd] [934] Unloading plugin 'hgfsServer'.
+[2026-03-31T08:49:08.969Z] [ message] [vmsvc] [933] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-31T08:49:08.970Z] [ message] [vmsvc] [933] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.42.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-31T08:49:08.969Z] [ message] [vmsvc] [933] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-31T08:49:08.970Z] [ message] [vmsvc] [933] Core dump limit set to -1
+[2026-03-31T08:49:09.114Z] [ message] [vmtoolsd] [933] Plugin 'hgfsServer' initialized.
+[2026-03-31T08:49:09.114Z] [ message] [vix] [933] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-31T08:49:09.114Z] [ message] [vmtoolsd] [933] Plugin 'vix' initialized.
+[2026-03-31T08:49:09.114Z] [ message] [vmtoolsd] [933] Plugin 'appInfo' initialized.
+[2026-03-31T08:49:09.114Z] [ message] [vmtoolsd] [933] Plugin 'componentMgr' initialized.
+[2026-03-31T08:49:09.115Z] [ message] [vmtoolsd] [933] Plugin 'guestInfo' initialized.
+[2026-03-31T08:49:09.115Z] [ message] [vmtoolsd] [933] Plugin 'powerops' initialized.
+[2026-03-31T08:49:09.115Z] [ message] [resolutionCommon] [933] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-31T08:49:09.117Z] [ message] [resolutionCommon] [933] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-31T08:49:09.117Z] [ message] [vmtoolsd] [933] Plugin 'resolutionKMS' initialized.
+[2026-03-31T08:49:09.117Z] [ message] [vmtoolsd] [933] Plugin 'timeSync' initialized.
+[2026-03-31T08:49:09.117Z] [ message] [vmtoolsd] [933] Plugin 'vmbackup' initialized.
+[2026-03-31T08:49:09.153Z] [ message] [vix] [933] VixTools_ProcessVixCommand: command 62
+[2026-03-31T09:43:44.705Z] [ warning] [GLib-GObject] [933] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2026-03-31T09:43:44.782Z] [ message] [vmtoolsd] [933] Unloading plugin 'vmbackup'.
+[2026-03-31T09:43:44.784Z] [ message] [vmtoolsd] [933] Unloading plugin 'timeSync'.
+[2026-03-31T09:43:44.784Z] [ message] [vmtoolsd] [933] Unloading plugin 'resolutionKMS'.
+[2026-03-31T09:43:44.784Z] [ message] [vmtoolsd] [933] Unloading plugin 'powerops'.
+[2026-03-31T09:43:44.784Z] [ message] [vmtoolsd] [933] Unloading plugin 'guestInfo'.
+[2026-03-31T09:43:44.784Z] [ message] [vmtoolsd] [933] Unloading plugin 'componentMgr'.
+[2026-03-31T09:43:44.784Z] [ message] [vmtoolsd] [933] Unloading plugin 'appInfo'.
+[2026-03-31T09:43:44.784Z] [ message] [vmtoolsd] [933] Unloading plugin 'vix'.
+[2026-03-31T09:43:44.784Z] [ message] [vmtoolsd] [933] Unloading plugin 'hgfsServer'.
+[2026-03-31T09:44:00.567Z] [ message] [vmsvc] [929] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-31T09:44:00.568Z] [ message] [vmsvc] [929] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.42.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-31T09:44:00.567Z] [ message] [vmsvc] [929] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-31T09:44:00.569Z] [ message] [vmsvc] [929] Core dump limit set to -1
+[2026-03-31T09:44:00.725Z] [ message] [vmtoolsd] [929] Plugin 'hgfsServer' initialized.
+[2026-03-31T09:44:00.725Z] [ message] [vix] [929] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-31T09:44:00.725Z] [ message] [vmtoolsd] [929] Plugin 'vix' initialized.
+[2026-03-31T09:44:00.725Z] [ message] [vmtoolsd] [929] Plugin 'appInfo' initialized.
+[2026-03-31T09:44:00.725Z] [ message] [vmtoolsd] [929] Plugin 'componentMgr' initialized.
+[2026-03-31T09:44:00.725Z] [ message] [vmtoolsd] [929] Plugin 'guestInfo' initialized.
+[2026-03-31T09:44:00.725Z] [ message] [vmtoolsd] [929] Plugin 'powerops' initialized.
+[2026-03-31T09:44:00.725Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-31T09:44:00.728Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-31T09:44:00.729Z] [ message] [vmtoolsd] [929] Plugin 'resolutionKMS' initialized.
+[2026-03-31T09:44:00.729Z] [ message] [vmtoolsd] [929] Plugin 'timeSync' initialized.
+[2026-03-31T09:44:00.729Z] [ message] [vmtoolsd] [929] Plugin 'vmbackup' initialized.
+[2026-03-31T09:44:00.745Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-03-31T10:07:53.248Z] [ warning] [GLib-GObject] [929] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2026-03-31T10:07:53.326Z] [ message] [vmtoolsd] [929] Unloading plugin 'vmbackup'.
+[2026-03-31T10:07:53.326Z] [ message] [vmtoolsd] [929] Unloading plugin 'timeSync'.
+[2026-03-31T10:07:53.326Z] [ message] [vmtoolsd] [929] Unloading plugin 'resolutionKMS'.
+[2026-03-31T10:07:53.326Z] [ message] [vmtoolsd] [929] Unloading plugin 'powerops'.
+[2026-03-31T10:07:53.326Z] [ message] [vmtoolsd] [929] Unloading plugin 'guestInfo'.
+[2026-03-31T10:07:53.326Z] [ message] [vmtoolsd] [929] Unloading plugin 'componentMgr'.
+[2026-03-31T10:07:53.326Z] [ message] [vmtoolsd] [929] Unloading plugin 'appInfo'.
+[2026-03-31T10:07:53.326Z] [ message] [vmtoolsd] [929] Unloading plugin 'vix'.
+[2026-03-31T10:07:53.326Z] [ message] [vmtoolsd] [929] Unloading plugin 'hgfsServer'.
+[2026-04-05T14:22:49.698Z] [ message] [vmsvc] [934] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-05T14:22:49.703Z] [ message] [vmsvc] [934] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-05T14:22:49.698Z] [ message] [vmsvc] [934] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-05T14:22:49.703Z] [ message] [vmsvc] [934] Core dump limit set to -1
+[2026-04-05T14:22:49.951Z] [ message] [vmtoolsd] [934] Plugin 'hgfsServer' initialized.
+[2026-04-05T14:22:49.951Z] [ message] [vix] [934] QueryVGAuthConfig: vgauth usage is: 1
+[2026-04-05T14:22:49.951Z] [ message] [vmtoolsd] [934] Plugin 'vix' initialized.
+[2026-04-05T14:22:49.951Z] [ message] [vmtoolsd] [934] Plugin 'appInfo' initialized.
+[2026-04-05T14:22:49.951Z] [ message] [vmtoolsd] [934] Plugin 'componentMgr' initialized.
+[2026-04-05T14:22:49.951Z] [ message] [vmtoolsd] [934] Plugin 'guestInfo' initialized.
+[2026-04-05T14:22:49.951Z] [ message] [vmtoolsd] [934] Plugin 'powerops' initialized.
+[2026-04-05T14:22:49.951Z] [ message] [resolutionCommon] [934] resolutionCheckForKMS: dlopen succeeded.
+[2026-04-05T14:22:49.953Z] [ message] [resolutionCommon] [934] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-04-05T14:22:49.953Z] [ message] [vmtoolsd] [934] Plugin 'resolutionKMS' initialized.
+[2026-04-05T14:22:49.953Z] [ message] [vmtoolsd] [934] Plugin 'timeSync' initialized.
+[2026-04-05T14:22:49.953Z] [ message] [vmtoolsd] [934] Plugin 'vmbackup' initialized.
+[2026-04-05T14:22:49.963Z] [ message] [vix] [934] VixTools_ProcessVixCommand: command 62
+[2026-04-05T14:22:49.965Z] [ message] [vix] [934] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-04-05T14:22:50.016Z] [ message] [vix] [934] VixTools_ProcessVixCommand: command 62
+[2026-04-05T14:22:50.017Z] [ message] [vix] [934] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-04-05T14:22:50.030Z] [ message] [vmsvc] [934] Executing script for state change 'OS_PowerOn'.
+[2026-04-05T14:22:50.030Z] [ message] [powerops] [934] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-04-05T14:22:50.379Z] [ message] [vmsvc] [934] Script exit code: 0, success = 1
+[2026-04-05T14:55:48.193Z] [ warning] [GLib-GObject] [934] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2026-04-05T14:55:48.299Z] [ message] [vmtoolsd] [934] Unloading plugin 'vmbackup'.
+[2026-04-05T14:55:48.300Z] [ message] [vmtoolsd] [934] Unloading plugin 'timeSync'.
+[2026-04-05T14:55:48.300Z] [ message] [vmtoolsd] [934] Unloading plugin 'resolutionKMS'.
+[2026-04-05T14:55:48.300Z] [ message] [vmtoolsd] [934] Unloading plugin 'powerops'.
+[2026-04-05T14:55:48.300Z] [ message] [vmtoolsd] [934] Unloading plugin 'guestInfo'.
+[2026-04-05T14:55:48.300Z] [ message] [vmtoolsd] [934] Unloading plugin 'componentMgr'.
+[2026-04-05T14:55:48.300Z] [ message] [vmtoolsd] [934] Unloading plugin 'appInfo'.
+[2026-04-05T14:55:48.301Z] [ message] [vmtoolsd] [934] Unloading plugin 'vix'.
+[2026-04-05T14:55:48.302Z] [ message] [vmtoolsd] [934] Unloading plugin 'hgfsServer'.
+[2026-04-05T14:56:04.739Z] [ message] [vmsvc] [927] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-05T14:56:04.741Z] [ message] [vmsvc] [927] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-05T14:56:04.739Z] [ message] [vmsvc] [927] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-05T14:56:04.741Z] [ message] [vmsvc] [927] Core dump limit set to -1
+[2026-04-05T14:56:04.887Z] [ message] [vmtoolsd] [927] Plugin 'hgfsServer' initialized.
+[2026-04-05T14:56:04.887Z] [ message] [vix] [927] QueryVGAuthConfig: vgauth usage is: 1
+[2026-04-05T14:56:04.887Z] [ message] [vmtoolsd] [927] Plugin 'vix' initialized.
+[2026-04-05T14:56:04.887Z] [ message] [vmtoolsd] [927] Plugin 'appInfo' initialized.
+[2026-04-05T14:56:04.887Z] [ message] [vmtoolsd] [927] Plugin 'componentMgr' initialized.
+[2026-04-05T14:56:04.887Z] [ message] [vmtoolsd] [927] Plugin 'guestInfo' initialized.
+[2026-04-05T14:56:04.887Z] [ message] [vmtoolsd] [927] Plugin 'powerops' initialized.
+[2026-04-05T14:56:04.887Z] [ message] [resolutionCommon] [927] resolutionCheckForKMS: dlopen succeeded.
+[2026-04-05T14:56:04.888Z] [ message] [resolutionCommon] [927] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-04-05T14:56:04.888Z] [ message] [vmtoolsd] [927] Plugin 'resolutionKMS' initialized.
+[2026-04-05T14:56:04.888Z] [ message] [vmtoolsd] [927] Plugin 'timeSync' initialized.
+[2026-04-05T14:56:04.889Z] [ message] [vmtoolsd] [927] Plugin 'vmbackup' initialized.
+[2026-04-05T14:56:04.907Z] [ message] [vix] [927] VixTools_ProcessVixCommand: command 62
+[2026-04-05T22:25:57.563Z] [ warning] [GLib-GObject] [927] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2026-04-05T22:25:57.705Z] [ message] [vmtoolsd] [927] Unloading plugin 'vmbackup'.
+[2026-04-05T22:25:57.709Z] [ message] [vmtoolsd] [927] Unloading plugin 'timeSync'.
+[2026-04-05T22:25:57.709Z] [ message] [vmtoolsd] [927] Unloading plugin 'resolutionKMS'.
+[2026-04-05T22:25:57.709Z] [ message] [vmtoolsd] [927] Unloading plugin 'powerops'.
+[2026-04-05T22:25:57.709Z] [ message] [vmtoolsd] [927] Unloading plugin 'guestInfo'.
+[2026-04-05T22:25:57.709Z] [ message] [vmtoolsd] [927] Unloading plugin 'componentMgr'.
+[2026-04-05T22:25:57.709Z] [ message] [vmtoolsd] [927] Unloading plugin 'appInfo'.
+[2026-04-05T22:25:57.710Z] [ message] [vmtoolsd] [927] Unloading plugin 'vix'.
+[2026-04-05T22:25:57.710Z] [ message] [vmtoolsd] [927] Unloading plugin 'hgfsServer'.
+[2026-04-06T18:49:55.740Z] [ message] [vmsvc] [935] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-06T18:49:55.743Z] [ message] [vmsvc] [935] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-06T18:49:55.740Z] [ message] [vmsvc] [935] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-06T18:49:55.743Z] [ message] [vmsvc] [935] Core dump limit set to -1
+[2026-04-06T18:49:55.970Z] [ message] [vmtoolsd] [935] Plugin 'hgfsServer' initialized.
+[2026-04-06T18:49:55.970Z] [ message] [vix] [935] QueryVGAuthConfig: vgauth usage is: 1
+[2026-04-06T18:49:55.970Z] [ message] [vmtoolsd] [935] Plugin 'vix' initialized.
+[2026-04-06T18:49:55.970Z] [ message] [vmtoolsd] [935] Plugin 'appInfo' initialized.
+[2026-04-06T18:49:55.970Z] [ message] [vmtoolsd] [935] Plugin 'componentMgr' initialized.
+[2026-04-06T18:49:55.971Z] [ message] [vmtoolsd] [935] Plugin 'guestInfo' initialized.
+[2026-04-06T18:49:55.971Z] [ message] [vmtoolsd] [935] Plugin 'powerops' initialized.
+[2026-04-06T18:49:55.971Z] [ message] [resolutionCommon] [935] resolutionCheckForKMS: dlopen succeeded.
+[2026-04-06T18:49:55.973Z] [ message] [resolutionCommon] [935] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-04-06T18:49:55.973Z] [ message] [vmtoolsd] [935] Plugin 'resolutionKMS' initialized.
+[2026-04-06T18:49:55.973Z] [ message] [vmtoolsd] [935] Plugin 'timeSync' initialized.
+[2026-04-06T18:49:55.973Z] [ message] [vmtoolsd] [935] Plugin 'vmbackup' initialized.
+[2026-04-06T18:49:55.975Z] [ message] [vix] [935] VixTools_ProcessVixCommand: command 62
+[2026-04-06T18:49:55.987Z] [ message] [vix] [935] VixTools_ProcessVixCommand: command 62
+[2026-04-06T18:49:55.988Z] [ message] [vix] [935] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-04-06T18:49:55.988Z] [ message] [vmsvc] [935] Executing script for state change 'OS_PowerOn'.
+[2026-04-06T18:49:55.988Z] [ message] [powerops] [935] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-04-06T18:49:56.179Z] [ message] [vmsvc] [935] Script exit code: 0, success = 1
+[2026-04-08T17:57:50.511Z] [ message] [vmsvc] [929] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-08T17:57:50.519Z] [ message] [vmsvc] [929] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-08T17:57:50.511Z] [ message] [vmsvc] [929] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-08T17:57:50.520Z] [ message] [vmsvc] [929] Core dump limit set to -1
+[2026-04-08T17:57:50.521Z] [ warning] [vmsvc] [929] SOCKET failed to create socket, error 97: Address family not supported by protocol
+[2026-04-08T17:57:50.696Z] [ message] [vmtoolsd] [929] Plugin 'hgfsServer' initialized.
+[2026-04-08T17:57:50.705Z] [ message] [vix] [929] QueryVGAuthConfig: vgauth usage is: 1
+[2026-04-08T17:57:50.705Z] [ message] [vmtoolsd] [929] Plugin 'vix' initialized.
+[2026-04-08T17:57:50.705Z] [ message] [vmtoolsd] [929] Plugin 'appInfo' initialized.
+[2026-04-08T17:57:50.705Z] [ message] [vmtoolsd] [929] Plugin 'componentMgr' initialized.
+[2026-04-08T17:57:50.706Z] [ message] [vmtoolsd] [929] Plugin 'guestInfo' initialized.
+[2026-04-08T17:57:50.706Z] [ message] [vmtoolsd] [929] Plugin 'powerops' initialized.
+[2026-04-08T17:57:50.706Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: dlopen succeeded.
+[2026-04-08T17:57:50.708Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-04-08T17:57:50.708Z] [ message] [vmtoolsd] [929] Plugin 'resolutionKMS' initialized.
+[2026-04-08T17:57:50.708Z] [ message] [vmtoolsd] [929] Plugin 'timeSync' initialized.
+[2026-04-08T17:57:50.712Z] [ message] [vmtoolsd] [929] Plugin 'vmbackup' initialized.
+[2026-04-08T17:57:50.729Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-04-08T17:57:50.743Z] [ message] [vix] [929] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-04-08T17:57:50.822Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-04-08T17:57:50.826Z] [ message] [vix] [929] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-04-08T17:57:50.828Z] [ message] [vmsvc] [929] Executing script for state change 'OS_PowerOn'.
+[2026-04-08T17:57:50.828Z] [ message] [powerops] [929] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-04-08T17:57:51.107Z] [ message] [vmsvc] [929] Script exit code: 0, success = 1
+[2026-04-08T17:58:47.920Z] [ message] [vmsvc] [929] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-08T17:58:47.925Z] [ message] [vmsvc] [929] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-08T17:58:47.920Z] [ message] [vmsvc] [929] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-08T17:58:47.927Z] [ message] [vmsvc] [929] Core dump limit set to -1
+[2026-04-08T17:58:48.069Z] [ message] [vmtoolsd] [929] Plugin 'hgfsServer' initialized.
+[2026-04-08T17:58:48.069Z] [ message] [vix] [929] QueryVGAuthConfig: vgauth usage is: 1
+[2026-04-08T17:58:48.069Z] [ message] [vmtoolsd] [929] Plugin 'vix' initialized.
+[2026-04-08T17:58:48.069Z] [ message] [vmtoolsd] [929] Plugin 'appInfo' initialized.
+[2026-04-08T17:58:48.069Z] [ message] [vmtoolsd] [929] Plugin 'componentMgr' initialized.
+[2026-04-08T17:58:48.069Z] [ message] [vmtoolsd] [929] Plugin 'guestInfo' initialized.
+[2026-04-08T17:58:48.069Z] [ message] [vmtoolsd] [929] Plugin 'powerops' initialized.
+[2026-04-08T17:58:48.069Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: dlopen succeeded.
+[2026-04-08T17:58:48.071Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-04-08T17:58:48.071Z] [ message] [vmtoolsd] [929] Plugin 'resolutionKMS' initialized.
+[2026-04-08T17:58:48.071Z] [ message] [vmtoolsd] [929] Plugin 'timeSync' initialized.
+[2026-04-08T17:58:48.071Z] [ message] [vmtoolsd] [929] Plugin 'vmbackup' initialized.
+[2026-04-08T17:58:48.074Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-04-08T17:58:48.075Z] [ message] [vix] [929] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-04-08T17:58:48.086Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-04-08T17:58:48.086Z] [ message] [vix] [929] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-04-08T20:36:52.381Z] [ message] [vmsvc] [929] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-08T20:36:52.393Z] [ message] [vmsvc] [929] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-08T20:36:52.381Z] [ message] [vmsvc] [929] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-08T20:36:52.393Z] [ message] [vmsvc] [929] Core dump limit set to -1
+[2026-04-08T20:36:52.404Z] [ warning] [vmsvc] [929] SOCKET failed to create socket, error 97: Address family not supported by protocol
+[2026-04-08T20:36:52.619Z] [ message] [vmtoolsd] [929] Plugin 'hgfsServer' initialized.
+[2026-04-08T20:36:52.619Z] [ message] [vix] [929] QueryVGAuthConfig: vgauth usage is: 1
+[2026-04-08T20:36:52.619Z] [ message] [vmtoolsd] [929] Plugin 'vix' initialized.
+[2026-04-08T20:36:52.619Z] [ message] [vmtoolsd] [929] Plugin 'appInfo' initialized.
+[2026-04-08T20:36:52.619Z] [ message] [vmtoolsd] [929] Plugin 'componentMgr' initialized.
+[2026-04-08T20:36:52.619Z] [ message] [vmtoolsd] [929] Plugin 'guestInfo' initialized.
+[2026-04-08T20:36:52.619Z] [ message] [vmtoolsd] [929] Plugin 'powerops' initialized.
+[2026-04-08T20:36:52.619Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: dlopen succeeded.
+[2026-04-08T20:36:52.621Z] [ message] [resolutionCommon] [929] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-04-08T20:36:52.621Z] [ message] [vmtoolsd] [929] Plugin 'resolutionKMS' initialized.
+[2026-04-08T20:36:52.621Z] [ message] [vmtoolsd] [929] Plugin 'timeSync' initialized.
+[2026-04-08T20:36:52.621Z] [ message] [vmtoolsd] [929] Plugin 'vmbackup' initialized.
+[2026-04-08T20:36:52.628Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-04-08T20:36:52.635Z] [ message] [vix] [929] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-04-08T20:36:52.651Z] [ message] [vix] [929] VixTools_ProcessVixCommand: command 62
+[2026-04-08T20:36:52.651Z] [ message] [vix] [929] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2026-04-08T20:36:52.652Z] [ message] [vmsvc] [929] Executing script for state change 'OS_PowerOn'.
+[2026-04-08T20:36:52.652Z] [ message] [powerops] [929] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2026-04-08T20:36:52.921Z] [ message] [vmsvc] [929] Script exit code: 0, success = 1

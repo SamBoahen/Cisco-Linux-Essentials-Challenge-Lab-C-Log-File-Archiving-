@@ -1,0 +1,84 @@
+[2026-03-09T22:07:00.633Z] [ message] [vmtoolsd] [2562] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-09T22:07:00.633Z] [ message] [vmtoolsd] [2562] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.5.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-09T22:07:00.633Z] [ message] [vmtoolsd] [2562] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-09T22:07:00.633Z] [ message] [vmtoolsd] [2562] Core dump limit set to -1
+[2026-03-09T22:27:32.699Z] [ message] [vmtoolsd] [2512] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-09T22:27:32.702Z] [ message] [vmtoolsd] [2512] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.5.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-09T22:27:32.699Z] [ message] [vmtoolsd] [2512] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-09T22:27:32.702Z] [ message] [vmtoolsd] [2512] Core dump limit set to -1
+[2026-03-09T22:48:52.208Z] [ message] [vmtoolsd] [5937] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-09T22:48:52.217Z] [ message] [vmtoolsd] [5937] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-09T22:48:52.208Z] [ message] [vmtoolsd] [5937] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-09T22:48:52.217Z] [ message] [vmtoolsd] [5937] Core dump limit set to -1
+[2026-03-15T06:00:19.492Z] [ message] [vmtoolsd] [2522] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T06:00:19.502Z] [ message] [vmtoolsd] [2522] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T06:00:19.492Z] [ message] [vmtoolsd] [2522] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T06:00:19.502Z] [ message] [vmtoolsd] [2522] Core dump limit set to -1
+[2026-03-15T06:26:23.404Z] [ message] [vmtoolsd] [2501] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T06:26:23.407Z] [ message] [vmtoolsd] [2501] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T06:26:23.404Z] [ message] [vmtoolsd] [2501] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T06:26:23.407Z] [ message] [vmtoolsd] [2501] Core dump limit set to -1
+[2026-03-15T11:23:48.698Z] [ message] [vmtoolsd] [3055] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T11:23:48.702Z] [ message] [vmtoolsd] [3055] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T11:23:48.698Z] [ message] [vmtoolsd] [3055] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T11:23:48.702Z] [ message] [vmtoolsd] [3055] Core dump limit set to -1
+[2026-03-15T19:44:35.290Z] [ message] [vmtoolsd] [2472] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T19:44:35.292Z] [ message] [vmtoolsd] [2472] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T19:44:35.290Z] [ message] [vmtoolsd] [2472] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T19:44:35.292Z] [ message] [vmtoolsd] [2472] Core dump limit set to -1
+[2026-03-15T19:54:15.200Z] [ message] [vmtoolsd] [2473] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T19:54:15.204Z] [ message] [vmtoolsd] [2473] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T19:54:15.197Z] [ message] [vmtoolsd] [2473] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T19:54:15.204Z] [ message] [vmtoolsd] [2473] Core dump limit set to -1
+[2026-03-15T19:57:41.008Z] [ message] [vmtoolsd] [2481] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T19:57:41.009Z] [ message] [vmtoolsd] [2481] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T19:57:41.008Z] [ message] [vmtoolsd] [2481] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T19:57:41.009Z] [ message] [vmtoolsd] [2481] Core dump limit set to -1
+[2026-03-15T19:59:44.678Z] [ message] [vmtoolsd] [2478] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T19:59:44.679Z] [ message] [vmtoolsd] [2478] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T19:59:44.678Z] [ message] [vmtoolsd] [2478] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T19:59:44.679Z] [ message] [vmtoolsd] [2478] Core dump limit set to -1
+[2026-03-17T09:01:29.656Z] [ message] [vmtoolsd] [2481] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-17T09:01:29.665Z] [ message] [vmtoolsd] [2481] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-17T09:01:29.656Z] [ message] [vmtoolsd] [2481] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-17T09:01:29.666Z] [ message] [vmtoolsd] [2481] Core dump limit set to -1
+[2026-03-18T09:54:02.755Z] [ message] [vmtoolsd] [2533] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-18T09:54:02.791Z] [ message] [vmtoolsd] [2533] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-18T09:54:02.755Z] [ message] [vmtoolsd] [2533] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-18T09:54:02.791Z] [ message] [vmtoolsd] [2533] Core dump limit set to -1
+[2026-03-18T10:28:11.998Z] [ message] [vmtoolsd] [2463] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-18T10:28:12.032Z] [ message] [vmtoolsd] [2463] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-18T10:28:11.998Z] [ message] [vmtoolsd] [2463] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-18T10:28:12.033Z] [ message] [vmtoolsd] [2463] Core dump limit set to -1
+[2026-03-19T10:55:16.619Z] [ message] [vmtoolsd] [2523] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-19T10:55:16.648Z] [ message] [vmtoolsd] [2523] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-19T10:55:16.619Z] [ message] [vmtoolsd] [2523] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-19T10:55:16.649Z] [ message] [vmtoolsd] [2523] Core dump limit set to -1
+[2026-03-28T17:29:57.863Z] [ message] [vmtoolsd] [2533] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-28T17:29:57.893Z] [ message] [vmtoolsd] [2533] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-28T17:29:57.863Z] [ message] [vmtoolsd] [2533] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-28T17:29:57.893Z] [ message] [vmtoolsd] [2533] Core dump limit set to -1
+[2026-03-31T08:50:39.712Z] [ message] [vmtoolsd] [5921] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-31T08:50:39.713Z] [ message] [vmtoolsd] [5921] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.42.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-31T08:50:39.712Z] [ message] [vmtoolsd] [5921] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-31T08:50:39.713Z] [ message] [vmtoolsd] [5921] Core dump limit set to -1
+[2026-03-31T09:44:19.651Z] [ message] [vmtoolsd] [2390] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-31T09:44:19.653Z] [ message] [vmtoolsd] [2390] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.42.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-31T09:44:19.651Z] [ message] [vmtoolsd] [2390] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-31T09:44:19.653Z] [ message] [vmtoolsd] [2390] Core dump limit set to -1
+[2026-04-05T14:23:22.037Z] [ message] [vmtoolsd] [5973] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-05T14:23:22.042Z] [ message] [vmtoolsd] [5973] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-05T14:23:22.037Z] [ message] [vmtoolsd] [5973] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-05T14:23:22.042Z] [ message] [vmtoolsd] [5973] Core dump limit set to -1
+[2026-04-05T14:57:05.919Z] [ message] [vmtoolsd] [2410] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-05T14:57:05.926Z] [ message] [vmtoolsd] [2410] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-05T14:57:05.919Z] [ message] [vmtoolsd] [2410] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-05T14:57:05.926Z] [ message] [vmtoolsd] [2410] Core dump limit set to -1
+[2026-04-08T17:59:47.639Z] [ message] [vmtoolsd] [2395] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-08T17:59:47.645Z] [ message] [vmtoolsd] [2395] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-08T17:59:47.639Z] [ message] [vmtoolsd] [2395] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-08T17:59:47.645Z] [ message] [vmtoolsd] [2395] Core dump limit set to -1
+[2026-04-08T20:38:40.905Z] [ message] [vmtoolsd] [2469] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-08T20:38:40.912Z] [ message] [vmtoolsd] [2469] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-08T20:38:40.905Z] [ message] [vmtoolsd] [2469] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-08T20:38:40.912Z] [ message] [vmtoolsd] [2469] Core dump limit set to -1

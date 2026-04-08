@@ -1,0 +1,153 @@
+Mar  9 22:59:07 blocked polkitd[926]: Loading rules from directory /etc/polkit-1/rules.d
+Mar  9 22:59:07 blocked polkitd[926]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar  9 22:59:07 blocked polkitd[926]: Finished loading, compiling and executing 13 rules
+Mar  9 22:59:07 blocked polkitd[926]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar  9 22:59:09 blocked sshd[1190]: Server listening on 0.0.0.0 port 22.
+Mar  9 22:59:09 blocked sshd[1190]: Server listening on :: port 22.
+Mar  9 22:59:09 blocked systemd[1237]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar  9 22:59:09 blocked gdm-launch-environment][1224]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar  9 22:59:11 blocked polkitd[926]: Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar  9 23:05:22 blocked polkitd[925]: Loading rules from directory /etc/polkit-1/rules.d
+Mar  9 23:05:22 blocked polkitd[925]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar  9 23:05:22 blocked polkitd[925]: Finished loading, compiling and executing 13 rules
+Mar  9 23:05:22 blocked polkitd[925]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar  9 23:05:23 blocked sshd[1166]: Server listening on 0.0.0.0 port 22.
+Mar  9 23:05:23 blocked sshd[1166]: Server listening on :: port 22.
+Mar  9 23:05:24 blocked systemd[1219]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar  9 23:05:24 blocked gdm-launch-environment][1193]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar  9 23:05:26 blocked polkitd[925]: Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar  9 23:06:41 blocked unix_chkpwd[2147]: password check failed for user (obb)
+Mar  9 23:06:41 blocked gdm-password][2132]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Mar  9 23:06:41 blocked gdm-password][2132]: gkr-pam: unable to locate daemon control file
+Mar  9 23:06:41 blocked gdm-password][2132]: gkr-pam: stashed password to try later in open session
+Mar  9 23:06:58 blocked gdm-password][2148]: gkr-pam: unable to locate daemon control file
+Mar  9 23:06:58 blocked gdm-password][2148]: gkr-pam: stashed password to try later in open session
+Mar  9 23:06:58 blocked systemd[2160]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar  9 23:06:58 blocked gdm-password][2148]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar  9 23:06:58 blocked gdm-password][2148]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar  9 23:06:59 blocked polkitd[925]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar  9 23:07:04 blocked gdm-launch-environment][1193]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar  9 23:07:04 blocked polkitd[925]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.29, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar  9 23:11:08 blocked unix_chkpwd[3261]: password check failed for user (obb)
+Mar  9 23:11:08 blocked sudo[3254]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar  9 23:11:14 blocked sudo[3254]: pam_unix(sudo:auth): conversation failed
+Mar  9 23:11:14 blocked sudo[3254]: pam_unix(sudo:auth): auth could not identify password for [obb]
+Mar  9 23:11:15 blocked sudo[3254]:     obb : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/subscription-manager register
+Mar  9 23:11:30 blocked unix_chkpwd[3279]: password check failed for user (obb)
+Mar  9 23:11:30 blocked sudo[3272]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar  9 23:11:35 blocked sudo[3272]: pam_unix(sudo:auth): conversation failed
+Mar  9 23:11:35 blocked sudo[3272]: pam_unix(sudo:auth): auth could not identify password for [obb]
+Mar  9 23:11:37 blocked sudo[3272]:     obb : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/subscription-manager register
+Mar  9 23:11:52 blocked sudo[3290]:     obb : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/subscription-manager register
+Mar  9 23:12:15 blocked sudo[3301]:     obb : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/subscription-manager register
+Mar  9 23:13:09 blocked sudo[3319]:     obb : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf update -y
+Mar  9 23:15:27 blocked polkitd[925]: Operator of unix-session:2 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gnome.settings-daemon.plugins.subman.register for unix-process:2591:10658 [/usr/libexec/gsd-subman] (owned by unix-user:obb)
+Mar  9 23:15:27 blocked pkexec[3467]: pam_unix(polkit-1:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar  9 23:15:27 blocked pkexec[3467]: obb: Executing command [USER=root] [TTY=unknown] [CWD=/home/obb] [COMMAND=/usr/libexec/gsd-subman-helper --kind register-with-username --address unix:abstract=/run/dbus-BaFyTRbjOq,guid=a5b221c39bf9b7ca07c2771c69af4675 --hostname subscription.rhsm.redhat.com --organisation administrator --username obibiniitakyi]
+Mar  9 23:18:39 blocked pkexec[3591]: pam_unix(polkit-1:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar  9 23:18:39 blocked pkexec[3591]: obb: Executing command [USER=root] [TTY=unknown] [CWD=/home/obb] [COMMAND=/usr/libexec/gsd-subman-helper --kind register-with-username --address unix:abstract=/run/dbus-BaFyTRbjOq,guid=a5b221c39bf9b7ca07c2771c69af4675 --hostname subscription.rhsm.redhat.com --organisation  --username obibiniitakyi]
+Mar  9 23:22:08 blocked unix_chkpwd[3843]: password check failed for user (obb)
+Mar  9 23:22:08 blocked sudo[3836]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar  9 23:22:17 blocked sudo[3836]:     obb : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/subscription-manager register
+Mar  9 23:22:48 blocked sudo[3855]:     obb : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/subscription-manager register
+Mar  9 23:23:39 blocked su[3872]: pam_unix(su-l:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar  9 23:24:21 blocked su[3921]: pam_unix(su:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar  9 23:24:45 blocked unix_chkpwd[3957]: password check failed for user (root)
+Mar  9 23:24:45 blocked su[3949]: pam_unix(su-l:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=root
+Mar  9 23:25:03 blocked su[3958]: pam_unix(su-l:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar  9 23:25:09 blocked usermod[3999]: add 'obb' to group 'wheel'
+Mar  9 23:25:09 blocked usermod[3999]: add 'obb' to shadow group 'wheel'
+Mar  9 23:25:48 blocked su[3958]: pam_unix(su-l:session): session closed for user root
+Mar  9 23:26:10 blocked polkitd[922]: Loading rules from directory /etc/polkit-1/rules.d
+Mar  9 23:26:10 blocked polkitd[922]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar  9 23:26:10 blocked polkitd[922]: Finished loading, compiling and executing 13 rules
+Mar  9 23:26:10 blocked polkitd[922]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar  9 23:26:12 blocked sshd[1114]: Server listening on 0.0.0.0 port 22.
+Mar  9 23:26:12 blocked sshd[1114]: Server listening on :: port 22.
+Mar  9 23:26:12 blocked systemd[1168]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar  9 23:26:12 blocked gdm-launch-environment][1151]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar  9 23:26:14 blocked polkitd[922]: Registered Authentication Agent for unix-session:c1 (system bus name :1.28 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar  9 23:27:30 blocked gdm-password][2090]: gkr-pam: unable to locate daemon control file
+Mar  9 23:27:30 blocked gdm-password][2090]: gkr-pam: stashed password to try later in open session
+Mar  9 23:27:30 blocked systemd[2110]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar  9 23:27:30 blocked gdm-password][2090]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar  9 23:27:30 blocked gdm-password][2090]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar  9 23:27:31 blocked polkitd[922]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar  9 23:27:35 blocked gdm-launch-environment][1151]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar  9 23:27:35 blocked polkitd[922]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.28, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar  9 23:28:18 blocked sudo[3089]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar  9 23:28:44 blocked sudo[3089]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf update
+Mar  9 23:28:44 blocked sudo[3089]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar  9 23:34:21 blocked polkitd[922]: Reloading rules
+Mar  9 23:34:21 blocked polkitd[922]: Collecting garbage unconditionally...
+Mar  9 23:34:21 blocked polkitd[922]: Loading rules from directory /etc/polkit-1/rules.d
+Mar  9 23:34:21 blocked polkitd[922]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar  9 23:34:21 blocked polkitd[922]: Finished loading, compiling and executing 13 rules
+Mar  9 23:34:21 blocked polkitd[922]: Reloading rules
+Mar  9 23:34:21 blocked polkitd[922]: Collecting garbage unconditionally...
+Mar  9 23:34:21 blocked polkitd[922]: Loading rules from directory /etc/polkit-1/rules.d
+Mar  9 23:34:21 blocked polkitd[922]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar  9 23:34:21 blocked polkitd[922]: Finished loading, compiling and executing 13 rules
+Mar  9 23:37:00 blocked sshd[1114]: Received signal 15; terminating.
+Mar  9 23:37:00 blocked sshd[50767]: Server listening on 0.0.0.0 port 22.
+Mar  9 23:37:00 blocked sshd[50767]: Server listening on :: port 22.
+Mar  9 23:37:05 blocked sudo[3089]: pam_unix(sudo:session): session closed for user root
+Mar  9 23:38:34 blocked sudo[74954]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/hostnamectl set-hostname obbserver
+Mar  9 23:38:34 blocked sudo[74954]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar  9 23:38:34 blocked sudo[74954]: pam_unix(sudo:session): session closed for user root
+Mar  9 23:39:08 blocked sudo[74988]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar  9 23:39:08 blocked sudo[74988]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar  9 23:40:00 blocked sudo[74988]: pam_unix(sudo:session): session closed for user root
+Mar  9 23:48:07 obbserver polkitd[924]: Loading rules from directory /etc/polkit-1/rules.d
+Mar  9 23:48:07 obbserver polkitd[924]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar  9 23:48:07 obbserver polkitd[924]: Finished loading, compiling and executing 13 rules
+Mar  9 23:48:07 obbserver polkitd[924]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar  9 23:48:08 obbserver sshd[1159]: Server listening on 0.0.0.0 port 22.
+Mar  9 23:48:08 obbserver sshd[1159]: Server listening on :: port 22.
+Mar  9 23:48:09 obbserver systemd[1239]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar  9 23:48:09 obbserver gdm-launch-environment][1195]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar  9 23:48:12 obbserver polkitd[924]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar  9 23:48:48 obbserver gdm-password][5423]: gkr-pam: unable to locate daemon control file
+Mar  9 23:48:48 obbserver gdm-password][5423]: gkr-pam: stashed password to try later in open session
+Mar  9 23:48:48 obbserver systemd[5590]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar  9 23:48:48 obbserver gdm-password][5423]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar  9 23:48:48 obbserver gdm-password][5423]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar  9 23:48:50 obbserver polkitd[924]: Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar  9 23:48:56 obbserver gdm-launch-environment][1195]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar  9 23:48:56 obbserver polkitd[924]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar  9 23:52:31 obbserver sudo[6512]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar  9 23:52:31 obbserver sudo[6512]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar  9 23:57:06 obbserver sudo[6512]: pam_unix(sudo:session): session closed for user root
+Mar  9 23:57:08 obbserver sudo[6543]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar  9 23:57:08 obbserver sudo[6543]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar  9 23:58:52 obbserver sudo[6543]: pam_unix(sudo:session): session closed for user root
+Mar 10 00:05:37 obbserver unix_chkpwd[6611]: password check failed for user (obb)
+Mar 10 00:05:37 obbserver sudo[6604]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar 10 00:05:47 obbserver sudo[6604]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar 10 00:05:47 obbserver sudo[6604]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 10 00:07:52 obbserver sudo[6604]: pam_unix(sudo:session): session closed for user root
+Mar 10 00:07:55 obbserver sudo[6625]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar 10 00:07:55 obbserver sudo[6625]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 10 00:08:18 obbserver sudo[6625]: pam_unix(sudo:session): session closed for user root
+Mar 10 00:13:17 obbserver sudo[6642]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install openssh-server -y
+Mar 10 00:13:17 obbserver sudo[6642]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 10 00:13:22 obbserver sudo[6642]: pam_unix(sudo:session): session closed for user root
+Mar 10 00:13:22 obbserver sudo[6656]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/systemctl enable sshd --now
+Mar 10 00:13:22 obbserver sudo[6656]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 10 00:13:23 obbserver sudo[6656]: pam_unix(sudo:session): session closed for user root
+Mar 10 00:16:34 obbserver sudo[6706]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/systemctl start httpd
+Mar 10 00:16:34 obbserver sudo[6706]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 10 00:16:34 obbserver sudo[6706]: pam_unix(sudo:session): session closed for user root
+Mar 10 00:16:46 obbserver sudo[6714]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/systemctl start httpdsudo dnf install httpd -y
+Mar 10 00:16:46 obbserver sudo[6714]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 10 00:16:46 obbserver sudo[6714]: pam_unix(sudo:session): session closed for user root
+Mar 10 00:16:50 obbserver sudo[6721]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install httpd -y
+Mar 10 00:16:50 obbserver sudo[6721]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 10 00:16:54 obbserver groupadd[6741]: group added to /etc/group: name=apache, GID=48
+Mar 10 00:16:54 obbserver groupadd[6741]: group added to /etc/gshadow: name=apache
+Mar 10 00:16:54 obbserver groupadd[6741]: new group: name=apache, GID=48
+Mar 10 00:16:55 obbserver useradd[6750]: new user: name=apache, UID=48, GID=48, home=/usr/share/httpd, shell=/sbin/nologin, from=none
+Mar 10 00:16:57 obbserver sudo[6721]: pam_unix(sudo:session): session closed for user root
+Mar 10 00:18:37 obbserver sudo[7173]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf updatedb
+Mar 10 00:18:37 obbserver sudo[7173]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 10 00:18:38 obbserver sudo[7173]: pam_unix(sudo:session): session closed for user root

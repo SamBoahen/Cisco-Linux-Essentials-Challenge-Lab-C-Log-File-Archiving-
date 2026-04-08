@@ -1,0 +1,440 @@
+Mar 28 18:29:29 obbserver polkitd[923]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 28 18:29:29 obbserver polkitd[923]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 28 18:29:29 obbserver polkitd[923]: Finished loading, compiling and executing 13 rules
+Mar 28 18:29:29 obbserver polkitd[923]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 28 18:29:30 obbserver sshd[1183]: Server listening on 0.0.0.0 port 22.
+Mar 28 18:29:30 obbserver sshd[1183]: Server listening on :: port 22.
+Mar 28 18:29:31 obbserver systemd[1256]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 28 18:29:31 obbserver gdm-launch-environment][1215]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 28 18:29:33 obbserver polkitd[923]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 28 18:29:54 obbserver gdm-password][2104]: gkr-pam: unable to locate daemon control file
+Mar 28 18:29:54 obbserver gdm-password][2104]: gkr-pam: stashed password to try later in open session
+Mar 28 18:29:54 obbserver systemd[2121]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 28 18:29:54 obbserver gdm-password][2104]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 28 18:29:55 obbserver gdm-password][2104]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 28 18:29:56 obbserver polkitd[923]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 28 18:30:00 obbserver gdm-launch-environment][1215]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 28 18:30:00 obbserver polkitd[923]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 28 18:35:23 obbserver sudo[4342]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel jane
+Mar 28 18:35:23 obbserver sudo[4342]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 18:35:23 obbserver sudo[4342]: pam_unix(sudo:session): session closed for user root
+Mar 28 18:35:34 obbserver sudo[4487]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel jane
+Mar 28 18:35:34 obbserver sudo[4487]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 18:35:34 obbserver sudo[4487]: pam_unix(sudo:session): session closed for user root
+Mar 28 18:35:54 obbserver unix_chkpwd[4548]: password check failed for user (root)
+Mar 28 18:35:54 obbserver su[4529]: pam_unix(su:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=root
+Mar 28 18:36:07 obbserver su[4565]: pam_unix(su:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 18:37:35 obbserver groupdel[4746]: group 'jane' removed from /etc/group
+Mar 28 18:37:35 obbserver groupdel[4746]: group 'jane' removed from /etc/gshadow
+Mar 28 18:37:35 obbserver groupdel[4746]: group 'jane' removed
+Mar 28 18:37:46 obbserver groupdel[4769]: group 'devs' removed from /etc/group
+Mar 28 18:37:46 obbserver groupdel[4769]: group 'devs' removed from /etc/gshadow
+Mar 28 18:37:46 obbserver groupdel[4769]: group 'devs' removed
+Mar 28 18:38:01 obbserver userdel[4784]: delete user 'jane'
+Mar 28 18:59:30 obbserver unix_chkpwd[5291]: password check failed for user (obb)
+Mar 28 18:59:30 obbserver gdm-password][5275]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Mar 28 18:59:30 obbserver gdm-password][5275]: gkr-pam: the password for the login keyring was invalid.
+Mar 28 18:59:46 obbserver gdm-password][5307]: gkr-pam: unlocked login keyring
+Mar 28 19:03:28 obbserver su[5453]: pam_unix(su:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 28 19:09:59 obbserver sudo[5671]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd -g 2500 devs
+Mar 28 19:09:59 obbserver sudo[5671]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:09:59 obbserver groupadd[5681]: group added to /etc/group: name=devs, GID=2500
+Mar 28 19:09:59 obbserver groupadd[5681]: group added to /etc/gshadow: name=devs
+Mar 28 19:09:59 obbserver groupadd[5681]: new group: name=devs, GID=2500
+Mar 28 19:09:59 obbserver sudo[5671]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:11:08 obbserver sudo[5715]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/useradd -u 2550 -G devs -m Jane -c 'Jane Doe'
+Mar 28 19:11:08 obbserver sudo[5715]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:11:08 obbserver useradd[5717]: new group: name=Jane, GID=2550
+Mar 28 19:11:08 obbserver useradd[5717]: new user: name=Jane, UID=2550, GID=2550, home=/home/Jane, shell=/bin/bash, from=/dev/pts/0
+Mar 28 19:11:08 obbserver useradd[5717]: add 'Jane' to group 'devs'
+Mar 28 19:11:08 obbserver useradd[5717]: add 'Jane' to shadow group 'devs'
+Mar 28 19:11:08 obbserver sudo[5715]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:11:57 obbserver sudo[5737]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/usermod -aG devs Jane
+Mar 28 19:11:57 obbserver sudo[5737]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:11:57 obbserver sudo[5737]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:13:11 obbserver sudo[5773]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/gpasswd -d Jane devs
+Mar 28 19:13:11 obbserver sudo[5773]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:13:11 obbserver gpasswd[5775]: user Jane removed by root from group devs
+Mar 28 19:13:11 obbserver sudo[5773]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:15:15 obbserver sudo[5890]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chage -l obb
+Mar 28 19:15:15 obbserver sudo[5890]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:15:15 obbserver sudo[5890]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:16:51 obbserver sudo[5928]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chage -d 0 -m 7 -M 30 -W 7 -I 90 Jane
+Mar 28 19:16:51 obbserver sudo[5928]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:16:51 obbserver chage[5930]: changed password expiry for Jane
+Mar 28 19:16:51 obbserver sudo[5928]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:21:59 obbserver sudo[6006]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel Jane
+Mar 28 19:21:59 obbserver sudo[6006]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:21:59 obbserver sudo[6006]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:22:08 obbserver sudo[6026]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel -f Jane
+Mar 28 19:22:08 obbserver sudo[6026]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:22:08 obbserver groupdel[6028]: group 'Jane' removed from /etc/group
+Mar 28 19:22:08 obbserver groupdel[6028]: group 'Jane' removed from /etc/gshadow
+Mar 28 19:22:08 obbserver groupdel[6028]: group 'Jane' removed
+Mar 28 19:22:08 obbserver sudo[6026]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:22:38 obbserver sudo[6053]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/userdel Jane
+Mar 28 19:22:38 obbserver sudo[6053]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:22:38 obbserver userdel[6055]: delete user 'Jane'
+Mar 28 19:22:38 obbserver sudo[6053]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:22:53 obbserver sudo[6077]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/useradd Jane
+Mar 28 19:22:53 obbserver sudo[6077]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:22:53 obbserver useradd[6079]: new group: name=Jane, GID=1001
+Mar 28 19:22:53 obbserver useradd[6079]: new user: name=Jane, UID=1001, GID=1001, home=/home/Jane, shell=/bin/bash, from=/dev/pts/0
+Mar 28 19:22:53 obbserver sudo[6077]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:24:35 obbserver sudo[6155]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp devs simple
+Mar 28 19:24:35 obbserver sudo[6155]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:24:35 obbserver sudo[6155]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:25:00 obbserver sudo[6203]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown Jane simple
+Mar 28 19:25:00 obbserver sudo[6203]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:25:00 obbserver sudo[6203]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:25:27 obbserver sudo[6219]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown obb.obb simple
+Mar 28 19:25:27 obbserver sudo[6219]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:25:27 obbserver sudo[6219]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:34:03 obbserver unix_chkpwd[6431]: password check failed for user (obb)
+Mar 28 19:34:03 obbserver sudo[6423]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar 28 19:34:15 obbserver sudo[6423]:     obb : TTY=pts/0 ; PWD=/home/obb/sample ; USER=root ; COMMAND=/bin/chmod ugo-rw -R tee.txt teee.txt
+Mar 28 19:34:15 obbserver sudo[6423]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:34:15 obbserver sudo[6423]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:37:13 obbserver sudo[6556]:     obb : TTY=pts/0 ; PWD=/home/obb/sample ; USER=root ; COMMAND=/bin/chmod 764 tee.txt teee.txt
+Mar 28 19:37:13 obbserver sudo[6556]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:37:13 obbserver sudo[6556]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:38:01 obbserver sudo[6578]:     obb : TTY=pts/0 ; PWD=/home/obb/sample ; USER=root ; COMMAND=/bin/chmod 000 tee.txt teee.txt
+Mar 28 19:38:01 obbserver sudo[6578]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:38:01 obbserver sudo[6578]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:38:05 obbserver sudo[6590]:     obb : TTY=pts/0 ; PWD=/home/obb/sample ; USER=root ; COMMAND=/bin/chmod 764 tee.txt teee.txt
+Mar 28 19:38:05 obbserver sudo[6590]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:38:05 obbserver sudo[6590]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:57:51 obbserver unix_chkpwd[8577]: password check failed for user (obb)
+Mar 28 19:57:51 obbserver sudo[8567]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar 28 19:58:00 obbserver sudo[8567]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd finance
+Mar 28 19:58:00 obbserver sudo[8567]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:58:00 obbserver groupadd[8582]: group added to /etc/group: name=finance, GID=2501
+Mar 28 19:58:00 obbserver groupadd[8582]: group added to /etc/gshadow: name=finance
+Mar 28 19:58:00 obbserver groupadd[8582]: new group: name=finance, GID=2501
+Mar 28 19:58:00 obbserver sudo[8567]: pam_unix(sudo:session): session closed for user root
+Mar 28 19:59:13 obbserver sudo[8621]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/usermod -aG finance obb
+Mar 28 19:59:13 obbserver sudo[8621]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 19:59:13 obbserver usermod[8623]: add 'obb' to group 'finance'
+Mar 28 19:59:13 obbserver usermod[8623]: add 'obb' to shadow group 'finance'
+Mar 28 19:59:13 obbserver sudo[8621]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:00:28 obbserver sudo[8674]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp -R finance teamproject/
+Mar 28 20:00:28 obbserver sudo[8674]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:00:28 obbserver sudo[8674]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:06:13 obbserver sudo[8846]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /opt/shared_docs
+Mar 28 20:06:13 obbserver sudo[8846]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:06:13 obbserver sudo[8846]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:06:37 obbserver sudo[8868]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/cd /opt/shared_docs
+Mar 28 20:06:37 obbserver sudo[8868]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:06:37 obbserver sudo[8868]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:07:14 obbserver sudo[8895]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/bin/mkdir contracts invoices
+Mar 28 20:07:14 obbserver sudo[8895]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:07:14 obbserver sudo[8895]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:08:01 obbserver sudo[8924]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs/invoices ; USER=root ; COMMAND=/bin/cd ..
+Mar 28 20:08:01 obbserver sudo[8924]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:08:01 obbserver sudo[8924]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:08:47 obbserver sudo[8947]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/bin/touch invoices/invoice1.txt
+Mar 28 20:08:47 obbserver sudo[8947]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:08:47 obbserver sudo[8947]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:09:13 obbserver sudo[8967]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/bin/touch contracts/contract1.pdf
+Mar 28 20:09:13 obbserver sudo[8967]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:09:13 obbserver sudo[8967]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:10:24 obbserver sudo[9009]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd docs_team
+Mar 28 20:10:24 obbserver sudo[9009]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:10:24 obbserver groupadd[9011]: group added to /etc/group: name=docs_team, GID=2502
+Mar 28 20:10:24 obbserver groupadd[9011]: group added to /etc/gshadow: name=docs_team
+Mar 28 20:10:24 obbserver groupadd[9011]: new group: name=docs_team, GID=2502
+Mar 28 20:10:24 obbserver sudo[9009]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:10:54 obbserver sudo[9025]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/usermod -aG docs_team obb
+Mar 28 20:10:54 obbserver sudo[9025]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:10:54 obbserver usermod[9027]: add 'obb' to group 'docs_team'
+Mar 28 20:10:54 obbserver usermod[9027]: add 'obb' to shadow group 'docs_team'
+Mar 28 20:10:54 obbserver sudo[9025]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:15:09 obbserver sudo[9202]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp -R docs_team /opt/shared_docs
+Mar 28 20:15:09 obbserver sudo[9202]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:15:09 obbserver sudo[9202]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:16:10 obbserver sudo[9222]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod 775 /opt/shared_docs
+Mar 28 20:16:10 obbserver sudo[9222]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:16:10 obbserver sudo[9222]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:16:29 obbserver sudo[9235]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod g+s /opt/shared_docs
+Mar 28 20:16:29 obbserver sudo[9235]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:16:29 obbserver sudo[9235]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:22:52 obbserver sudo[9426]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd dbadmins
+Mar 28 20:22:52 obbserver sudo[9426]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:22:52 obbserver groupadd[9435]: group added to /etc/group: name=dbadmins, GID=2503
+Mar 28 20:22:52 obbserver groupadd[9435]: group added to /etc/gshadow: name=dbadmins
+Mar 28 20:22:52 obbserver groupadd[9435]: new group: name=dbadmins, GID=2503
+Mar 28 20:22:52 obbserver sudo[9426]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:25:15 obbserver sudo[9498]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown .devs projectX
+Mar 28 20:25:15 obbserver sudo[9498]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:25:16 obbserver sudo[9498]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:25:59 obbserver sudo[9517]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown .devs projectX/main.py
+Mar 28 20:25:59 obbserver sudo[9517]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:25:59 obbserver sudo[9517]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:28:06 obbserver sudo[9563]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown -R .dbadmins projectX/data
+Mar 28 20:28:06 obbserver sudo[9563]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:28:06 obbserver sudo[9563]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:29:28 obbserver sudo[9604]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown .dev projectX/data
+Mar 28 20:29:28 obbserver sudo[9604]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:29:28 obbserver sudo[9604]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:29:37 obbserver sudo[9631]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown .devs projectX/data
+Mar 28 20:29:37 obbserver sudo[9631]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:29:37 obbserver sudo[9631]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:32:53 obbserver sudo[9732]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown -R .dbadmins data
+Mar 28 20:32:53 obbserver sudo[9732]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:32:53 obbserver sudo[9732]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:33:18 obbserver sudo[9745]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown -R .dbadmins projectX/data
+Mar 28 20:33:18 obbserver sudo[9745]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:33:18 obbserver sudo[9745]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:43:31 obbserver sudo[9991]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/rm -rf opt
+Mar 28 20:43:31 obbserver sudo[9991]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:43:31 obbserver sudo[9991]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:45:03 obbserver sudo[10109]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd team1
+Mar 28 20:45:03 obbserver sudo[10109]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:45:03 obbserver groupadd[10111]: group added to /etc/group: name=team1, GID=2504
+Mar 28 20:45:03 obbserver groupadd[10111]: group added to /etc/gshadow: name=team1
+Mar 28 20:45:03 obbserver groupadd[10111]: new group: name=team1, GID=2504
+Mar 28 20:45:03 obbserver sudo[10109]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:46:14 obbserver sudo[10133]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp -R team1 practice/
+Mar 28 20:46:14 obbserver sudo[10133]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:46:14 obbserver sudo[10133]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:46:25 obbserver sudo[10144]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp -R team1 practice1/
+Mar 28 20:46:25 obbserver sudo[10144]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:46:25 obbserver sudo[10144]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:47:30 obbserver sudo[10169]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown obb practice1/script.sh
+Mar 28 20:47:30 obbserver sudo[10169]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:47:30 obbserver sudo[10169]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:51:43 obbserver sudo[10255]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /opt/shared_docs
+Mar 28 20:51:43 obbserver sudo[10255]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:51:43 obbserver sudo[10255]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:51:53 obbserver sudo[10264]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/cd /opt/shared_docs
+Mar 28 20:51:53 obbserver sudo[10264]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:51:53 obbserver sudo[10264]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:52:31 obbserver sudo[10288]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/bin/mkdir -p contracts invoices
+Mar 28 20:52:31 obbserver sudo[10288]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:52:31 obbserver sudo[10288]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:52:50 obbserver sudo[10299]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/bin/touch contracts/contract1.pdf
+Mar 28 20:52:50 obbserver sudo[10299]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:52:50 obbserver sudo[10299]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:53:11 obbserver sudo[10311]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/bin/touch invoices/invoice1.txt
+Mar 28 20:53:11 obbserver sudo[10311]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:53:11 obbserver sudo[10311]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:53:33 obbserver sudo[10325]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/sbin/groupadd docs_team
+Mar 28 20:53:33 obbserver sudo[10325]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:53:33 obbserver sudo[10325]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:54:12 obbserver sudo[10340]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/sbin/usermod -aG docs_team obb
+Mar 28 20:54:12 obbserver sudo[10340]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:54:12 obbserver sudo[10340]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:55:09 obbserver sudo[10369]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/bin/chgrp -R docs_team /opt/shared_docs
+Mar 28 20:55:09 obbserver sudo[10369]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:55:09 obbserver sudo[10369]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:56:25 obbserver sudo[10406]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/bin/chmod 775 /opt/shared_docs
+Mar 28 20:56:25 obbserver sudo[10406]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:56:25 obbserver sudo[10406]: pam_unix(sudo:session): session closed for user root
+Mar 28 20:57:45 obbserver sudo[10439]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/bin/chmod -R g+s /opt/shared_docs
+Mar 28 20:57:45 obbserver sudo[10439]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 20:57:45 obbserver sudo[10439]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:00:57 obbserver sudo[10529]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/bin/chmod -R 775 /opt/shared_docs
+Mar 28 21:00:57 obbserver sudo[10529]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:00:57 obbserver sudo[10529]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:01:02 obbserver sudo[10549]:     obb : TTY=pts/0 ; PWD=/opt/shared_docs ; USER=root ; COMMAND=/bin/chmod -R g+s /opt/shared_docs
+Mar 28 21:01:02 obbserver sudo[10549]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:01:02 obbserver sudo[10549]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:02:50 obbserver sudo[10593]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -r projectX
+Mar 28 21:02:50 obbserver sudo[10593]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:02:50 obbserver sudo[10593]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:06:54 obbserver sudo[10734]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd devs
+Mar 28 21:06:54 obbserver sudo[10734]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:06:54 obbserver sudo[10734]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:06:57 obbserver sudo[10742]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd dbadmins
+Mar 28 21:06:57 obbserver sudo[10742]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:06:57 obbserver sudo[10742]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:10:07 obbserver sudo[10800]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp devs projectX
+Mar 28 21:10:07 obbserver sudo[10800]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:10:07 obbserver sudo[10800]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:10:07 obbserver sudo[10803]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp devs main.py
+Mar 28 21:10:07 obbserver sudo[10803]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:10:07 obbserver sudo[10803]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:10:28 obbserver sudo[10813]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp devs projectX
+Mar 28 21:10:28 obbserver sudo[10813]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:10:28 obbserver sudo[10813]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:10:28 obbserver sudo[10817]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp devs projectX/main.py
+Mar 28 21:10:28 obbserver sudo[10817]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:10:28 obbserver sudo[10817]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:12:13 obbserver sudo[10863]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp -R dbadmins projectX/data
+Mar 28 21:12:13 obbserver sudo[10863]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:12:13 obbserver sudo[10863]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:16:17 obbserver sudo[10950]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /opt/company_project
+Mar 28 21:16:17 obbserver sudo[10950]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:16:17 obbserver sudo[10950]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:17:49 obbserver sudo[10982]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /opt/company_project/src
+Mar 28 21:17:49 obbserver sudo[10982]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:17:49 obbserver sudo[10982]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:17:49 obbserver sudo[10985]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /opt/company_project/tests
+Mar 28 21:17:49 obbserver sudo[10985]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:17:49 obbserver sudo[10985]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:18:01 obbserver sudo[10993]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /opt/company_project/docs
+Mar 28 21:18:01 obbserver sudo[10993]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:18:01 obbserver sudo[10993]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:18:51 obbserver sudo[11012]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/touch /opt/company_project/src/app.py
+Mar 28 21:18:51 obbserver sudo[11012]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:18:51 obbserver sudo[11012]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:19:03 obbserver sudo[11022]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/touch /opt/company_project/tests/test_results.log
+Mar 28 21:19:03 obbserver sudo[11022]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:19:03 obbserver sudo[11022]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:19:11 obbserver sudo[11030]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/touch /opt/company_project/tests/docs/README.md
+Mar 28 21:19:11 obbserver sudo[11030]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:19:11 obbserver sudo[11030]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:19:27 obbserver sudo[11039]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/touch /opt/company_project/docs/README.md
+Mar 28 21:19:27 obbserver sudo[11039]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:19:27 obbserver sudo[11039]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:19:57 obbserver sudo[11060]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd developers
+Mar 28 21:19:57 obbserver sudo[11060]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:19:57 obbserver groupadd[11062]: group added to /etc/group: name=developers, GID=2505
+Mar 28 21:19:57 obbserver groupadd[11062]: group added to /etc/gshadow: name=developers
+Mar 28 21:19:57 obbserver groupadd[11062]: new group: name=developers, GID=2505
+Mar 28 21:19:57 obbserver sudo[11060]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:20:01 obbserver sudo[11074]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd developers
+Mar 28 21:20:01 obbserver sudo[11074]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:20:01 obbserver sudo[11074]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:20:08 obbserver sudo[11081]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd testers
+Mar 28 21:20:08 obbserver sudo[11081]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:20:08 obbserver groupadd[11083]: group added to /etc/group: name=testers, GID=2506
+Mar 28 21:20:08 obbserver groupadd[11083]: group added to /etc/gshadow: name=testers
+Mar 28 21:20:08 obbserver groupadd[11083]: new group: name=testers, GID=2506
+Mar 28 21:20:08 obbserver sudo[11081]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:20:36 obbserver sudo[11098]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/usermod -aG testers obb
+Mar 28 21:20:36 obbserver sudo[11098]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:20:36 obbserver usermod[11100]: add 'obb' to group 'testers'
+Mar 28 21:20:36 obbserver usermod[11100]: add 'obb' to shadow group 'testers'
+Mar 28 21:20:36 obbserver sudo[11098]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:20:44 obbserver sudo[11112]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/usermod -aG developers obb
+Mar 28 21:20:44 obbserver sudo[11112]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:20:44 obbserver usermod[11114]: add 'obb' to group 'developers'
+Mar 28 21:20:44 obbserver usermod[11114]: add 'obb' to shadow group 'developers'
+Mar 28 21:20:44 obbserver sudo[11112]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:21:35 obbserver sudo[11143]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp developers /opt/company_project
+Mar 28 21:21:35 obbserver sudo[11143]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:21:35 obbserver sudo[11143]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:22:39 obbserver sudo[11164]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp -R developers /opt/company_project/src
+Mar 28 21:22:39 obbserver sudo[11164]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:22:39 obbserver sudo[11164]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:23:18 obbserver sudo[11181]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp -R testers /opt/company_project/testers
+Mar 28 21:23:18 obbserver sudo[11181]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:23:18 obbserver sudo[11181]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:23:46 obbserver sudo[11192]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp -R testers /opt/company_project/tests
+Mar 28 21:23:46 obbserver sudo[11192]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:23:46 obbserver sudo[11192]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:24:19 obbserver sudo[11207]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp -R developers /opt/company_project/docs
+Mar 28 21:24:19 obbserver sudo[11207]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:24:19 obbserver sudo[11207]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:25:21 obbserver sudo[11229]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod -R 777 /opt/company_project
+Mar 28 21:25:21 obbserver sudo[11229]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:25:21 obbserver sudo[11229]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:29:47 obbserver sudo[11432]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/rm -r opt
+Mar 28 21:29:47 obbserver sudo[11432]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:29:47 obbserver sudo[11432]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:30:03 obbserver sudo[11472]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/mkdir -p /opt/company_project
+Mar 28 21:30:03 obbserver sudo[11472]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:30:03 obbserver sudo[11472]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:30:40 obbserver sudo[11506]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/rm -r opt
+Mar 28 21:30:40 obbserver sudo[11506]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:30:40 obbserver sudo[11506]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:31:03 obbserver sudo[11540]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /opt/company_project
+Mar 28 21:31:03 obbserver sudo[11540]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:31:03 obbserver sudo[11540]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:31:34 obbserver sudo[11574]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/rm -r opt
+Mar 28 21:31:34 obbserver sudo[11574]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:31:34 obbserver sudo[11574]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:31:45 obbserver sudo[11593]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/mkdir -p /opt/company_project
+Mar 28 21:31:45 obbserver sudo[11593]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:31:45 obbserver sudo[11593]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:32:00 obbserver sudo[11605]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/mkdir -p /opt/company_project/src
+Mar 28 21:32:00 obbserver sudo[11605]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:32:00 obbserver sudo[11605]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:32:00 obbserver sudo[11608]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/mkdir -p /opt/company_project/tests
+Mar 28 21:32:00 obbserver sudo[11608]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:32:00 obbserver sudo[11608]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:32:08 obbserver sudo[11616]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/mkdir -p /opt/company_project/docs
+Mar 28 21:32:08 obbserver sudo[11616]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:32:08 obbserver sudo[11616]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:32:14 obbserver sudo[11624]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/touch /opt/company_project/src/app.py
+Mar 28 21:32:14 obbserver sudo[11624]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:32:14 obbserver sudo[11624]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:32:20 obbserver sudo[11631]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/touch /opt/company_project/tests/test_results.log
+Mar 28 21:32:20 obbserver sudo[11631]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:32:20 obbserver sudo[11631]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:32:25 obbserver sudo[11638]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/touch /opt/company_project/tests/docs/README.md
+Mar 28 21:32:25 obbserver sudo[11638]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:32:25 obbserver sudo[11638]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:32:52 obbserver sudo[11654]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/touch /opt/company_project/docs/README.md
+Mar 28 21:32:52 obbserver sudo[11654]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:32:52 obbserver sudo[11654]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:33:36 obbserver sudo[11675]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/sbin/groupadd testers
+Mar 28 21:33:36 obbserver sudo[11675]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:33:36 obbserver sudo[11675]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:33:44 obbserver sudo[11687]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/sbin/usermod -aG testers obb
+Mar 28 21:33:44 obbserver sudo[11687]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:33:44 obbserver sudo[11687]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:33:55 obbserver sudo[11702]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/sbin/usermod -aG developers obb
+Mar 28 21:33:55 obbserver sudo[11702]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:33:55 obbserver sudo[11702]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:34:01 obbserver sudo[11713]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chgrp developers /opt/company_project
+Mar 28 21:34:01 obbserver sudo[11713]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:34:02 obbserver sudo[11713]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:34:14 obbserver sudo[11723]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chgrp -R developers /opt/company_project/src
+Mar 28 21:34:14 obbserver sudo[11723]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:34:14 obbserver sudo[11723]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:34:20 obbserver sudo[11732]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chgrp -R testers /opt/company_project/testers
+Mar 28 21:34:20 obbserver sudo[11732]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:34:20 obbserver sudo[11732]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:34:29 obbserver sudo[11740]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chgrp -R testers /opt/company_project/tests
+Mar 28 21:34:29 obbserver sudo[11740]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:34:29 obbserver sudo[11740]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:34:42 obbserver sudo[11750]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chgrp -R developers /opt/company_project/docs
+Mar 28 21:34:42 obbserver sudo[11750]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:34:42 obbserver sudo[11750]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:38:48 obbserver sudo[11863]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod u+rwx /opt/company_project
+Mar 28 21:38:48 obbserver sudo[11863]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:38:48 obbserver sudo[11863]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:39:10 obbserver sudo[11882]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod -R u+rwx /opt/company_project
+Mar 28 21:39:10 obbserver sudo[11882]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:39:10 obbserver sudo[11882]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:39:56 obbserver sudo[11904]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod g+rwx /opt/company_project/src
+Mar 28 21:39:56 obbserver sudo[11904]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:39:56 obbserver sudo[11904]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:40:01 obbserver sudo[11915]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod g+rwx /opt/company_project/docs
+Mar 28 21:40:02 obbserver sudo[11915]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:40:02 obbserver sudo[11915]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:41:08 obbserver sudo[11938]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod -R g+rwx /opt/company_project/docs
+Mar 28 21:41:08 obbserver sudo[11938]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:41:08 obbserver sudo[11938]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:41:24 obbserver sudo[11949]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod -R g+rwx /opt/company_project/src
+Mar 28 21:41:24 obbserver sudo[11949]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:41:24 obbserver sudo[11949]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:42:37 obbserver sudo[11970]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod -R g+rw /opt/company_project/tests
+Mar 28 21:42:37 obbserver sudo[11970]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:42:37 obbserver sudo[11970]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:43:13 obbserver sudo[11989]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod -R o-rwx /opt/company_project/
+Mar 28 21:43:13 obbserver sudo[11989]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:43:13 obbserver sudo[11989]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:43:40 obbserver sudo[11999]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod -R g+s /opt/company_project/
+Mar 28 21:43:40 obbserver sudo[11999]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:43:40 obbserver sudo[11999]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:43:52 obbserver sudo[12014]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/ls -lR /opt/company_project
+Mar 28 21:43:52 obbserver sudo[12014]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:43:52 obbserver sudo[12014]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:47:17 obbserver sudo[12124]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod -R 770 /opt/company_project
+Mar 28 21:47:17 obbserver sudo[12124]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:47:17 obbserver sudo[12124]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:47:22 obbserver sudo[12136]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod -R u+rwx,g+rwx,o-rwx /opt/company_project
+Mar 28 21:47:22 obbserver sudo[12136]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:47:22 obbserver sudo[12136]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:47:26 obbserver sudo[12144]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod -R g+s /opt/company_project
+Mar 28 21:47:26 obbserver sudo[12144]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:47:26 obbserver sudo[12144]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:47:31 obbserver sudo[12152]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/chmod -R g+x /opt/company_project
+Mar 28 21:47:31 obbserver sudo[12152]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:47:31 obbserver sudo[12152]: pam_unix(sudo:session): session closed for user root
+Mar 28 21:47:39 obbserver sudo[12161]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/ls -lR /opt/company_project
+Mar 28 21:47:39 obbserver sudo[12161]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 28 21:47:39 obbserver sudo[12161]: pam_unix(sudo:session): session closed for user root

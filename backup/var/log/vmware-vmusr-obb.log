@@ -1,0 +1,263 @@
+[2026-03-09T22:07:00.633Z] [ message] [vmusr] [2562] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-09T22:07:00.633Z] [ message] [vmusr] [2562] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.5.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-09T22:07:00.633Z] [ message] [vmusr] [2562] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-09T22:07:00.633Z] [ message] [vmusr] [2562] Core dump limit set to -1
+[2026-03-09T22:07:00.826Z] [ message] [vmtoolsd] [2562] Plugin 'hgfsServer' initialized.
+[2026-03-09T22:07:00.826Z] [ message] [vix] [2562] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-09T22:07:00.826Z] [ message] [vmtoolsd] [2562] Plugin 'vix' initialized.
+[2026-03-09T22:07:03.890Z] [ message] [vmtoolsd] [2562] Plugin 'desktopEvents' initialized.
+[2026-03-09T22:07:03.932Z] [ message] [vmtoolsd] [2562] Plugin 'dndCP' initialized.
+[2026-03-09T22:07:03.943Z] [ message] [resolutionCommon] [2562] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-09T22:07:03.960Z] [ message] [resolutionCommon] [2562] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-09T22:07:03.960Z] [ message] [resolutionSet] [2562] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-09T22:25:57.453Z] [ message] [desktopEvents] [2562] Emitting tcs_de_xioerror due to X I/O error.
+[2026-03-09T22:27:32.703Z] [ message] [vmusr] [2512] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-09T22:27:32.709Z] [ message] [vmusr] [2512] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.5.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-09T22:27:32.703Z] [ message] [vmusr] [2512] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-09T22:27:32.709Z] [ message] [vmusr] [2512] Core dump limit set to -1
+[2026-03-09T22:27:32.963Z] [ message] [vmtoolsd] [2512] Plugin 'hgfsServer' initialized.
+[2026-03-09T22:27:32.963Z] [ message] [vix] [2512] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-09T22:27:32.964Z] [ message] [vmtoolsd] [2512] Plugin 'vix' initialized.
+[2026-03-09T22:27:35.230Z] [ message] [vmtoolsd] [2512] Plugin 'desktopEvents' initialized.
+[2026-03-09T22:27:35.249Z] [ message] [vmtoolsd] [2512] Plugin 'dndCP' initialized.
+[2026-03-09T22:27:35.249Z] [ message] [resolutionCommon] [2512] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-09T22:27:35.250Z] [ message] [resolutionCommon] [2512] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-09T22:27:35.250Z] [ message] [resolutionSet] [2512] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-09T22:41:20.695Z] [ message] [desktopEvents] [2512] Emitting tcs_de_xioerror due to X I/O error.
+[2026-03-09T22:48:52.218Z] [ message] [vmusr] [5937] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-09T22:48:52.225Z] [ message] [vmusr] [5937] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-09T22:48:52.218Z] [ message] [vmusr] [5937] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-09T22:48:52.244Z] [ message] [vmusr] [5937] Core dump limit set to -1
+[2026-03-09T22:48:53.021Z] [ message] [vmtoolsd] [5937] Plugin 'hgfsServer' initialized.
+[2026-03-09T22:48:53.021Z] [ message] [vix] [5937] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-09T22:48:53.021Z] [ message] [vmtoolsd] [5937] Plugin 'vix' initialized.
+[2026-03-09T22:48:57.153Z] [ message] [vmtoolsd] [5937] Plugin 'desktopEvents' initialized.
+[2026-03-09T22:48:57.190Z] [ message] [vmtoolsd] [5937] Plugin 'dndCP' initialized.
+[2026-03-09T22:48:57.190Z] [ message] [resolutionCommon] [5937] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-09T22:48:57.192Z] [ message] [resolutionCommon] [5937] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-09T22:48:57.192Z] [ message] [resolutionSet] [5937] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-09T23:19:50.156Z] [ message] [desktopEvents] [5937] Emitting tcs_de_xioerror due to X I/O error.
+[2026-03-15T06:00:19.502Z] [ message] [vmusr] [2522] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T06:00:19.505Z] [ message] [vmusr] [2522] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T06:00:19.502Z] [ message] [vmusr] [2522] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T06:00:19.505Z] [ message] [vmusr] [2522] Core dump limit set to -1
+[2026-03-15T06:00:19.871Z] [ message] [vmtoolsd] [2522] Plugin 'hgfsServer' initialized.
+[2026-03-15T06:00:19.871Z] [ message] [vix] [2522] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T06:00:19.871Z] [ message] [vmtoolsd] [2522] Plugin 'vix' initialized.
+[2026-03-15T06:00:21.849Z] [ message] [vmtoolsd] [2522] Plugin 'desktopEvents' initialized.
+[2026-03-15T06:00:21.872Z] [ message] [vmtoolsd] [2522] Plugin 'dndCP' initialized.
+[2026-03-15T06:00:21.873Z] [ message] [resolutionCommon] [2522] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T06:00:21.874Z] [ message] [resolutionCommon] [2522] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T06:00:21.874Z] [ message] [resolutionSet] [2522] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-15T06:26:23.407Z] [ message] [vmusr] [2501] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T06:26:23.408Z] [ message] [vmusr] [2501] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T06:26:23.407Z] [ message] [vmusr] [2501] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T06:26:23.408Z] [ message] [vmusr] [2501] Core dump limit set to -1
+[2026-03-15T06:26:24.126Z] [ message] [vmtoolsd] [2501] Plugin 'hgfsServer' initialized.
+[2026-03-15T06:26:24.126Z] [ message] [vix] [2501] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T06:26:24.126Z] [ message] [vmtoolsd] [2501] Plugin 'vix' initialized.
+[2026-03-15T06:26:26.211Z] [ message] [vmtoolsd] [2501] Plugin 'desktopEvents' initialized.
+[2026-03-15T06:26:26.228Z] [ message] [vmtoolsd] [2501] Plugin 'dndCP' initialized.
+[2026-03-15T06:26:26.228Z] [ message] [resolutionCommon] [2501] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T06:26:26.229Z] [ message] [resolutionCommon] [2501] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T06:26:26.229Z] [ message] [resolutionSet] [2501] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-15T07:40:44.750Z] [ message] [desktopEvents] [2501] Emitting tcs_de_xioerror due to X I/O error.
+[2026-03-15T11:23:48.702Z] [ message] [vmusr] [3055] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T11:23:48.710Z] [ message] [vmusr] [3055] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T11:23:48.702Z] [ message] [vmusr] [3055] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T11:23:48.710Z] [ message] [vmusr] [3055] Core dump limit set to -1
+[2026-03-15T11:23:49.089Z] [ message] [vmtoolsd] [3055] Plugin 'hgfsServer' initialized.
+[2026-03-15T11:23:49.089Z] [ message] [vix] [3055] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T11:23:49.089Z] [ message] [vmtoolsd] [3055] Plugin 'vix' initialized.
+[2026-03-15T11:23:50.665Z] [ message] [vmtoolsd] [3055] Plugin 'desktopEvents' initialized.
+[2026-03-15T11:23:50.689Z] [ message] [vmtoolsd] [3055] Plugin 'dndCP' initialized.
+[2026-03-15T11:23:50.689Z] [ message] [resolutionCommon] [3055] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T11:23:50.691Z] [ message] [resolutionCommon] [3055] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T11:23:50.691Z] [ message] [resolutionSet] [3055] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-15T19:44:35.292Z] [ message] [vmusr] [2472] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T19:44:35.293Z] [ message] [vmusr] [2472] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T19:44:35.292Z] [ message] [vmusr] [2472] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T19:44:35.293Z] [ message] [vmusr] [2472] Core dump limit set to -1
+[2026-03-15T19:44:35.750Z] [ message] [vmtoolsd] [2472] Plugin 'hgfsServer' initialized.
+[2026-03-15T19:44:35.755Z] [ message] [vix] [2472] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T19:44:35.755Z] [ message] [vmtoolsd] [2472] Plugin 'vix' initialized.
+[2026-03-15T19:44:37.844Z] [ message] [vmtoolsd] [2472] Plugin 'desktopEvents' initialized.
+[2026-03-15T19:44:37.877Z] [ message] [vmtoolsd] [2472] Plugin 'dndCP' initialized.
+[2026-03-15T19:44:37.877Z] [ message] [resolutionCommon] [2472] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T19:44:37.879Z] [ message] [resolutionCommon] [2472] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T19:44:37.879Z] [ message] [resolutionSet] [2472] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-15T19:54:15.205Z] [ message] [vmusr] [2473] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T19:54:15.205Z] [ message] [vmusr] [2473] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T19:54:15.205Z] [ message] [vmusr] [2473] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T19:54:15.205Z] [ message] [vmusr] [2473] Core dump limit set to -1
+[2026-03-15T19:54:15.831Z] [ message] [vmtoolsd] [2473] Plugin 'hgfsServer' initialized.
+[2026-03-15T19:54:15.831Z] [ message] [vix] [2473] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T19:54:15.831Z] [ message] [vmtoolsd] [2473] Plugin 'vix' initialized.
+[2026-03-15T19:54:17.977Z] [ message] [vmtoolsd] [2473] Plugin 'desktopEvents' initialized.
+[2026-03-15T19:54:18.018Z] [ message] [vmtoolsd] [2473] Plugin 'dndCP' initialized.
+[2026-03-15T19:54:18.018Z] [ message] [resolutionCommon] [2473] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T19:54:18.020Z] [ message] [resolutionCommon] [2473] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T19:54:18.020Z] [ message] [resolutionSet] [2473] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-15T19:56:45.618Z] [ message] [desktopEvents] [2473] Emitting tcs_de_xioerror due to X I/O error.
+[2026-03-15T19:57:41.009Z] [ message] [vmusr] [2481] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T19:57:41.018Z] [ message] [vmusr] [2481] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T19:57:41.009Z] [ message] [vmusr] [2481] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T19:57:41.018Z] [ message] [vmusr] [2481] Core dump limit set to -1
+[2026-03-15T19:57:41.519Z] [ message] [vmtoolsd] [2481] Plugin 'hgfsServer' initialized.
+[2026-03-15T19:57:41.519Z] [ message] [vix] [2481] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T19:57:41.519Z] [ message] [vmtoolsd] [2481] Plugin 'vix' initialized.
+[2026-03-15T19:57:44.090Z] [ message] [vmtoolsd] [2481] Plugin 'desktopEvents' initialized.
+[2026-03-15T19:57:44.113Z] [ message] [vmtoolsd] [2481] Plugin 'dndCP' initialized.
+[2026-03-15T19:57:44.114Z] [ message] [resolutionCommon] [2481] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T19:57:44.115Z] [ message] [resolutionCommon] [2481] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T19:57:44.115Z] [ message] [resolutionSet] [2481] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-15T19:59:44.679Z] [ message] [vmusr] [2478] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-15T19:59:44.679Z] [ message] [vmusr] [2478] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-15T19:59:44.679Z] [ message] [vmusr] [2478] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-15T19:59:44.679Z] [ message] [vmusr] [2478] Core dump limit set to -1
+[2026-03-15T19:59:45.176Z] [ message] [vmtoolsd] [2478] Plugin 'hgfsServer' initialized.
+[2026-03-15T19:59:45.183Z] [ message] [vix] [2478] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-15T19:59:45.183Z] [ message] [vmtoolsd] [2478] Plugin 'vix' initialized.
+[2026-03-15T19:59:47.197Z] [ message] [vmtoolsd] [2478] Plugin 'desktopEvents' initialized.
+[2026-03-15T19:59:47.229Z] [ message] [vmtoolsd] [2478] Plugin 'dndCP' initialized.
+[2026-03-15T19:59:47.229Z] [ message] [resolutionCommon] [2478] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-15T19:59:47.232Z] [ message] [resolutionCommon] [2478] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-15T19:59:47.232Z] [ message] [resolutionSet] [2478] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-17T09:01:29.669Z] [ message] [vmusr] [2481] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-17T09:01:29.680Z] [ message] [vmusr] [2481] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-17T09:01:29.669Z] [ message] [vmusr] [2481] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-17T09:01:29.681Z] [ message] [vmusr] [2481] Core dump limit set to -1
+[2026-03-17T09:01:30.261Z] [ message] [vmtoolsd] [2481] Plugin 'hgfsServer' initialized.
+[2026-03-17T09:01:30.261Z] [ message] [vix] [2481] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-17T09:01:30.261Z] [ message] [vmtoolsd] [2481] Plugin 'vix' initialized.
+[2026-03-17T09:01:32.249Z] [ message] [vmtoolsd] [2481] Plugin 'desktopEvents' initialized.
+[2026-03-17T09:01:32.274Z] [ message] [vmtoolsd] [2481] Plugin 'dndCP' initialized.
+[2026-03-17T09:01:32.274Z] [ message] [resolutionCommon] [2481] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-17T09:01:32.276Z] [ message] [resolutionCommon] [2481] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-17T09:01:32.276Z] [ message] [resolutionSet] [2481] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-18T09:54:02.792Z] [ message] [vmusr] [2533] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-18T09:54:02.793Z] [ message] [vmusr] [2533] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-18T09:54:02.792Z] [ message] [vmusr] [2533] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-18T09:54:02.793Z] [ message] [vmusr] [2533] Core dump limit set to -1
+[2026-03-18T09:54:03.119Z] [ message] [vmtoolsd] [2533] Plugin 'hgfsServer' initialized.
+[2026-03-18T09:54:03.119Z] [ message] [vix] [2533] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-18T09:54:03.119Z] [ message] [vmtoolsd] [2533] Plugin 'vix' initialized.
+[2026-03-18T09:54:05.145Z] [ message] [vmtoolsd] [2533] Plugin 'desktopEvents' initialized.
+[2026-03-18T09:54:05.164Z] [ message] [vmtoolsd] [2533] Plugin 'dndCP' initialized.
+[2026-03-18T09:54:05.164Z] [ message] [resolutionCommon] [2533] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-18T09:54:05.191Z] [ message] [resolutionCommon] [2533] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-18T09:54:05.191Z] [ message] [resolutionSet] [2533] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-18T10:28:12.044Z] [ message] [vmusr] [2463] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-18T10:28:12.046Z] [ message] [vmusr] [2463] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-18T10:28:12.044Z] [ message] [vmusr] [2463] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-18T10:28:12.046Z] [ message] [vmusr] [2463] Core dump limit set to -1
+[2026-03-18T10:28:12.743Z] [ message] [vmtoolsd] [2463] Plugin 'hgfsServer' initialized.
+[2026-03-18T10:28:12.743Z] [ message] [vix] [2463] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-18T10:28:12.743Z] [ message] [vmtoolsd] [2463] Plugin 'vix' initialized.
+[2026-03-18T10:28:15.435Z] [ message] [vmtoolsd] [2463] Plugin 'desktopEvents' initialized.
+[2026-03-18T10:28:15.468Z] [ message] [vmtoolsd] [2463] Plugin 'dndCP' initialized.
+[2026-03-18T10:28:15.468Z] [ message] [resolutionCommon] [2463] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-18T10:28:15.469Z] [ message] [resolutionCommon] [2463] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-18T10:28:15.469Z] [ message] [resolutionSet] [2463] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-19T10:55:16.650Z] [ message] [vmusr] [2523] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-19T10:55:16.660Z] [ message] [vmusr] [2523] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-19T10:55:16.650Z] [ message] [vmusr] [2523] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-19T10:55:16.660Z] [ message] [vmusr] [2523] Core dump limit set to -1
+[2026-03-19T10:55:17.077Z] [ message] [vmtoolsd] [2523] Plugin 'hgfsServer' initialized.
+[2026-03-19T10:55:17.077Z] [ message] [vix] [2523] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-19T10:55:17.077Z] [ message] [vmtoolsd] [2523] Plugin 'vix' initialized.
+[2026-03-19T10:55:19.289Z] [ message] [vmtoolsd] [2523] Plugin 'desktopEvents' initialized.
+[2026-03-19T10:55:19.318Z] [ message] [vmtoolsd] [2523] Plugin 'dndCP' initialized.
+[2026-03-19T10:55:19.318Z] [ message] [resolutionCommon] [2523] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-19T10:55:19.319Z] [ message] [resolutionCommon] [2523] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-19T10:55:19.320Z] [ message] [resolutionSet] [2523] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-19T11:47:12.957Z] [ message] [desktopEvents] [2523] Emitting tcs_de_xioerror due to X I/O error.
+[2026-03-28T17:29:57.894Z] [ message] [vmusr] [2533] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-28T17:29:57.900Z] [ message] [vmusr] [2533] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.38.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-28T17:29:57.894Z] [ message] [vmusr] [2533] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-28T17:29:57.900Z] [ message] [vmusr] [2533] Core dump limit set to -1
+[2026-03-28T17:29:58.334Z] [ message] [vmtoolsd] [2533] Plugin 'hgfsServer' initialized.
+[2026-03-28T17:29:58.334Z] [ message] [vix] [2533] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-28T17:29:58.334Z] [ message] [vmtoolsd] [2533] Plugin 'vix' initialized.
+[2026-03-28T17:29:59.998Z] [ message] [vmtoolsd] [2533] Plugin 'desktopEvents' initialized.
+[2026-03-28T17:30:00.026Z] [ message] [vmtoolsd] [2533] Plugin 'dndCP' initialized.
+[2026-03-28T17:30:00.026Z] [ message] [resolutionCommon] [2533] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-28T17:30:00.037Z] [ message] [resolutionCommon] [2533] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-28T17:30:00.037Z] [ message] [resolutionSet] [2533] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-31T08:48:50.256Z] [ message] [desktopEvents] [2533] Emitting tcs_de_xioerror due to X I/O error.
+[2026-03-31T08:50:39.713Z] [ message] [vmusr] [5921] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-31T08:50:39.713Z] [ message] [vmusr] [5921] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.42.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-31T08:50:39.713Z] [ message] [vmusr] [5921] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-31T08:50:39.713Z] [ message] [vmusr] [5921] Core dump limit set to -1
+[2026-03-31T08:50:40.108Z] [ message] [vmtoolsd] [5921] Plugin 'hgfsServer' initialized.
+[2026-03-31T08:50:40.108Z] [ message] [vix] [5921] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-31T08:50:40.109Z] [ message] [vmtoolsd] [5921] Plugin 'vix' initialized.
+[2026-03-31T08:50:42.202Z] [ message] [vmtoolsd] [5921] Plugin 'desktopEvents' initialized.
+[2026-03-31T08:50:42.233Z] [ message] [vmtoolsd] [5921] Plugin 'dndCP' initialized.
+[2026-03-31T08:50:42.233Z] [ message] [resolutionCommon] [5921] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-31T08:50:42.235Z] [ message] [resolutionCommon] [5921] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-31T08:50:42.235Z] [ message] [resolutionSet] [5921] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-31T09:43:44.848Z] [ message] [desktopEvents] [5921] Emitting tcs_de_xioerror due to X I/O error.
+[2026-03-31T09:44:19.654Z] [ message] [vmusr] [2390] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-03-31T09:44:19.655Z] [ message] [vmusr] [2390] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.42.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-03-31T09:44:19.654Z] [ message] [vmusr] [2390] Log caching is enabled with maxCacheEntries=4096.
+[2026-03-31T09:44:19.655Z] [ message] [vmusr] [2390] Core dump limit set to -1
+[2026-03-31T09:44:20.164Z] [ message] [vmtoolsd] [2390] Plugin 'hgfsServer' initialized.
+[2026-03-31T09:44:20.164Z] [ message] [vix] [2390] QueryVGAuthConfig: vgauth usage is: 1
+[2026-03-31T09:44:20.164Z] [ message] [vmtoolsd] [2390] Plugin 'vix' initialized.
+[2026-03-31T09:44:21.931Z] [ message] [vmtoolsd] [2390] Plugin 'desktopEvents' initialized.
+[2026-03-31T09:44:21.962Z] [ message] [vmtoolsd] [2390] Plugin 'dndCP' initialized.
+[2026-03-31T09:44:21.963Z] [ message] [resolutionCommon] [2390] resolutionCheckForKMS: dlopen succeeded.
+[2026-03-31T09:44:21.970Z] [ message] [resolutionCommon] [2390] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-03-31T09:44:21.970Z] [ message] [resolutionSet] [2390] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-03-31T10:07:53.303Z] [ message] [desktopEvents] [2390] Emitting tcs_de_xioerror due to X I/O error.
+[2026-04-05T14:23:22.045Z] [ message] [vmusr] [5973] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-05T14:23:22.047Z] [ message] [vmusr] [5973] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-05T14:23:22.045Z] [ message] [vmusr] [5973] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-05T14:23:22.047Z] [ message] [vmusr] [5973] Core dump limit set to -1
+[2026-04-05T14:23:22.433Z] [ message] [vmtoolsd] [5973] Plugin 'hgfsServer' initialized.
+[2026-04-05T14:23:22.433Z] [ message] [vix] [5973] QueryVGAuthConfig: vgauth usage is: 1
+[2026-04-05T14:23:22.433Z] [ message] [vmtoolsd] [5973] Plugin 'vix' initialized.
+[2026-04-05T14:23:24.319Z] [ message] [vmtoolsd] [5973] Plugin 'desktopEvents' initialized.
+[2026-04-05T14:23:24.402Z] [ message] [vmtoolsd] [5973] Plugin 'dndCP' initialized.
+[2026-04-05T14:23:24.402Z] [ message] [resolutionCommon] [5973] resolutionCheckForKMS: dlopen succeeded.
+[2026-04-05T14:23:24.415Z] [ message] [resolutionCommon] [5973] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-04-05T14:23:24.415Z] [ message] [resolutionSet] [5973] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-04-05T14:55:49.198Z] [ message] [desktopEvents] [5973] Emitting tcs_de_xioerror due to X I/O error.
+[2026-04-05T14:57:05.926Z] [ message] [vmusr] [2410] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-05T14:57:05.926Z] [ message] [vmusr] [2410] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-05T14:57:05.926Z] [ message] [vmusr] [2410] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-05T14:57:05.927Z] [ message] [vmusr] [2410] Core dump limit set to -1
+[2026-04-05T14:57:06.326Z] [ message] [vmtoolsd] [2410] Plugin 'hgfsServer' initialized.
+[2026-04-05T14:57:06.326Z] [ message] [vix] [2410] QueryVGAuthConfig: vgauth usage is: 1
+[2026-04-05T14:57:06.326Z] [ message] [vmtoolsd] [2410] Plugin 'vix' initialized.
+[2026-04-05T14:57:08.216Z] [ message] [vmtoolsd] [2410] Plugin 'desktopEvents' initialized.
+[2026-04-05T14:57:08.237Z] [ message] [vmtoolsd] [2410] Plugin 'dndCP' initialized.
+[2026-04-05T14:57:08.237Z] [ message] [resolutionCommon] [2410] resolutionCheckForKMS: dlopen succeeded.
+[2026-04-05T14:57:08.238Z] [ message] [resolutionCommon] [2410] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-04-05T14:57:08.238Z] [ message] [resolutionSet] [2410] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-04-05T22:25:57.930Z] [ message] [desktopEvents] [2410] Emitting tcs_de_xioerror due to X I/O error.
+[2026-04-08T17:59:47.645Z] [ message] [vmusr] [2395] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-08T17:59:47.646Z] [ message] [vmusr] [2395] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-08T17:59:47.645Z] [ message] [vmusr] [2395] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-08T17:59:47.646Z] [ message] [vmusr] [2395] Core dump limit set to -1
+[2026-04-08T17:59:48.146Z] [ message] [vmtoolsd] [2395] Plugin 'hgfsServer' initialized.
+[2026-04-08T17:59:48.146Z] [ message] [vix] [2395] QueryVGAuthConfig: vgauth usage is: 1
+[2026-04-08T17:59:48.146Z] [ message] [vmtoolsd] [2395] Plugin 'vix' initialized.
+[2026-04-08T17:59:50.271Z] [ message] [vmtoolsd] [2395] Plugin 'desktopEvents' initialized.
+[2026-04-08T17:59:50.303Z] [ message] [vmtoolsd] [2395] Plugin 'dndCP' initialized.
+[2026-04-08T17:59:50.304Z] [ message] [resolutionCommon] [2395] resolutionCheckForKMS: dlopen succeeded.
+[2026-04-08T17:59:50.306Z] [ message] [resolutionCommon] [2395] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-04-08T17:59:50.306Z] [ message] [resolutionSet] [2395] ResolutionToolkitInit: Backing off for resolutionKMS.
+[2026-04-08T20:38:40.912Z] [ message] [vmusr] [2469] VMware Tools Version: 13.0.0.0 (build-24696409)
+[2026-04-08T20:38:40.917Z] [ message] [vmusr] [2469] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:redhat:enterprise_linux:9::baseos' distroAddlVersion='9.7 (Plow)' distroName='Red Hat Enterprise Linux' distroVersion='9.7' familyName='Linux' kernelVersion='5.14.0-611.45.1.el9_7.x86_64' prettyName='Red Hat Enterprise Linux 9.7 (Plow)'
+[2026-04-08T20:38:40.912Z] [ message] [vmusr] [2469] Log caching is enabled with maxCacheEntries=4096.
+[2026-04-08T20:38:40.917Z] [ message] [vmusr] [2469] Core dump limit set to -1
+[2026-04-08T20:38:41.284Z] [ message] [vmtoolsd] [2469] Plugin 'hgfsServer' initialized.
+[2026-04-08T20:38:41.284Z] [ message] [vix] [2469] QueryVGAuthConfig: vgauth usage is: 1
+[2026-04-08T20:38:41.284Z] [ message] [vmtoolsd] [2469] Plugin 'vix' initialized.
+[2026-04-08T20:38:44.060Z] [ message] [vmtoolsd] [2469] Plugin 'desktopEvents' initialized.
+[2026-04-08T20:38:44.085Z] [ message] [vmtoolsd] [2469] Plugin 'dndCP' initialized.
+[2026-04-08T20:38:44.086Z] [ message] [resolutionCommon] [2469] resolutionCheckForKMS: dlopen succeeded.
+[2026-04-08T20:38:44.091Z] [ message] [resolutionCommon] [2469] resolutionCheckForKMS: System support available for resolutionKMS.
+[2026-04-08T20:38:44.091Z] [ message] [resolutionSet] [2469] ResolutionToolkitInit: Backing off for resolutionKMS.

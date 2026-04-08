@@ -1,0 +1,557 @@
+Mar 15 07:00:01 obbserver polkitd[921]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 15 07:00:01 obbserver polkitd[921]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 15 07:00:01 obbserver polkitd[921]: Finished loading, compiling and executing 13 rules
+Mar 15 07:00:01 obbserver polkitd[921]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 15 07:00:02 obbserver sshd[1185]: Server listening on 0.0.0.0 port 22.
+Mar 15 07:00:02 obbserver sshd[1185]: Server listening on :: port 22.
+Mar 15 07:00:03 obbserver systemd[1268]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 15 07:00:03 obbserver gdm-launch-environment][1238]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 15 07:00:05 obbserver polkitd[921]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 07:00:16 obbserver gdm-password][2102]: gkr-pam: unable to locate daemon control file
+Mar 15 07:00:16 obbserver gdm-password][2102]: gkr-pam: stashed password to try later in open session
+Mar 15 07:00:16 obbserver systemd[2114]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 07:00:16 obbserver gdm-password][2102]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 07:00:16 obbserver gdm-password][2102]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 15 07:00:18 obbserver polkitd[921]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 07:00:21 obbserver gdm-launch-environment][1238]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 15 07:00:21 obbserver polkitd[921]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 15 07:25:59 obbserver polkitd[922]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 15 07:25:59 obbserver polkitd[922]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 15 07:25:59 obbserver polkitd[922]: Finished loading, compiling and executing 13 rules
+Mar 15 07:25:59 obbserver polkitd[922]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 15 07:26:00 obbserver sshd[1157]: Server listening on 0.0.0.0 port 22.
+Mar 15 07:26:00 obbserver sshd[1157]: Server listening on :: port 22.
+Mar 15 07:26:00 obbserver systemd[1208]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 15 07:26:01 obbserver gdm-launch-environment][1187]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 15 07:26:03 obbserver polkitd[922]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 07:26:20 obbserver gdm-password][2098]: gkr-pam: unable to locate daemon control file
+Mar 15 07:26:20 obbserver gdm-password][2098]: gkr-pam: stashed password to try later in open session
+Mar 15 07:26:20 obbserver systemd[2115]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 07:26:20 obbserver gdm-password][2098]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 07:26:20 obbserver gdm-password][2098]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 15 07:26:22 obbserver polkitd[922]: Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 07:26:25 obbserver gdm-launch-environment][1187]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 15 07:26:25 obbserver polkitd[922]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 15 07:30:27 obbserver unix_chkpwd[4466]: password check failed for user (obb)
+Mar 15 07:30:27 obbserver gdm-password][4439]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Mar 15 07:30:27 obbserver gdm-password][4439]: gkr-pam: the password for the login keyring was invalid.
+Mar 15 07:30:37 obbserver unix_chkpwd[4485]: password check failed for user (obb)
+Mar 15 07:30:37 obbserver gdm-password][4474]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Mar 15 07:30:37 obbserver gdm-password][4474]: gkr-pam: the password for the login keyring was invalid.
+Mar 15 07:31:03 obbserver gdm-password][4493]: gkr-pam: unlocked login keyring
+Mar 15 07:32:18 obbserver sudo[4728]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf proton install$
+Mar 15 07:32:18 obbserver sudo[4728]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 07:32:21 obbserver sudo[4728]: pam_unix(sudo:session): session closed for user root
+Mar 15 08:40:06 obbserver sudo[6714]: pam_unix(sudo:auth): conversation failed
+Mar 15 08:40:06 obbserver sudo[6714]: pam_unix(sudo:auth): auth could not identify password for [obb]
+Mar 15 08:40:19 obbserver sudo[6733]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install gnome-shell-extension-manager gnome-tweaks chrome-gnome-shell
+Mar 15 08:40:19 obbserver sudo[6733]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 08:40:23 obbserver sudo[6733]: pam_unix(sudo:session): session closed for user root
+Mar 15 08:41:12 obbserver polkitd[928]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 15 08:41:12 obbserver polkitd[928]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 15 08:41:12 obbserver polkitd[928]: Finished loading, compiling and executing 13 rules
+Mar 15 08:41:12 obbserver polkitd[928]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 15 08:41:14 obbserver sshd[1124]: Server listening on 0.0.0.0 port 22.
+Mar 15 08:41:14 obbserver sshd[1124]: Server listening on :: port 22.
+Mar 15 08:41:14 obbserver systemd[1217]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 15 08:41:14 obbserver gdm-launch-environment][1160]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 15 08:41:16 obbserver polkitd[928]: Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 12:23:37 obbserver unix_chkpwd[2633]: password check failed for user (obb)
+Mar 15 12:23:37 obbserver gdm-password][2619]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Mar 15 12:23:37 obbserver gdm-password][2619]: gkr-pam: unable to locate daemon control file
+Mar 15 12:23:37 obbserver gdm-password][2619]: gkr-pam: stashed password to try later in open session
+Mar 15 12:23:46 obbserver gdm-password][2634]: gkr-pam: unable to locate daemon control file
+Mar 15 12:23:46 obbserver gdm-password][2634]: gkr-pam: stashed password to try later in open session
+Mar 15 12:23:46 obbserver systemd[2642]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 12:23:46 obbserver gdm-password][2634]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 12:23:46 obbserver gdm-password][2634]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 15 12:23:47 obbserver polkitd[928]: Registered Authentication Agent for unix-session:2 (system bus name :1.89 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 12:23:51 obbserver gdm-launch-environment][1160]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 15 12:23:51 obbserver polkitd[928]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 15 12:24:53 obbserver sudo[3601]: pam_unix(sudo:auth): conversation failed
+Mar 15 12:24:53 obbserver sudo[3601]: pam_unix(sudo:auth): auth could not identify password for [obb]
+Mar 15 20:44:09 obbserver polkitd[921]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 15 20:44:09 obbserver polkitd[921]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 15 20:44:09 obbserver polkitd[921]: Finished loading, compiling and executing 13 rules
+Mar 15 20:44:09 obbserver polkitd[921]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 15 20:44:10 obbserver sshd[1161]: Server listening on 0.0.0.0 port 22.
+Mar 15 20:44:10 obbserver sshd[1161]: Server listening on :: port 22.
+Mar 15 20:44:11 obbserver systemd[1224]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 15 20:44:11 obbserver gdm-launch-environment][1193]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 15 20:44:13 obbserver polkitd[921]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 20:44:32 obbserver gdm-password][2095]: gkr-pam: unable to locate daemon control file
+Mar 15 20:44:32 obbserver gdm-password][2095]: gkr-pam: stashed password to try later in open session
+Mar 15 20:44:32 obbserver systemd[2111]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 20:44:32 obbserver gdm-password][2095]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 20:44:32 obbserver gdm-password][2095]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 15 20:44:34 obbserver polkitd[921]: Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 20:44:38 obbserver gdm-launch-environment][1193]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 15 20:44:38 obbserver polkitd[921]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 15 20:53:44 obbserver polkitd[921]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 15 20:53:44 obbserver polkitd[921]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 15 20:53:44 obbserver polkitd[921]: Finished loading, compiling and executing 13 rules
+Mar 15 20:53:44 obbserver polkitd[921]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 15 20:53:45 obbserver sshd[1156]: Server listening on 0.0.0.0 port 22.
+Mar 15 20:53:45 obbserver sshd[1156]: Server listening on :: port 22.
+Mar 15 20:53:45 obbserver systemd[1223]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 15 20:53:45 obbserver gdm-launch-environment][1185]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 15 20:53:47 obbserver polkitd[921]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 20:54:12 obbserver gdm-password][2079]: gkr-pam: unable to locate daemon control file
+Mar 15 20:54:12 obbserver gdm-password][2079]: gkr-pam: stashed password to try later in open session
+Mar 15 20:54:12 obbserver systemd[2095]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 20:54:12 obbserver gdm-password][2079]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 20:54:12 obbserver gdm-password][2079]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 15 20:54:14 obbserver polkitd[921]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 20:54:17 obbserver gdm-launch-environment][1185]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 15 20:54:17 obbserver polkitd[921]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 15 20:57:19 obbserver polkitd[921]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 15 20:57:19 obbserver polkitd[921]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 15 20:57:19 obbserver polkitd[921]: Finished loading, compiling and executing 13 rules
+Mar 15 20:57:19 obbserver polkitd[921]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 15 20:57:20 obbserver sshd[1158]: Server listening on 0.0.0.0 port 22.
+Mar 15 20:57:20 obbserver sshd[1158]: Server listening on :: port 22.
+Mar 15 20:57:21 obbserver systemd[1221]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 15 20:57:21 obbserver gdm-launch-environment][1191]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 15 20:57:22 obbserver polkitd[921]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 20:57:38 obbserver gdm-password][2079]: gkr-pam: unable to locate daemon control file
+Mar 15 20:57:38 obbserver gdm-password][2079]: gkr-pam: stashed password to try later in open session
+Mar 15 20:57:38 obbserver systemd[2096]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 20:57:38 obbserver gdm-password][2079]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 20:57:38 obbserver gdm-password][2079]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 15 20:57:39 obbserver polkitd[921]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 20:57:43 obbserver gdm-launch-environment][1191]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 15 20:57:43 obbserver polkitd[921]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 15 20:59:20 obbserver polkitd[922]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 15 20:59:20 obbserver polkitd[922]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 15 20:59:20 obbserver polkitd[922]: Finished loading, compiling and executing 13 rules
+Mar 15 20:59:20 obbserver polkitd[922]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 15 20:59:21 obbserver sshd[1158]: Server listening on 0.0.0.0 port 22.
+Mar 15 20:59:21 obbserver sshd[1158]: Server listening on :: port 22.
+Mar 15 20:59:22 obbserver systemd[1229]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 15 20:59:22 obbserver gdm-launch-environment][1193]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 15 20:59:23 obbserver polkitd[922]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 20:59:41 obbserver gdm-password][2081]: gkr-pam: unable to locate daemon control file
+Mar 15 20:59:41 obbserver gdm-password][2081]: gkr-pam: stashed password to try later in open session
+Mar 15 20:59:41 obbserver systemd[2098]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 20:59:41 obbserver gdm-password][2081]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 20:59:41 obbserver gdm-password][2081]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 15 20:59:43 obbserver polkitd[922]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 15 20:59:47 obbserver gdm-launch-environment][1193]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 15 20:59:47 obbserver polkitd[922]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 15 22:09:32 obbserver sudo[6727]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install openssh-clients
+Mar 15 22:09:32 obbserver sudo[6727]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 22:09:37 obbserver sudo[6727]: pam_unix(sudo:session): session closed for user root
+Mar 15 22:09:54 obbserver sudo[6759]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/systemctl enable --now ssh
+Mar 15 22:09:54 obbserver sudo[6759]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 22:09:54 obbserver sudo[6759]: pam_unix(sudo:session): session closed for user root
+Mar 15 22:11:23 obbserver sudo[6846]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/systemctl enable --now sshd
+Mar 15 22:11:23 obbserver sudo[6846]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 22:11:23 obbserver sudo[6846]: pam_unix(sudo:session): session closed for user root
+Mar 15 22:11:46 obbserver sudo[6886]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install openssh-server -y
+Mar 15 22:11:46 obbserver sudo[6886]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 22:11:52 obbserver sudo[6886]: pam_unix(sudo:session): session closed for user root
+Mar 15 22:12:03 obbserver sudo[6903]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/systemctl enable --now sshd
+Mar 15 22:12:03 obbserver sudo[6903]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 22:12:04 obbserver sudo[6903]: pam_unix(sudo:session): session closed for user root
+Mar 15 22:12:30 obbserver sudo[6964]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/systemctl enable sshd
+Mar 15 22:12:30 obbserver sudo[6964]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 22:12:30 obbserver sudo[6964]: pam_unix(sudo:session): session closed for user root
+Mar 15 22:12:40 obbserver sudo[7003]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/systemctl status sshd
+Mar 15 22:12:40 obbserver sudo[7003]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 22:12:40 obbserver sudo[7003]: pam_unix(sudo:session): session closed for user root
+Mar 15 22:51:56 obbserver su[8821]: pam_unix(su-l:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 22:52:23 obbserver su[8875]: pam_unix(su-l:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 22:53:18 obbserver su[8913]: pam_unix(su-l:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 22:53:27 obbserver su[8958]: pam_unix(su-l:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 15 22:54:54 obbserver unix_chkpwd[9043]: password check failed for user (root)
+Mar 15 22:54:54 obbserver su[9033]: pam_unix(su-l:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=root
+Mar 15 22:55:11 obbserver unix_chkpwd[9049]: password check failed for user (root)
+Mar 15 22:55:11 obbserver su[9044]: pam_unix(su-l:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=root
+Mar 15 22:55:37 obbserver su[9053]: pam_unix(su-l:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 22:55:43 obbserver su[9053]: pam_unix(su-l:session): session closed for user root
+Mar 15 22:57:17 obbserver unix_chkpwd[9128]: password check failed for user (obb)
+Mar 15 22:57:17 obbserver sudo[9121]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar 15 22:57:28 obbserver unix_chkpwd[9131]: password check failed for user (obb)
+Mar 15 22:57:40 obbserver unix_chkpwd[9134]: password check failed for user (obb)
+Mar 15 22:57:42 obbserver sudo[9121]:     obb : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/head /etc/shadow
+Mar 15 22:57:58 obbserver sudo[9138]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/head /etc/shadow
+Mar 15 22:57:58 obbserver sudo[9138]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 22:57:58 obbserver sudo[9138]: pam_unix(sudo:session): session closed for user root
+Mar 15 23:02:19 obbserver sudo[9235]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/head /etc/passwd
+Mar 15 23:02:19 obbserver sudo[9235]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 23:02:19 obbserver sudo[9235]: pam_unix(sudo:session): session closed for user root
+Mar 15 23:02:33 obbserver sudo[9239]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/tail /etc/passwd
+Mar 15 23:02:33 obbserver sudo[9239]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 23:02:33 obbserver sudo[9239]: pam_unix(sudo:session): session closed for user root
+Mar 15 23:04:47 obbserver sudo[9264]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/head /etc/shadow
+Mar 15 23:04:47 obbserver sudo[9264]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 23:04:47 obbserver sudo[9264]: pam_unix(sudo:session): session closed for user root
+Mar 15 23:05:54 obbserver sudo[9277]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/tail -5 /etc/shadow
+Mar 15 23:05:54 obbserver sudo[9277]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 15 23:05:54 obbserver sudo[9277]: pam_unix(sudo:session): session closed for user root
+Mar 16 06:21:31 obbserver gdm-password][19268]: gkr-pam: unlocked login keyring
+Mar 16 06:58:49 obbserver sudo[22115]:     obb : TTY=pts/0 ; PWD=/home/obb/Desktop ; USER=root ; COMMAND=/bin/vim /etc/group
+Mar 16 06:58:49 obbserver sudo[22115]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 07:00:38 obbserver sudo[22115]: pam_unix(sudo:session): session closed for user root
+Mar 16 07:08:40 obbserver unix_chkpwd[22472]: password check failed for user (obb)
+Mar 16 07:08:40 obbserver sudo[22465]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar 16 07:08:50 obbserver unix_chkpwd[22475]: password check failed for user (obb)
+Mar 16 07:08:59 obbserver sudo[22465]:     obb : TTY=pts/0 ; PWD=/home/obb/Desktop ; USER=root ; COMMAND=/sbin/groupadd -g 10000 newteam
+Mar 16 07:08:59 obbserver sudo[22465]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 07:08:59 obbserver groupadd[22481]: group added to /etc/group: name=newteam, GID=10000
+Mar 16 07:08:59 obbserver groupadd[22481]: group added to /etc/gshadow: name=newteam
+Mar 16 07:09:00 obbserver groupadd[22481]: new group: name=newteam, GID=10000
+Mar 16 07:09:00 obbserver sudo[22465]: pam_unix(sudo:session): session closed for user root
+Mar 16 07:10:49 obbserver sudo[22532]:     obb : TTY=pts/0 ; PWD=/home/obb/Desktop ; USER=root ; COMMAND=/sbin/usermod -aG newteam obb
+Mar 16 07:10:49 obbserver sudo[22532]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 07:10:49 obbserver usermod[22534]: add 'obb' to group 'newteam'
+Mar 16 07:10:49 obbserver usermod[22534]: add 'obb' to shadow group 'newteam'
+Mar 16 07:10:49 obbserver sudo[22532]: pam_unix(sudo:session): session closed for user root
+Mar 16 07:11:12 obbserver sudo[22549]:     obb : TTY=pts/0 ; PWD=/home/obb/Desktop ; USER=root ; COMMAND=/sbin/groupdel newteam
+Mar 16 07:11:12 obbserver sudo[22549]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 07:11:12 obbserver groupdel[22551]: group 'newteam' removed from /etc/group
+Mar 16 07:11:12 obbserver groupdel[22551]: group 'newteam' removed from /etc/gshadow
+Mar 16 07:11:12 obbserver groupdel[22551]: group 'newteam' removed
+Mar 16 07:11:12 obbserver sudo[22549]: pam_unix(sudo:session): session closed for user root
+Mar 16 07:15:54 obbserver sudo[22643]:     obb : TTY=pts/0 ; PWD=/home/obb/Desktop ; USER=root ; COMMAND=/sbin/groupadd -g 2500 sammmm
+Mar 16 07:15:54 obbserver sudo[22643]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 07:15:55 obbserver groupadd[22645]: group added to /etc/group: name=sammmm, GID=2500
+Mar 16 07:15:55 obbserver groupadd[22645]: group added to /etc/gshadow: name=sammmm
+Mar 16 07:15:55 obbserver groupadd[22645]: new group: name=sammmm, GID=2500
+Mar 16 07:15:55 obbserver sudo[22643]: pam_unix(sudo:session): session closed for user root
+Mar 16 07:16:32 obbserver sudo[22663]:     obb : TTY=pts/0 ; PWD=/home/obb/Desktop ; USER=root ; COMMAND=/sbin/usermod -aG sammmm obb
+Mar 16 07:16:32 obbserver sudo[22663]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 07:16:32 obbserver usermod[22665]: add 'obb' to group 'sammmm'
+Mar 16 07:16:32 obbserver usermod[22665]: add 'obb' to shadow group 'sammmm'
+Mar 16 07:16:32 obbserver sudo[22663]: pam_unix(sudo:session): session closed for user root
+Mar 16 07:18:27 obbserver sudo[22709]:     obb : TTY=pts/0 ; PWD=/home/obb/Desktop ; USER=root ; COMMAND=/sbin/groupmod -n sam sammmm
+Mar 16 07:18:27 obbserver sudo[22709]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 07:18:27 obbserver groupmod[22711]: group changed in /etc/group (group sammmm/2500, new name: sam)
+Mar 16 07:18:27 obbserver groupmod[22711]: group changed in /etc/gshadow (group sammmm, new name: sam)
+Mar 16 07:18:27 obbserver sudo[22709]: pam_unix(sudo:session): session closed for user root
+Mar 16 07:19:05 obbserver sudo[22724]:     obb : TTY=pts/0 ; PWD=/home/obb/Desktop ; USER=root ; COMMAND=/sbin/groupmod -n tee sam
+Mar 16 07:19:05 obbserver sudo[22724]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 07:19:05 obbserver groupmod[22726]: group changed in /etc/group (group sam/2500, new name: tee)
+Mar 16 07:19:05 obbserver groupmod[22726]: group changed in /etc/gshadow (group sam, new name: tee)
+Mar 16 07:19:05 obbserver sudo[22724]: pam_unix(sudo:session): session closed for user root
+Mar 16 07:22:26 obbserver sudo[22835]:     obb : TTY=pts/0 ; PWD=/home/obb/Desktop ; USER=root ; COMMAND=/sbin/groupmod -g 2000 tee
+Mar 16 07:22:26 obbserver sudo[22835]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 07:22:26 obbserver groupmod[22837]: group changed in /etc/group (group tee/2500, new gid: 2000)
+Mar 16 07:22:26 obbserver groupmod[22837]: group changed in /etc/passwd (group tee/2500, new gid: 2000)
+Mar 16 07:22:26 obbserver sudo[22835]: pam_unix(sudo:session): session closed for user root
+Mar 16 07:22:37 obbserver sudo[22845]:     obb : TTY=pts/0 ; PWD=/home/obb/Desktop ; USER=root ; COMMAND=/sbin/groupmod -g 3000 tee
+Mar 16 07:22:37 obbserver sudo[22845]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 07:22:37 obbserver groupmod[22847]: group changed in /etc/group (group tee/2000, new gid: 3000)
+Mar 16 07:22:37 obbserver groupmod[22847]: group changed in /etc/passwd (group tee/2000, new gid: 3000)
+Mar 16 07:22:37 obbserver sudo[22845]: pam_unix(sudo:session): session closed for user root
+Mar 16 07:44:08 obbserver gdm-password][23050]: gkr-pam: unlocked login keyring
+Mar 16 08:16:07 obbserver gdm-password][23992]: gkr-pam: unlocked login keyring
+Mar 16 08:22:34 obbserver sudo[24100]: pam_unix(sudo:auth): conversation failed
+Mar 16 08:22:34 obbserver sudo[24100]: pam_unix(sudo:auth): auth could not identify password for [obb]
+Mar 16 08:32:59 obbserver su[8958]: pam_unix(su-l:session): session closed for user obb
+Mar 16 08:33:08 obbserver su[8913]: pam_unix(su-l:session): session closed for user root
+Mar 16 08:34:34 obbserver su[8875]: pam_unix(su-l:session): session closed for user obb
+Mar 16 08:34:34 obbserver su[8821]: pam_unix(su-l:session): session closed for user root
+Mar 16 08:37:59 obbserver unix_chkpwd[25053]: password check failed for user (obb)
+Mar 16 08:37:59 obbserver sudo[25046]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar 16 08:38:10 obbserver unix_chkpwd[25055]: password check failed for user (obb)
+Mar 16 08:38:23 obbserver sudo[25046]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel tee
+Mar 16 08:38:23 obbserver sudo[25046]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 08:38:23 obbserver groupdel[25063]: group 'tee' removed from /etc/group
+Mar 16 08:38:23 obbserver groupdel[25063]: group 'tee' removed from /etc/gshadow
+Mar 16 08:38:23 obbserver groupdel[25063]: group 'tee' removed
+Mar 16 08:38:23 obbserver sudo[25046]: pam_unix(sudo:session): session closed for user root
+Mar 16 08:38:31 obbserver sudo[25077]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel tee
+Mar 16 08:38:31 obbserver sudo[25077]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 08:38:31 obbserver sudo[25077]: pam_unix(sudo:session): session closed for user root
+Mar 16 10:24:51 obbserver gdm-password][25910]: gkr-pam: unlocked login keyring
+Mar 16 10:33:07 obbserver unix_chkpwd[26173]: password check failed for user (obb)
+Mar 16 10:33:07 obbserver sudo[26163]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar 16 10:33:18 obbserver sudo[26163]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd -g 1700 vip
+Mar 16 10:33:18 obbserver sudo[26163]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 10:33:19 obbserver groupadd[26179]: group added to /etc/group: name=vip, GID=1700
+Mar 16 10:33:19 obbserver groupadd[26179]: group added to /etc/gshadow: name=vip
+Mar 16 10:33:19 obbserver groupadd[26179]: new group: name=vip, GID=1700
+Mar 16 10:33:19 obbserver sudo[26163]: pam_unix(sudo:session): session closed for user root
+Mar 16 10:34:20 obbserver sudo[26235]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/usermod -aG vip obb
+Mar 16 10:34:20 obbserver sudo[26235]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 10:34:20 obbserver usermod[26237]: add 'obb' to group 'vip'
+Mar 16 10:34:20 obbserver usermod[26237]: add 'obb' to shadow group 'vip'
+Mar 16 10:34:20 obbserver sudo[26235]: pam_unix(sudo:session): session closed for user root
+Mar 16 10:36:40 obbserver sudo[26291]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/useradd -g vip tee
+Mar 16 10:36:40 obbserver sudo[26291]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 10:36:40 obbserver useradd[26293]: new user: name=tee, UID=1001, GID=1700, home=/home/tee, shell=/bin/bash, from=/dev/pts/0
+Mar 16 10:36:40 obbserver sudo[26291]: pam_unix(sudo:session): session closed for user root
+Mar 16 10:37:38 obbserver sudo[26347]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/userdel tee
+Mar 16 10:37:38 obbserver sudo[26347]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 10:37:38 obbserver userdel[26349]: delete user 'tee'
+Mar 16 10:37:38 obbserver sudo[26347]: pam_unix(sudo:session): session closed for user root
+Mar 16 10:38:04 obbserver sudo[26368]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/useradd -g vip tee
+Mar 16 10:38:04 obbserver sudo[26368]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 16 10:38:04 obbserver useradd[26370]: new user: name=tee, UID=1001, GID=1700, home=/home/tee, shell=/bin/bash, from=/dev/pts/0
+Mar 16 10:38:04 obbserver sudo[26368]: pam_unix(sudo:session): session closed for user root
+Mar 17 09:49:42 obbserver gdm-password][62233]: pam_unix(gdm-password:auth): conversation failed
+Mar 17 09:49:42 obbserver gdm-password][62233]: pam_unix(gdm-password:auth): auth could not identify password for [obb]
+Mar 17 09:49:42 obbserver gdm-password][62233]: gkr-pam: no password is available for user
+Mar 17 09:49:45 obbserver systemd[62250]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 17 09:49:45 obbserver gdm-launch-environment][62244]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 17 09:49:48 obbserver polkitd[922]: Registered Authentication Agent for unix-session:c2 (system bus name :1.493 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 17 09:59:42 obbserver gdm-password][62908]: gkr-pam: unlocked login keyring
+Mar 17 09:59:53 obbserver gdm-launch-environment][62244]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 17 09:59:53 obbserver polkitd[922]: Unregistered Authentication Agent for unix-session:c2 (system bus name :1.493, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 17 10:01:09 obbserver polkitd[922]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 17 10:01:09 obbserver polkitd[922]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 17 10:01:09 obbserver polkitd[922]: Finished loading, compiling and executing 13 rules
+Mar 17 10:01:09 obbserver polkitd[922]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 17 10:01:10 obbserver sshd[1157]: Server listening on 0.0.0.0 port 22.
+Mar 17 10:01:10 obbserver sshd[1157]: Server listening on :: port 22.
+Mar 17 10:01:11 obbserver systemd[1214]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 17 10:01:11 obbserver gdm-launch-environment][1186]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 17 10:01:13 obbserver polkitd[922]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 17 10:01:26 obbserver gdm-password][2075]: gkr-pam: unable to locate daemon control file
+Mar 17 10:01:26 obbserver gdm-password][2075]: gkr-pam: stashed password to try later in open session
+Mar 17 10:01:26 obbserver systemd[2088]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 17 10:01:26 obbserver gdm-password][2075]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 17 10:01:26 obbserver gdm-password][2075]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 17 10:01:28 obbserver polkitd[922]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 17 10:01:31 obbserver gdm-launch-environment][1186]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 17 10:01:31 obbserver polkitd[922]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 17 10:02:51 obbserver sudo[3535]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/userdel tee
+Mar 17 10:02:51 obbserver sudo[3535]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 17 10:02:51 obbserver userdel[3544]: delete user 'tee'
+Mar 17 10:02:51 obbserver sudo[3535]: pam_unix(sudo:session): session closed for user root
+Mar 17 10:03:19 obbserver sudo[3574]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupdel vip
+Mar 17 10:03:19 obbserver sudo[3574]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 17 10:03:19 obbserver groupdel[3576]: group 'vip' removed from /etc/group
+Mar 17 10:03:19 obbserver groupdel[3576]: group 'vip' removed from /etc/gshadow
+Mar 17 10:03:19 obbserver groupdel[3576]: group 'vip' removed
+Mar 17 10:03:19 obbserver sudo[3574]: pam_unix(sudo:session): session closed for user root
+Mar 17 10:29:53 obbserver useradd[4636]: failed adding user '', exit code: 10
+Mar 17 10:30:18 obbserver sudo[4642]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/useradd -u 2001 -g obb -G sales,resc -m -c 'Jane Doe' jane
+Mar 17 10:30:18 obbserver sudo[4642]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 17 10:30:18 obbserver sudo[4642]: pam_unix(sudo:session): session closed for user root
+Mar 17 10:36:09 obbserver sudo[4811]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd -g 30001 sales
+Mar 17 10:36:09 obbserver sudo[4811]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 17 10:36:09 obbserver groupadd[4821]: group added to /etc/group: name=sales, GID=30001
+Mar 17 10:36:09 obbserver groupadd[4821]: group added to /etc/gshadow: name=sales
+Mar 17 10:36:09 obbserver groupadd[4821]: new group: name=sales, GID=30001
+Mar 17 10:36:09 obbserver sudo[4811]: pam_unix(sudo:session): session closed for user root
+Mar 17 10:36:17 obbserver sudo[4833]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd -g 30002 res
+Mar 17 10:36:17 obbserver sudo[4833]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 17 10:36:17 obbserver groupadd[4835]: group added to /etc/group: name=res, GID=30002
+Mar 17 10:36:17 obbserver groupadd[4835]: group added to /etc/gshadow: name=res
+Mar 17 10:36:17 obbserver groupadd[4835]: new group: name=res, GID=30002
+Mar 17 10:36:17 obbserver sudo[4833]: pam_unix(sudo:session): session closed for user root
+Mar 17 10:37:52 obbserver sudo[4874]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/useradd -u 30001 -g obb -G sales,res -m -c 'Jane Doe' jane
+Mar 17 10:37:52 obbserver sudo[4874]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 17 10:37:52 obbserver useradd[4876]: new user: name=jane, UID=30001, GID=1000, home=/home/jane, shell=/bin/bash, from=/dev/pts/0
+Mar 17 10:37:52 obbserver useradd[4876]: add 'jane' to group 'sales'
+Mar 17 10:37:52 obbserver useradd[4876]: add 'jane' to group 'res'
+Mar 17 10:37:52 obbserver useradd[4876]: add 'jane' to shadow group 'sales'
+Mar 17 10:37:52 obbserver useradd[4876]: add 'jane' to shadow group 'res'
+Mar 17 10:37:52 obbserver sudo[4874]: pam_unix(sudo:session): session closed for user root
+Mar 17 10:49:24 obbserver su[5119]: pam_unix(su-l:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 17 10:50:00 obbserver passwd[5168]: pam_unix(passwd:chauthtok): password changed for jane
+Mar 17 10:50:00 obbserver passwd[5168]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Mar 17 11:03:16 obbserver sudo[5608]:    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/chage -d 0 -I 30 jane
+Mar 17 11:03:16 obbserver sudo[5608]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=0)
+Mar 17 11:03:16 obbserver chage[5610]: changed password expiry for jane
+Mar 17 11:03:17 obbserver sudo[5608]: pam_unix(sudo:session): session closed for user root
+Mar 17 11:04:12 obbserver su[5622]: pam_unix(su:session): session opened for user jane(uid=30001) by obb(uid=0)
+Mar 17 11:04:27 obbserver su[5648]: pam_unix(su-l:session): session opened for user root(uid=0) by obb(uid=30001)
+Mar 17 11:19:58 obbserver gdm-password][5916]: gkr-pam: unlocked login keyring
+Mar 17 11:27:58 obbserver su[6632]: pam_unix(su:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 17 11:28:25 obbserver su[6702]: pam_unix(su:account): expired password for user jane (root enforced)
+Mar 17 11:29:03 obbserver su[6813]: pam_unix(su:account): expired password for user jane (root enforced)
+Mar 17 11:29:16 obbserver unix_chkpwd[6873]: password check failed for user (jane)
+Mar 17 11:29:16 obbserver su[6813]: pam_unix(su:chauthtok): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=jane
+Mar 17 11:29:34 obbserver su[6903]: pam_unix(su:account): expired password for user jane (root enforced)
+Mar 17 11:29:57 obbserver su[6903]: pam_unix(su:chauthtok): password changed for jane
+Mar 17 11:29:57 obbserver su[6903]: pam_unix(su:session): session opened for user jane(uid=30001) by obb(uid=1000)
+Mar 17 11:30:14 obbserver su[7058]: pam_unix(su:session): session opened for user obb(uid=1000) by obb(uid=30001)
+Mar 17 11:32:29 obbserver su[7408]: pam_unix(su:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 17 11:46:03 obbserver groupadd[7822]: group added to /etc/group: name=research, GID=984
+Mar 17 11:46:03 obbserver groupadd[7822]: group added to /etc/gshadow: name=research
+Mar 17 11:46:03 obbserver groupadd[7822]: new group: name=research, GID=984
+Mar 17 11:46:39 obbserver groupdel[7849]: group 'research' removed from /etc/group
+Mar 17 11:46:39 obbserver groupdel[7849]: group 'research' removed from /etc/gshadow
+Mar 17 11:46:39 obbserver groupdel[7849]: group 'research' removed
+Mar 17 11:47:29 obbserver groupdel[7870]: group 'sales' removed from /etc/group
+Mar 17 11:47:29 obbserver groupdel[7870]: group 'sales' removed from /etc/gshadow
+Mar 17 11:47:29 obbserver groupdel[7870]: group 'sales' removed
+Mar 17 11:47:33 obbserver groupdel[7876]: group 'res' removed from /etc/group
+Mar 17 11:47:33 obbserver groupdel[7876]: group 'res' removed from /etc/gshadow
+Mar 17 11:47:33 obbserver groupdel[7876]: group 'res' removed
+Mar 17 11:47:44 obbserver groupadd[7883]: group added to /etc/group: name=sales, GID=984
+Mar 17 11:47:44 obbserver groupadd[7883]: group added to /etc/gshadow: name=sales
+Mar 17 11:47:44 obbserver groupadd[7883]: new group: name=sales, GID=984
+Mar 17 11:47:49 obbserver groupadd[7890]: group added to /etc/group: name=res, GID=983
+Mar 17 11:47:49 obbserver groupadd[7890]: group added to /etc/gshadow: name=res
+Mar 17 11:47:50 obbserver groupadd[7890]: new group: name=res, GID=983
+Mar 17 11:48:41 obbserver groupmod[7903]: group changed in /etc/group (group sales/984, new name: sale, new gid: 25000)
+Mar 17 11:48:41 obbserver groupmod[7903]: group changed in /etc/gshadow (group sales, new name: sale)
+Mar 17 11:48:41 obbserver groupmod[7903]: group changed in /etc/passwd (group sales/984, new name: sale, new gid: 25000)
+Mar 17 11:49:07 obbserver groupdel[7913]: group 'sale' removed from /etc/group
+Mar 17 11:49:07 obbserver groupdel[7913]: group 'sale' removed from /etc/gshadow
+Mar 17 11:49:07 obbserver groupdel[7913]: group 'sale' removed
+Mar 17 11:49:11 obbserver groupdel[7922]: group 'res' removed from /etc/group
+Mar 17 11:49:11 obbserver groupdel[7922]: group 'res' removed from /etc/gshadow
+Mar 17 11:49:11 obbserver groupdel[7922]: group 'res' removed
+Mar 17 11:56:44 obbserver groupadd[8131]: group added to /etc/group: name=sales, GID=2500
+Mar 17 11:56:44 obbserver groupadd[8131]: group added to /etc/gshadow: name=sales
+Mar 17 11:56:44 obbserver groupadd[8131]: new group: name=sales, GID=2500
+Mar 17 11:57:44 obbserver groupadd[8157]: group added to /etc/group: name=res, GID=2501
+Mar 17 11:57:44 obbserver groupadd[8157]: group added to /etc/gshadow: name=res
+Mar 17 11:57:44 obbserver groupadd[8157]: new group: name=res, GID=2501
+Mar 17 12:03:09 obbserver useradd[8307]: new user: name=steve, UID=1005, GID=1000, home=/home/steve, shell=/bin/bash, from=/dev/pts/0
+Mar 17 12:03:09 obbserver useradd[8307]: add 'steve' to group 'sales'
+Mar 17 12:03:09 obbserver useradd[8307]: add 'steve' to group 'res'
+Mar 17 12:03:09 obbserver useradd[8307]: add 'steve' to shadow group 'sales'
+Mar 17 12:03:09 obbserver useradd[8307]: add 'steve' to shadow group 'res'
+Mar 17 12:11:09 obbserver useradd[8458]: new group: name=student, GID=30002
+Mar 17 12:11:09 obbserver useradd[8458]: new user: name=student, UID=30002, GID=30002, home=/home/student, shell=/bin/bash, from=/dev/pts/0
+Mar 17 12:11:09 obbserver useradd[8458]: add 'student' to group 'res'
+Mar 17 12:11:09 obbserver useradd[8458]: add 'student' to shadow group 'res'
+Mar 17 12:12:45 obbserver usermod[8505]: add 'student' to group 'sales'
+Mar 17 12:12:45 obbserver usermod[8505]: add 'student' to shadow group 'sales'
+Mar 17 12:15:49 obbserver userdel[8575]: delete user 'student'
+Mar 17 12:15:49 obbserver userdel[8575]: delete 'student' from group 'sales'
+Mar 17 12:15:49 obbserver userdel[8575]: delete 'student' from group 'res'
+Mar 17 12:15:49 obbserver userdel[8575]: removed group 'student' owned by 'student'
+Mar 17 12:15:49 obbserver userdel[8575]: removed shadow group 'student' owned by 'student'
+Mar 17 12:15:49 obbserver userdel[8575]: delete 'student' from shadow group 'sales'
+Mar 17 12:15:49 obbserver userdel[8575]: delete 'student' from shadow group 'res'
+Mar 17 12:16:22 obbserver groupdel[8602]: group 'sales' removed from /etc/group
+Mar 17 12:16:22 obbserver groupdel[8602]: group 'sales' removed from /etc/gshadow
+Mar 17 12:16:22 obbserver groupdel[8602]: group 'sales' removed
+Mar 17 12:16:30 obbserver groupdel[8612]: group 'res' removed from /etc/group
+Mar 17 12:16:30 obbserver groupdel[8612]: group 'res' removed from /etc/gshadow
+Mar 17 12:16:30 obbserver groupdel[8612]: group 'res' removed
+Mar 17 12:17:01 obbserver userdel[8622]: delete user 'jane'
+Mar 17 12:17:37 obbserver su[5622]: pam_unix(su:session): session closed for user jane
+Mar 17 12:17:40 obbserver su[7408]: pam_unix(su:session): session closed for user root
+Mar 17 12:17:40 obbserver su[5119]: pam_unix(su-l:session): session closed for user root
+Mar 17 12:17:42 obbserver su[7058]: pam_succeed_if(su:session): error retrieving information about user 30001
+Mar 17 12:17:42 obbserver su[7058]: pam_unix(su:session): session closed for user obb
+Mar 17 12:18:05 obbserver su[6903]: pam_unix(su:session): session closed for user jane
+Mar 17 12:18:07 obbserver su[6632]: pam_unix(su:session): session closed for user obb
+Mar 17 12:18:07 obbserver su[5648]: pam_succeed_if(su-l:session): error retrieving information about user 30001
+Mar 17 12:18:07 obbserver su[5648]: pam_unix(su-l:session): session closed for user root
+Mar 17 12:18:36 obbserver su[8782]: pam_unix(su-l:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 17 12:19:03 obbserver userdel[8834]: delete user 'steve'
+Mar 18 10:46:46 obbserver polkitd[921]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 18 10:46:46 obbserver polkitd[921]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 18 10:46:46 obbserver polkitd[921]: Finished loading, compiling and executing 13 rules
+Mar 18 10:46:46 obbserver polkitd[921]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 18 10:46:48 obbserver sshd[1160]: Server listening on 0.0.0.0 port 22.
+Mar 18 10:46:48 obbserver sshd[1160]: Server listening on :: port 22.
+Mar 18 10:46:48 obbserver systemd[1222]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 18 10:46:48 obbserver gdm-launch-environment][1188]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 18 10:46:50 obbserver polkitd[921]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 18 10:54:00 obbserver gdm-password][2102]: gkr-pam: unable to locate daemon control file
+Mar 18 10:54:00 obbserver gdm-password][2102]: gkr-pam: stashed password to try later in open session
+Mar 18 10:54:00 obbserver systemd[2123]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 18 10:54:00 obbserver gdm-password][2102]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 18 10:54:00 obbserver gdm-password][2102]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 18 10:54:01 obbserver polkitd[921]: Registered Authentication Agent for unix-session:2 (system bus name :1.71 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 18 10:54:05 obbserver gdm-launch-environment][1188]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 18 10:54:05 obbserver polkitd[921]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 18 11:23:10 obbserver sudo[4411]:     obb : TTY=pts/0 ; PWD=/home/obb/Desktop ; USER=root ; COMMAND=/sbin/groupadd -g 2550 devs
+Mar 18 11:23:10 obbserver sudo[4411]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 11:23:10 obbserver groupadd[4420]: group added to /etc/group: name=devs, GID=2550
+Mar 18 11:23:10 obbserver groupadd[4420]: group added to /etc/gshadow: name=devs
+Mar 18 11:23:10 obbserver groupadd[4420]: new group: name=devs, GID=2550
+Mar 18 11:23:10 obbserver sudo[4411]: pam_unix(sudo:session): session closed for user root
+Mar 18 11:27:42 obbserver polkitd[922]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 18 11:27:42 obbserver polkitd[922]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 18 11:27:42 obbserver polkitd[922]: Finished loading, compiling and executing 13 rules
+Mar 18 11:27:42 obbserver polkitd[922]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 18 11:27:46 obbserver sshd[1161]: Server listening on 0.0.0.0 port 22.
+Mar 18 11:27:46 obbserver sshd[1161]: Server listening on :: port 22.
+Mar 18 11:27:47 obbserver systemd[1246]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 18 11:27:47 obbserver gdm-launch-environment][1199]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 18 11:27:53 obbserver polkitd[922]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 18 11:28:07 obbserver gdm-password][2089]: gkr-pam: unable to locate daemon control file
+Mar 18 11:28:07 obbserver gdm-password][2089]: gkr-pam: stashed password to try later in open session
+Mar 18 11:28:07 obbserver systemd[2102]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 18 11:28:08 obbserver gdm-password][2089]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 18 11:28:08 obbserver gdm-password][2089]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 18 11:28:10 obbserver polkitd[922]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 18 11:28:15 obbserver gdm-launch-environment][1199]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 18 11:28:15 obbserver polkitd[922]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 18 11:48:42 obbserver newgrp[4345]: Failed to crypt password with previous salt of group 'devs'
+Mar 18 11:49:01 obbserver newgrp[4354]: Failed to crypt password with previous salt of group 'devs'
+Mar 18 11:49:12 obbserver newgrp[4362]: Failed to crypt password with previous salt of group 'devs'
+Mar 18 11:49:30 obbserver newgrp[4369]: Failed to crypt password with previous salt of group 'devs'
+Mar 18 11:49:44 obbserver unix_chkpwd[4383]: password check failed for user (obb)
+Mar 18 11:49:44 obbserver sudo[4376]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Mar 18 11:49:54 obbserver sudo[4376]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/newgrp devs -c 'touch simplee'
+Mar 18 11:49:54 obbserver sudo[4376]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 11:50:36 obbserver su[4429]: pam_unix(su:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 18 11:52:21 obbserver newgrp[4535]: Failed to crypt password with previous salt of group 'devs'
+Mar 18 11:53:10 obbserver sudo[4552]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp devs simple
+Mar 18 11:53:10 obbserver sudo[4552]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 11:53:10 obbserver sudo[4552]: pam_unix(sudo:session): session closed for user root
+Mar 18 11:53:30 obbserver sudo[4560]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp obb simple
+Mar 18 11:53:30 obbserver sudo[4560]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 11:53:30 obbserver sudo[4560]: pam_unix(sudo:session): session closed for user root
+Mar 18 12:02:15 obbserver sudo[4788]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp -R devs sample/
+Mar 18 12:02:15 obbserver sudo[4788]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 12:02:15 obbserver sudo[4788]: pam_unix(sudo:session): session closed for user root
+Mar 18 12:02:53 obbserver sudo[4815]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp -R obb sample/
+Mar 18 12:02:53 obbserver sudo[4815]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 12:02:53 obbserver sudo[4815]: pam_unix(sudo:session): session closed for user root
+Mar 18 12:05:19 obbserver sudo[4855]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/useradd -u 2200 jane
+Mar 18 12:05:19 obbserver sudo[4855]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 12:05:19 obbserver useradd[4857]: new group: name=jane, GID=2200
+Mar 18 12:05:19 obbserver useradd[4857]: new user: name=jane, UID=2200, GID=2200, home=/home/jane, shell=/bin/bash, from=/dev/pts/0
+Mar 18 12:05:19 obbserver sudo[4855]: pam_unix(sudo:session): session closed for user root
+Mar 18 12:06:44 obbserver sudo[4879]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown -R jane:devs sample
+Mar 18 12:06:44 obbserver sudo[4879]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 12:06:44 obbserver sudo[4879]: pam_unix(sudo:session): session closed for user root
+Mar 18 12:07:06 obbserver sudo[4886]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown -R obb:obb sample
+Mar 18 12:07:06 obbserver sudo[4886]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 12:07:06 obbserver sudo[4886]: pam_unix(sudo:session): session closed for user root
+Mar 18 12:07:16 obbserver sudo[4892]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown -R jane:devs sample
+Mar 18 12:07:16 obbserver sudo[4892]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 12:07:16 obbserver sudo[4892]: pam_unix(sudo:session): session closed for user root
+Mar 18 12:07:32 obbserver sudo[4897]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown -R obb:obb sample
+Mar 18 12:07:32 obbserver sudo[4897]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 12:07:32 obbserver sudo[4897]: pam_unix(sudo:session): session closed for user root
+Mar 18 12:11:03 obbserver sudo[4945]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown jane.dev /sample/sam /sample/samm
+Mar 18 12:11:03 obbserver sudo[4945]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 12:11:03 obbserver sudo[4945]: pam_unix(sudo:session): session closed for user root
+Mar 18 12:11:16 obbserver sudo[4952]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown jane.devs /sample/sam /sample/samm
+Mar 18 12:11:16 obbserver sudo[4952]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 12:11:16 obbserver sudo[4952]: pam_unix(sudo:session): session closed for user root
+Mar 18 12:12:28 obbserver sudo[4964]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown jane.devs sample/sam sample/samm
+Mar 18 12:12:28 obbserver sudo[4964]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 12:12:28 obbserver sudo[4964]: pam_unix(sudo:session): session closed for user root
+Mar 18 12:13:16 obbserver sudo[4988]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown obb.obb sample/sam sample/samm
+Mar 18 12:13:16 obbserver sudo[4988]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Mar 18 12:13:16 obbserver sudo[4988]: pam_unix(sudo:session): session closed for user root
+Mar 19 11:38:45 obbserver polkitd[924]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 19 11:38:45 obbserver polkitd[924]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 19 11:38:45 obbserver polkitd[924]: Finished loading, compiling and executing 13 rules
+Mar 19 11:38:45 obbserver polkitd[924]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 19 11:38:47 obbserver sshd[1177]: Server listening on 0.0.0.0 port 22.
+Mar 19 11:38:47 obbserver sshd[1177]: Server listening on :: port 22.
+Mar 19 11:38:47 obbserver systemd[1253]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 19 11:38:47 obbserver gdm-launch-environment][1210]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 19 11:38:49 obbserver polkitd[924]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 19 11:39:04 obbserver unix_chkpwd[2106]: password check failed for user (obb)
+Mar 19 11:39:04 obbserver gdm-password][2096]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Mar 19 11:39:04 obbserver gdm-password][2096]: gkr-pam: unable to locate daemon control file
+Mar 19 11:39:04 obbserver gdm-password][2096]: gkr-pam: stashed password to try later in open session
+Mar 19 11:39:13 obbserver unix_chkpwd[2112]: password check failed for user (obb)
+Mar 19 11:39:13 obbserver gdm-password][2107]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Mar 19 11:39:13 obbserver gdm-password][2107]: gkr-pam: unable to locate daemon control file
+Mar 19 11:39:13 obbserver gdm-password][2107]: gkr-pam: stashed password to try later in open session
+Mar 19 11:55:13 obbserver gdm-password][2163]: gkr-pam: unable to locate daemon control file
+Mar 19 11:55:13 obbserver gdm-password][2163]: gkr-pam: stashed password to try later in open session
+Mar 19 11:55:13 obbserver systemd[2175]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 19 11:55:13 obbserver gdm-password][2163]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Mar 19 11:55:13 obbserver gdm-password][2163]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 19 11:55:15 obbserver polkitd[924]: Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 19 11:55:19 obbserver gdm-launch-environment][1210]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 19 11:55:19 obbserver polkitd[924]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)

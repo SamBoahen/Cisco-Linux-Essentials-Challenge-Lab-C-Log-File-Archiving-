@@ -1,0 +1,915 @@
+Apr  5 16:22:50 obbserver polkitd[921]: Loading rules from directory /etc/polkit-1/rules.d
+Apr  5 16:22:50 obbserver polkitd[921]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr  5 16:22:50 obbserver polkitd[921]: Finished loading, compiling and executing 13 rules
+Apr  5 16:22:50 obbserver polkitd[921]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Apr  5 16:22:51 obbserver sshd[1182]: Server listening on 0.0.0.0 port 22.
+Apr  5 16:22:51 obbserver sshd[1182]: Server listening on :: port 22.
+Apr  5 16:22:52 obbserver systemd[1277]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Apr  5 16:22:52 obbserver gdm-launch-environment][1226]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Apr  5 16:22:54 obbserver polkitd[921]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  5 16:23:18 obbserver gdm-password][3437]: gkr-pam: unable to locate daemon control file
+Apr  5 16:23:18 obbserver gdm-password][3437]: gkr-pam: stashed password to try later in open session
+Apr  5 16:23:18 obbserver systemd[5613]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Apr  5 16:23:18 obbserver gdm-password][3437]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Apr  5 16:23:19 obbserver gdm-password][3437]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Apr  5 16:23:21 obbserver polkitd[921]: Registered Authentication Agent for unix-session:2 (system bus name :1.68 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  5 16:23:24 obbserver gdm-launch-environment][1226]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr  5 16:23:24 obbserver polkitd[921]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr  5 16:33:07 obbserver sudo[7331]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod u+x /etc/hosts
+Apr  5 16:33:07 obbserver sudo[7331]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 16:33:07 obbserver sudo[7331]: pam_unix(sudo:session): session closed for user root
+Apr  5 16:34:41 obbserver sudo[7416]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod u-x /etc/hosts
+Apr  5 16:34:41 obbserver sudo[7416]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 16:34:41 obbserver sudo[7416]: pam_unix(sudo:session): session closed for user root
+Apr  5 16:34:53 obbserver sudo[7429]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod 766 /etc/hosts
+Apr  5 16:34:53 obbserver sudo[7429]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 16:34:54 obbserver sudo[7429]: pam_unix(sudo:session): session closed for user root
+Apr  5 16:47:21 obbserver sudo[7756]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/hostnamectl set-hostname practiceserver --pretty
+Apr  5 16:47:21 obbserver sudo[7756]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 16:47:21 obbserver sudo[7756]: pam_unix(sudo:session): session closed for user root
+Apr  5 16:48:39 obbserver sudo[7824]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/hostnamectl set-hostname 'Practcing Server' --pretty
+Apr  5 16:48:39 obbserver sudo[7824]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 16:48:39 obbserver sudo[7824]: pam_unix(sudo:session): session closed for user root
+Apr  5 16:54:55 obbserver unix_chkpwd[8004]: password check failed for user (obb)
+Apr  5 16:54:55 obbserver sudo[7997]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Apr  5 16:55:05 obbserver unix_chkpwd[8010]: password check failed for user (obb)
+Apr  5 16:55:15 obbserver sudo[7997]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/hostnamectl set-hostname obibinii --static
+Apr  5 16:55:15 obbserver sudo[7997]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 16:55:15 obbserver sudo[7997]: pam_unix(sudo:session): session closed for user root
+Apr  5 16:55:19 obbserver sudo[8032]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/hostnamectl set-hostname obibinii --static
+Apr  5 16:55:19 obbserver sudo[8032]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 16:55:19 obbserver sudo[8032]: pam_unix(sudo:session): session closed for user root
+Apr  5 16:56:04 obibinii polkitd[919]: Loading rules from directory /etc/polkit-1/rules.d
+Apr  5 16:56:04 obibinii polkitd[919]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr  5 16:56:05 obibinii polkitd[919]: Finished loading, compiling and executing 13 rules
+Apr  5 16:56:05 obibinii polkitd[919]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Apr  5 16:56:06 obibinii sshd[1105]: Server listening on 0.0.0.0 port 22.
+Apr  5 16:56:06 obibinii sshd[1105]: Server listening on :: port 22.
+Apr  5 16:56:06 obibinii systemd[1176]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Apr  5 16:56:06 obibinii gdm-launch-environment][1140]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Apr  5 16:56:08 obibinii polkitd[919]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  5 16:56:22 obibinii unix_chkpwd[2041]: password check failed for user (obb)
+Apr  5 16:56:22 obibinii gdm-password][2031]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Apr  5 16:56:22 obibinii gdm-password][2031]: gkr-pam: unable to locate daemon control file
+Apr  5 16:56:22 obibinii gdm-password][2031]: gkr-pam: stashed password to try later in open session
+Apr  5 16:56:30 obibinii unix_chkpwd[2046]: password check failed for user (obb)
+Apr  5 16:56:30 obibinii gdm-password][2042]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Apr  5 16:56:30 obibinii gdm-password][2042]: gkr-pam: unable to locate daemon control file
+Apr  5 16:56:30 obibinii gdm-password][2042]: gkr-pam: stashed password to try later in open session
+Apr  5 16:56:42 obibinii unix_chkpwd[2058]: password check failed for user (obb)
+Apr  5 16:56:42 obibinii gdm-password][2048]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Apr  5 16:56:42 obibinii gdm-password][2048]: gkr-pam: unable to locate daemon control file
+Apr  5 16:56:42 obibinii gdm-password][2048]: gkr-pam: stashed password to try later in open session
+Apr  5 16:57:03 obibinii gdm-password][2060]: gkr-pam: unable to locate daemon control file
+Apr  5 16:57:03 obibinii gdm-password][2060]: gkr-pam: stashed password to try later in open session
+Apr  5 16:57:03 obibinii systemd[2071]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Apr  5 16:57:03 obibinii gdm-password][2060]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Apr  5 16:57:03 obibinii gdm-password][2060]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Apr  5 16:57:05 obibinii polkitd[919]: Registered Authentication Agent for unix-session:2 (system bus name :1.73 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  5 16:57:08 obibinii gdm-launch-environment][1140]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr  5 16:57:08 obibinii polkitd[919]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr  5 16:58:39 obibinii unix_chkpwd[3654]: password check failed for user (obb)
+Apr  5 16:58:39 obibinii sudo[3646]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Apr  5 16:58:53 obibinii unix_chkpwd[3656]: password check failed for user (obb)
+Apr  5 16:59:02 obibinii sudo[3646]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/dnf install proton-vpn
+Apr  5 16:59:02 obibinii sudo[3646]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 16:59:06 obibinii sudo[3646]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:25:21 obibinii sudo[9655]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/groupadd -g 5000 Sales
+Apr  5 18:25:21 obibinii sudo[9655]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:25:21 obibinii groupadd[9665]: group added to /etc/group: name=Sales, GID=5000
+Apr  5 18:25:21 obibinii groupadd[9665]: group added to /etc/gshadow: name=Sales
+Apr  5 18:25:21 obibinii groupadd[9665]: new group: name=Sales, GID=5000
+Apr  5 18:25:21 obibinii sudo[9655]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:25:21 obibinii sudo[9671]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/groupadd -g 5001 Engineering
+Apr  5 18:25:21 obibinii sudo[9671]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:25:21 obibinii groupadd[9673]: group added to /etc/group: name=Engineering, GID=5001
+Apr  5 18:25:21 obibinii groupadd[9673]: group added to /etc/gshadow: name=Engineering
+Apr  5 18:25:21 obibinii groupadd[9673]: new group: name=Engineering, GID=5001
+Apr  5 18:25:21 obibinii sudo[9671]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:25:21 obibinii sudo[9679]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/groupadd -g 5002 IS
+Apr  5 18:25:21 obibinii sudo[9679]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:25:21 obibinii groupadd[9681]: group added to /etc/group: name=IS, GID=5002
+Apr  5 18:25:21 obibinii groupadd[9681]: group added to /etc/gshadow: name=IS
+Apr  5 18:25:21 obibinii groupadd[9681]: new group: name=IS, GID=5002
+Apr  5 18:25:21 obibinii sudo[9679]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:28:37 obibinii sudo[9928]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/useradd -g Engineering -G Engineering -s /bin/bash -m -c 'Engineering Group Admin' Engineer_Admin
+Apr  5 18:28:37 obibinii sudo[9928]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:28:37 obibinii useradd[9930]: new user: name=Engineer_Admin, UID=1001, GID=5001, home=/home/Engineer_Admin, shell=/bin/bash, from=/dev/pts/0
+Apr  5 18:28:37 obibinii useradd[9930]: add 'Engineer_Admin' to group 'Engineering'
+Apr  5 18:28:37 obibinii useradd[9930]: add 'Engineer_Admin' to shadow group 'Engineering'
+Apr  5 18:28:37 obibinii sudo[9928]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:32:22 obibinii sudo[10225]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/useradd -g Sales -G Sales -s /bin/bash -m -c 'Sales Group Admin' Sales _Admin
+Apr  5 18:32:22 obibinii sudo[10225]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:32:22 obibinii sudo[10225]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:32:32 obibinii sudo[10240]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/useradd -g Sales -G Sales -s /bin/bash -m -c 'Sales Group Admin' Sales_Admin
+Apr  5 18:32:32 obibinii sudo[10240]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:32:32 obibinii useradd[10242]: new user: name=Sales_Admin, UID=1002, GID=5000, home=/home/Sales_Admin, shell=/bin/bash, from=/dev/pts/0
+Apr  5 18:32:32 obibinii useradd[10242]: add 'Sales_Admin' to group 'Sales'
+Apr  5 18:32:32 obibinii useradd[10242]: add 'Sales_Admin' to shadow group 'Sales'
+Apr  5 18:32:32 obibinii sudo[10240]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:33:46 obibinii sudo[10331]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/useradd -g IS -G IS -s /bin/bash -m -c 'IS Group Admin' IS_Admin
+Apr  5 18:33:46 obibinii sudo[10331]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:33:46 obibinii useradd[10333]: new user: name=IS_Admin, UID=1003, GID=5002, home=/home/IS_Admin, shell=/bin/bash, from=/dev/pts/0
+Apr  5 18:33:46 obibinii useradd[10333]: add 'IS_Admin' to group 'IS'
+Apr  5 18:33:46 obibinii useradd[10333]: add 'IS_Admin' to shadow group 'IS'
+Apr  5 18:33:47 obibinii sudo[10331]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:36:47 obibinii sudo[10569]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/useradd -g Sales -G Sales -s /bin/bash -m Sales_1
+Apr  5 18:36:47 obibinii sudo[10569]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:36:47 obibinii useradd[10571]: new user: name=Sales_1, UID=1004, GID=5000, home=/home/Sales_1, shell=/bin/bash, from=/dev/pts/0
+Apr  5 18:36:47 obibinii useradd[10571]: add 'Sales_1' to group 'Sales'
+Apr  5 18:36:47 obibinii useradd[10571]: add 'Sales_1' to shadow group 'Sales'
+Apr  5 18:36:47 obibinii sudo[10569]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:36:53 obibinii sudo[10592]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/useradd -g Sales -G Sales -s /bin/bash -m Sales_2
+Apr  5 18:36:53 obibinii sudo[10592]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:36:53 obibinii useradd[10594]: new user: name=Sales_2, UID=1005, GID=5000, home=/home/Sales_2, shell=/bin/bash, from=/dev/pts/0
+Apr  5 18:36:53 obibinii useradd[10594]: add 'Sales_2' to group 'Sales'
+Apr  5 18:36:53 obibinii useradd[10594]: add 'Sales_2' to shadow group 'Sales'
+Apr  5 18:36:53 obibinii sudo[10592]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:37:49 obibinii sudo[10674]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/useradd -g Engineering -G Engineering -s /bin/bash -m Engineer_1
+Apr  5 18:37:49 obibinii sudo[10674]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:37:49 obibinii useradd[10676]: new user: name=Engineer_1, UID=1006, GID=5001, home=/home/Engineer_1, shell=/bin/bash, from=/dev/pts/0
+Apr  5 18:37:49 obibinii useradd[10676]: add 'Engineer_1' to group 'Engineering'
+Apr  5 18:37:49 obibinii useradd[10676]: add 'Engineer_1' to shadow group 'Engineering'
+Apr  5 18:37:49 obibinii sudo[10674]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:37:53 obibinii sudo[10699]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/useradd -g Engineering -G Engineering -s /bin/bash -m Engineer_2
+Apr  5 18:37:53 obibinii sudo[10699]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:37:53 obibinii useradd[10701]: new user: name=Engineer_2, UID=1007, GID=5001, home=/home/Engineer_2, shell=/bin/bash, from=/dev/pts/0
+Apr  5 18:37:53 obibinii useradd[10701]: add 'Engineer_2' to group 'Engineering'
+Apr  5 18:37:53 obibinii useradd[10701]: add 'Engineer_2' to shadow group 'Engineering'
+Apr  5 18:37:53 obibinii sudo[10699]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:38:31 obibinii sudo[10755]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/useradd -g IS -G IS -s /bin/bash -m IS_1
+Apr  5 18:38:31 obibinii sudo[10755]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:38:31 obibinii useradd[10757]: new user: name=IS_1, UID=1008, GID=5002, home=/home/IS_1, shell=/bin/bash, from=/dev/pts/0
+Apr  5 18:38:31 obibinii useradd[10757]: add 'IS_1' to group 'IS'
+Apr  5 18:38:31 obibinii useradd[10757]: add 'IS_1' to shadow group 'IS'
+Apr  5 18:38:31 obibinii sudo[10755]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:38:35 obibinii sudo[10781]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/sbin/useradd -g IS -G IS -s /bin/bash -m IS_2
+Apr  5 18:38:35 obibinii sudo[10781]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:38:35 obibinii useradd[10783]: new user: name=IS_2, UID=1009, GID=5002, home=/home/IS_2, shell=/bin/bash, from=/dev/pts/0
+Apr  5 18:38:35 obibinii useradd[10783]: add 'IS_2' to group 'IS'
+Apr  5 18:38:35 obibinii useradd[10783]: add 'IS_2' to shadow group 'IS'
+Apr  5 18:38:35 obibinii sudo[10781]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:41:41 obibinii sudo[11096]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown Engineer_Admin:Engineering Engineering
+Apr  5 18:41:41 obibinii sudo[11096]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:41:41 obibinii sudo[11096]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:42:25 obibinii sudo[11169]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown Sales_Admin:Sales Sales
+Apr  5 18:42:25 obibinii sudo[11169]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:42:25 obibinii sudo[11169]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:43:19 obibinii sudo[11251]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown IS_Admin:Is IS
+Apr  5 18:43:19 obibinii sudo[11251]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:43:19 obibinii sudo[11251]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:43:27 obibinii sudo[11264]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown IS_Admin:IS IS
+Apr  5 18:43:27 obibinii sudo[11264]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:43:27 obibinii sudo[11264]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:56:26 obibinii unix_chkpwd[12149]: password check failed for user (obb)
+Apr  5 18:56:26 obibinii sudo[12135]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Apr  5 18:56:35 obibinii unix_chkpwd[12166]: password check failed for user (obb)
+Apr  5 18:56:45 obibinii unix_chkpwd[12175]: password check failed for user (obb)
+Apr  5 18:56:47 obibinii sudo[12135]:     obb : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod u+t Engineering
+Apr  5 18:57:04 obibinii sudo[12193]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod u+t Engineering
+Apr  5 18:57:04 obibinii sudo[12193]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:57:04 obibinii sudo[12193]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:57:13 obibinii sudo[12224]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod u+t Sales
+Apr  5 18:57:13 obibinii sudo[12224]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:57:13 obibinii sudo[12224]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:57:19 obibinii sudo[12237]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod u+t IS
+Apr  5 18:57:19 obibinii sudo[12237]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:57:19 obibinii sudo[12237]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:57:44 obibinii sudo[12275]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod -ru+t Engineering
+Apr  5 18:57:44 obibinii sudo[12275]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:57:44 obibinii sudo[12275]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:57:47 obibinii sudo[12288]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod -r u+t Engineering
+Apr  5 18:57:47 obibinii sudo[12288]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:57:47 obibinii sudo[12288]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:58:02 obibinii sudo[12324]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod -R u+t Engineering
+Apr  5 18:58:02 obibinii sudo[12324]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:58:02 obibinii sudo[12324]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:58:14 obibinii sudo[12353]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod -R u+t Sales
+Apr  5 18:58:14 obibinii sudo[12353]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:58:14 obibinii sudo[12353]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:58:21 obibinii sudo[12369]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod -R u+t IS
+Apr  5 18:58:21 obibinii sudo[12369]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:58:21 obibinii sudo[12369]: pam_unix(sudo:session): session closed for user root
+Apr  5 18:59:57 obibinii sudo[12505]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod g+w Sales
+Apr  5 18:59:57 obibinii sudo[12505]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 18:59:57 obibinii sudo[12505]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:00:04 obibinii sudo[12518]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod g+w Engineering
+Apr  5 19:00:04 obibinii sudo[12518]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:00:04 obibinii sudo[12518]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:00:13 obibinii sudo[12534]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod g+w IS
+Apr  5 19:00:13 obibinii sudo[12534]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:00:13 obibinii sudo[12534]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:02:09 obibinii sudo[12669]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod u+r,g+r Engineering
+Apr  5 19:02:09 obibinii sudo[12669]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:02:09 obibinii sudo[12669]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:02:32 obibinii sudo[12700]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod o+r Engineering
+Apr  5 19:02:32 obibinii sudo[12700]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:02:32 obibinii sudo[12700]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:04:42 obibinii sudo[12872]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 770 Engineering
+Apr  5 19:04:42 obibinii sudo[12872]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:04:42 obibinii sudo[12872]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:04:54 obibinii sudo[12910]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 770 Sales
+Apr  5 19:04:54 obibinii sudo[12910]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:04:54 obibinii sudo[12910]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:05:01 obibinii sudo[12924]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 770 IS
+Apr  5 19:05:01 obibinii sudo[12924]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:05:01 obibinii sudo[12924]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:06:13 obibinii sudo[13002]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod -R g+rwx Engineering
+Apr  5 19:06:13 obibinii sudo[13002]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:06:13 obibinii sudo[13002]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:06:20 obibinii sudo[13026]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod -R g+rwx Sales
+Apr  5 19:06:20 obibinii sudo[13026]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:06:20 obibinii sudo[13026]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:06:25 obibinii sudo[13041]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod -R g+rwx IS
+Apr  5 19:06:25 obibinii sudo[13041]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:06:25 obibinii sudo[13041]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:08:27 obibinii sudo[13224]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod -R g+s IS
+Apr  5 19:08:27 obibinii sudo[13224]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:08:27 obibinii sudo[13224]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:08:33 obibinii sudo[13244]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod -R g+s Sales
+Apr  5 19:08:33 obibinii sudo[13244]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:08:33 obibinii sudo[13244]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:08:39 obibinii sudo[13258]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod -R g+s Engineering
+Apr  5 19:08:39 obibinii sudo[13258]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:08:39 obibinii sudo[13258]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:11:57 obibinii sudo[13456]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/touch IS/doc_IS
+Apr  5 19:11:57 obibinii sudo[13456]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:11:57 obibinii sudo[13456]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:11:57 obibinii sudo[13459]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/touch Engineering/doc_Eng
+Apr  5 19:11:57 obibinii sudo[13459]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:11:57 obibinii sudo[13459]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:11:57 obibinii sudo[13462]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/touch Sales/doc_Sales
+Apr  5 19:11:57 obibinii sudo[13462]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:11:57 obibinii sudo[13462]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:12:26 obibinii sudo[13524]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lR
+Apr  5 19:12:26 obibinii sudo[13524]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:12:26 obibinii sudo[13524]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:16:13 obibinii sudo[13781]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 777 Sales/doc_Sales
+Apr  5 19:16:13 obibinii sudo[13781]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:16:13 obibinii sudo[13781]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:16:25 obibinii sudo[13823]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 777 Sales/doc_Sales
+Apr  5 19:16:25 obibinii sudo[13823]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:16:25 obibinii sudo[13823]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:16:31 obibinii sudo[13837]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lR
+Apr  5 19:16:31 obibinii sudo[13837]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:16:31 obibinii sudo[13837]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:17:13 obibinii sudo[13899]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 777 Sales/doc_Sales
+Apr  5 19:17:13 obibinii sudo[13899]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:17:13 obibinii sudo[13899]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:17:19 obibinii sudo[13919]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lR
+Apr  5 19:17:19 obibinii sudo[13919]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:17:19 obibinii sudo[13919]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:18:30 obibinii sudo[14007]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 740 Sales/doc_Sales
+Apr  5 19:18:30 obibinii sudo[14007]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:18:30 obibinii sudo[14007]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:18:36 obibinii sudo[14023]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lR
+Apr  5 19:18:36 obibinii sudo[14023]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:18:36 obibinii sudo[14023]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:19:12 obibinii sudo[14070]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/cat Sales/doc_Sales
+Apr  5 19:19:12 obibinii sudo[14070]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:19:12 obibinii sudo[14070]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:19:18 obibinii sudo[14085]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/cat Sales/doc_Sales
+Apr  5 19:19:18 obibinii sudo[14085]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:19:18 obibinii sudo[14085]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:19:56 obibinii sudo[14152]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/cd Sales
+Apr  5 19:19:56 obibinii sudo[14152]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:19:56 obibinii sudo[14152]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:20:40 obibinii sudo[14228]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/cd Sales
+Apr  5 19:20:40 obibinii sudo[14228]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:20:40 obibinii sudo[14228]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:20:54 obibinii sudo[14258]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/cd Sales
+Apr  5 19:20:54 obibinii sudo[14258]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:20:54 obibinii sudo[14258]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:21:57 obibinii sudo[14323]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 777 Sales
+Apr  5 19:21:57 obibinii sudo[14323]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:21:57 obibinii sudo[14323]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:22:25 obibinii sudo[14366]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/cd Sales
+Apr  5 19:22:25 obibinii sudo[14366]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:22:25 obibinii sudo[14366]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:23:35 obibinii sudo[14463]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 777 IS
+Apr  5 19:23:35 obibinii sudo[14463]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:23:35 obibinii sudo[14463]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:23:40 obibinii sudo[14479]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 777 Engineering
+Apr  5 19:23:40 obibinii sudo[14479]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:23:40 obibinii sudo[14479]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:24:39 obibinii sudo[14558]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/cat Sales/doc_Sales
+Apr  5 19:24:39 obibinii sudo[14558]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:24:39 obibinii sudo[14558]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:28:10 obibinii unix_chkpwd[14904]: password check failed for user (Sales_Admin)
+Apr  5 19:28:10 obibinii su[14888]: pam_unix(su-l:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=Sales_Admin
+Apr  5 19:30:03 obibinii sudo[15055]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 770 Sales
+Apr  5 19:30:03 obibinii sudo[15055]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:30:03 obibinii sudo[15055]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:30:11 obibinii sudo[15084]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 770 IS
+Apr  5 19:30:11 obibinii sudo[15084]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:30:11 obibinii sudo[15084]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:30:17 obibinii sudo[15097]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod 770 Engineering
+Apr  5 19:30:17 obibinii sudo[15097]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:30:17 obibinii sudo[15097]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:33:54 obibinii su[15367]: pam_unix(su-l:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:39:50 obibinii su[15367]: pam_unix(su-l:session): session closed for user root
+Apr  5 19:41:10 obibinii unix_chkpwd[16018]: password check failed for user (obb)
+Apr  5 19:41:10 obibinii sudo[15992]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Apr  5 19:41:19 obibinii unix_chkpwd[16034]: password check failed for user (obb)
+Apr  5 19:41:27 obibinii unix_chkpwd[16051]: password check failed for user (obb)
+Apr  5 19:41:30 obibinii sudo[15992]:     obb : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod u+t Sales IS Engineering
+Apr  5 19:41:39 obibinii sudo[16062]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod u+t Sales IS Engineering
+Apr  5 19:41:39 obibinii sudo[16062]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:41:39 obibinii sudo[16062]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:42:33 obibinii sudo[16173]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lr Sales IS
+Apr  5 19:42:33 obibinii sudo[16173]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:42:33 obibinii sudo[16173]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:42:41 obibinii sudo[16187]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lr Sales IS Engineering
+Apr  5 19:42:41 obibinii sudo[16187]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:42:41 obibinii sudo[16187]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:43:04 obibinii sudo[16244]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/cat IS/doc_IS
+Apr  5 19:43:04 obibinii sudo[16244]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:43:04 obibinii sudo[16244]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:44:26 obibinii sudo[16335]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown Sales_admin IS/doc_Is
+Apr  5 19:44:26 obibinii sudo[16335]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:44:26 obibinii sudo[16335]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:44:37 obibinii sudo[16349]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown Sales_Admin IS/doc_Is
+Apr  5 19:44:37 obibinii sudo[16349]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:44:37 obibinii sudo[16349]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:44:45 obibinii sudo[16374]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown Sales_Admin IS/doc_IS
+Apr  5 19:44:45 obibinii sudo[16374]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:44:45 obibinii sudo[16374]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:44:52 obibinii sudo[16393]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lr Sales IS Engineering
+Apr  5 19:44:52 obibinii sudo[16393]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:44:52 obibinii sudo[16393]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:46:11 obibinii sudo[16500]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/rm doc_IS doc_Sales
+Apr  5 19:46:11 obibinii sudo[16500]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:46:11 obibinii sudo[16500]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:46:24 obibinii sudo[16531]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lr Sales IS Engineering
+Apr  5 19:46:24 obibinii sudo[16531]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:46:24 obibinii sudo[16531]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:47:38 obibinii sudo[16584]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown IS_Admin:IS IS/doc_IS
+Apr  5 19:47:38 obibinii sudo[16584]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:47:38 obibinii sudo[16584]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:47:42 obibinii sudo[16605]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lr Sales IS Engineering
+Apr  5 19:47:42 obibinii sudo[16605]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:47:42 obibinii sudo[16605]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:49:15 obibinii sudo[16722]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown Sales_Admin:Sales Sales/doc_Sales
+Apr  5 19:49:15 obibinii sudo[16722]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:49:15 obibinii sudo[16722]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:49:20 obibinii sudo[16735]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lr Sales IS Engineering
+Apr  5 19:49:20 obibinii sudo[16735]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:49:20 obibinii sudo[16735]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:50:18 obibinii sudo[16809]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown Engineering_Admin:Sales Engineering/doc_Eng
+Apr  5 19:50:18 obibinii sudo[16809]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:50:18 obibinii sudo[16809]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:51:07 obibinii sudo[16863]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown Engineering_Admin:Engineering Engineering/doc_Eng
+Apr  5 19:51:07 obibinii sudo[16863]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:51:07 obibinii sudo[16863]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:51:56 obibinii sudo[16927]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown Engineering_Admin:Engineering Engineering/doc_Eng
+Apr  5 19:51:56 obibinii sudo[16927]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:51:56 obibinii sudo[16927]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:52:31 obibinii sudo[16976]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown Engineer_Admin:Engineering Engineering/doc_Eng
+Apr  5 19:52:31 obibinii sudo[16976]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:52:31 obibinii sudo[16976]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:52:37 obibinii sudo[16989]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown Engineer_Admin:Engineering Engineering/doc_Eng
+Apr  5 19:52:37 obibinii sudo[16989]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:52:37 obibinii sudo[16989]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:52:45 obibinii sudo[17004]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown Engineer_Admin:Engineering Engineering/doc_Eng
+Apr  5 19:52:45 obibinii sudo[17004]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:52:45 obibinii sudo[17004]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:52:50 obibinii sudo[17019]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lr Sales IS Engineering
+Apr  5 19:52:50 obibinii sudo[17019]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:52:50 obibinii sudo[17019]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:54:31 obibinii sudo[17134]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod u-x Sales/doc_Sales
+Apr  5 19:54:31 obibinii sudo[17134]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:54:31 obibinii sudo[17134]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:54:34 obibinii sudo[17144]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lr Sales IS Engineering
+Apr  5 19:54:34 obibinii sudo[17144]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:54:34 obibinii sudo[17144]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:54:59 obibinii sudo[17200]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod u+r Sales/doc_Sales
+Apr  5 19:54:59 obibinii sudo[17200]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:54:59 obibinii sudo[17200]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:55:00 obibinii sudo[17208]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lr Sales IS Engineering
+Apr  5 19:55:00 obibinii sudo[17208]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:55:00 obibinii sudo[17208]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:56:04 obibinii sudo[17283]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod o-r IS/doc_Is
+Apr  5 19:56:04 obibinii sudo[17283]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:56:04 obibinii sudo[17283]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:56:09 obibinii sudo[17310]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod o-r IS/doc_IS
+Apr  5 19:56:09 obibinii sudo[17310]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:56:09 obibinii sudo[17310]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:56:31 obibinii sudo[17342]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chmod o-r Engineering/doc_Eng
+Apr  5 19:56:31 obibinii sudo[17342]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:56:31 obibinii sudo[17342]: pam_unix(sudo:session): session closed for user root
+Apr  5 19:56:36 obibinii sudo[17356]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lr Sales IS Engineering
+Apr  5 19:56:36 obibinii sudo[17356]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 19:56:36 obibinii sudo[17356]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:06:20 obibinii unix_chkpwd[18703]: password check failed for user (obb)
+Apr  5 20:06:20 obibinii sudo[18682]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Apr  5 20:06:29 obibinii unix_chkpwd[18722]: password check failed for user (obb)
+Apr  5 20:06:39 obibinii sudo[18682]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/rm -r doc_Engineering
+Apr  5 20:06:39 obibinii sudo[18682]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:06:39 obibinii sudo[18682]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:07:00 obibinii sudo[18794]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lR
+Apr  5 20:07:00 obibinii sudo[18794]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:07:00 obibinii sudo[18794]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:08:03 obibinii sudo[18904]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lRd Sales IS Engineering
+Apr  5 20:08:03 obibinii sudo[18904]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:08:03 obibinii sudo[18904]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:17:05 obibinii unix_chkpwd[19504]: password check failed for user (obb)
+Apr  5 20:17:05 obibinii sudo[19495]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Apr  5 20:17:13 obibinii unix_chkpwd[19507]: password check failed for user (obb)
+Apr  5 20:17:21 obibinii unix_chkpwd[19510]: password check failed for user (obb)
+Apr  5 20:17:22 obibinii sudo[19495]:     obb : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/cd IS
+Apr  5 20:17:34 obibinii unix_chkpwd[19535]: password check failed for user (obb)
+Apr  5 20:17:34 obibinii sudo[19519]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Apr  5 20:17:44 obibinii sudo[19519]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/cd IS
+Apr  5 20:17:44 obibinii sudo[19519]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:17:44 obibinii sudo[19519]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:17:47 obibinii sudo[19547]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/cd IS
+Apr  5 20:17:47 obibinii sudo[19547]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:17:47 obibinii sudo[19547]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:17:56 obibinii sudo[19554]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/cd IS
+Apr  5 20:17:56 obibinii sudo[19554]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:17:56 obibinii sudo[19554]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:18:01 obibinii sudo[19564]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/ls -lR
+Apr  5 20:18:01 obibinii sudo[19564]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:18:01 obibinii sudo[19564]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:32:13 obibinii sudo[19982]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/notes ; USER=root ; COMMAND=/bin/git commit -m 'Finished my first Linux test in Cisco Linux Essentials'
+Apr  5 20:32:13 obibinii sudo[19982]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:32:13 obibinii sudo[19982]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:32:36 obibinii sudo[20011]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/notes ; USER=root ; COMMAND=/bin/git commit -m 'Finished my first Linux test in Cisco Linux Essentials'
+Apr  5 20:32:36 obibinii sudo[20011]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:32:36 obibinii sudo[20011]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:33:05 obibinii sudo[20047]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/notes ; USER=root ; COMMAND=/bin/git push
+Apr  5 20:33:05 obibinii sudo[20047]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:33:05 obibinii sudo[20047]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:35:45 obibinii sudo[20144]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/notes ; USER=root ; COMMAND=/bin/git push -u origin main
+Apr  5 20:35:45 obibinii sudo[20144]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:35:45 obibinii sudo[20144]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:36:16 obibinii sudo[20166]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/notes ; USER=root ; COMMAND=/bin/git push -u origin main --force
+Apr  5 20:36:16 obibinii sudo[20166]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:36:16 obibinii sudo[20166]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:38:14 obibinii sudo[20256]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/notes ; USER=root ; COMMAND=/bin/git commit -m 'Finished my first Linux test in Cisco Linux Essentials'
+Apr  5 20:38:14 obibinii sudo[20256]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:38:14 obibinii sudo[20256]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:38:48 obibinii sudo[20290]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/notes ; USER=root ; COMMAND=/bin/git add .
+Apr  5 20:38:48 obibinii sudo[20290]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:38:48 obibinii sudo[20290]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:39:03 obibinii sudo[20305]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/notes ; USER=root ; COMMAND=/bin/git status
+Apr  5 20:39:03 obibinii sudo[20305]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:39:03 obibinii sudo[20305]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:39:30 obibinii sudo[20316]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/notes ; USER=root ; COMMAND=/bin/git add .
+Apr  5 20:39:30 obibinii sudo[20316]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:39:30 obibinii sudo[20316]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:39:34 obibinii sudo[20325]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/notes ; USER=root ; COMMAND=/bin/git status
+Apr  5 20:39:34 obibinii sudo[20325]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:39:34 obibinii sudo[20325]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:41:59 obibinii sudo[20705]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/notes ; USER=root ; COMMAND=/bin/git add .
+Apr  5 20:41:59 obibinii sudo[20705]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:41:59 obibinii sudo[20705]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:42:13 obibinii sudo[20716]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management/notes ; USER=root ; COMMAND=/bin/git commit -m 'Complete Lab A - User Management with directories, users, groups and permissions'
+Apr  5 20:42:13 obibinii sudo[20716]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:42:13 obibinii sudo[20716]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:44:44 obibinii sudo[20818]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/git add .
+Apr  5 20:44:44 obibinii sudo[20818]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:44:44 obibinii sudo[20818]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:44:56 obibinii sudo[20830]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/git commit -m 'Complete Lab A - User Management with directories, users, groups and permissions'
+Apr  5 20:44:56 obibinii sudo[20830]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:44:56 obibinii sudo[20830]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:45:59 obibinii sudo[20885]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown -R obb:obb Engineering Sales IS
+Apr  5 20:45:59 obibinii sudo[20885]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:45:59 obibinii sudo[20885]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:47:34 obibinii sudo[20942]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown -R obb:obb .git
+Apr  5 20:47:34 obibinii sudo[20942]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:47:34 obibinii sudo[20942]: pam_unix(sudo:session): session closed for user root
+Apr  5 20:47:40 obibinii sudo[20951]:     obb : TTY=pts/0 ; PWD=/Cisco-Challenge-Labs/LabA-User-Management ; USER=root ; COMMAND=/bin/chown -R obb:obb Engineering Sales IS
+Apr  5 20:47:40 obibinii sudo[20951]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 20:47:40 obibinii sudo[20951]: pam_unix(sudo:session): session closed for user root
+Apr  5 21:18:44 obibinii unix_chkpwd[22487]: password check failed for user (obb)
+Apr  5 21:18:44 obibinii gdm-password][22479]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Apr  5 21:18:44 obibinii gdm-password][22479]: gkr-pam: the password for the login keyring was invalid.
+Apr  5 21:23:45 obibinii gdm-password][22548]: gkr-pam: unlocked login keyring
+Apr  5 22:13:24 obibinii unix_chkpwd[24720]: password check failed for user (obb)
+Apr  5 22:13:24 obibinii gdm-password][24712]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Apr  5 22:13:24 obibinii gdm-password][24712]: gkr-pam: the password for the login keyring was invalid.
+Apr  5 22:13:35 obibinii gdm-password][24722]: gkr-pam: unlocked login keyring
+Apr  5 23:10:39 obibinii gdm-password][26545]: gkr-pam: unlocked login keyring
+Apr  5 23:30:52 obibinii sudo[27401]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/mv -r Cisco-Challenge-Labs /home/obb/Desktop
+Apr  5 23:30:52 obibinii sudo[27401]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 23:30:52 obibinii sudo[27401]: pam_unix(sudo:session): session closed for user root
+Apr  5 23:34:22 obibinii sudo[27636]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/mv Cisco-Challenge-Labs/ /home/obb/Desktop
+Apr  5 23:34:22 obibinii sudo[27636]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 23:34:22 obibinii sudo[27636]: pam_unix(sudo:session): session closed for user root
+Apr  5 23:36:24 obibinii sudo[27726]:     obb : TTY=pts/0 ; PWD=/home/obb/Desktop ; USER=root ; COMMAND=/bin/rm -r Cisco-Challenge-Labs
+Apr  5 23:36:24 obibinii sudo[27726]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 23:36:24 obibinii sudo[27726]: pam_unix(sudo:session): session closed for user root
+Apr  5 23:39:14 obibinii sudo[27887]:     obb : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/mv -v Cisco-Challenge-Labs /home/obb/Desktop
+Apr  5 23:39:14 obibinii sudo[27887]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  5 23:39:14 obibinii sudo[27887]: pam_unix(sudo:session): session closed for user root
+Apr  6 20:49:56 obibinii polkitd[923]: Loading rules from directory /etc/polkit-1/rules.d
+Apr  6 20:49:56 obibinii polkitd[923]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr  6 20:49:56 obibinii polkitd[923]: Finished loading, compiling and executing 13 rules
+Apr  6 20:49:56 obibinii polkitd[923]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Apr  6 20:49:57 obibinii sshd[1160]: Server listening on 0.0.0.0 port 22.
+Apr  6 20:49:57 obibinii sshd[1160]: Server listening on :: port 22.
+Apr  6 20:49:57 obibinii systemd[1220]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Apr  6 20:49:58 obibinii gdm-launch-environment][1194]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Apr  6 20:50:00 obibinii polkitd[923]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 19:58:48 obibinii polkitd[921]: Loading rules from directory /etc/polkit-1/rules.d
+Apr  8 19:58:48 obibinii polkitd[921]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr  8 19:58:48 obibinii polkitd[921]: Finished loading, compiling and executing 13 rules
+Apr  8 19:58:48 obibinii polkitd[921]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Apr  8 19:58:49 obibinii sshd[1110]: Server listening on 0.0.0.0 port 22.
+Apr  8 19:58:49 obibinii sshd[1110]: Server listening on :: port 22.
+Apr  8 19:58:49 obibinii systemd[1154]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Apr  8 19:58:49 obibinii gdm-launch-environment][1138]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Apr  8 19:58:51 obibinii polkitd[921]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 19:59:31 obibinii unix_chkpwd[2057]: password check failed for user (obb)
+Apr  8 19:59:31 obibinii gdm-password][2042]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Apr  8 19:59:31 obibinii gdm-password][2042]: gkr-pam: unable to locate daemon control file
+Apr  8 19:59:31 obibinii gdm-password][2042]: gkr-pam: stashed password to try later in open session
+Apr  8 19:59:45 obibinii gdm-password][2058]: gkr-pam: unable to locate daemon control file
+Apr  8 19:59:45 obibinii gdm-password][2058]: gkr-pam: stashed password to try later in open session
+Apr  8 19:59:45 obibinii systemd[2065]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Apr  8 19:59:45 obibinii gdm-password][2058]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Apr  8 19:59:45 obibinii gdm-password][2058]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Apr  8 19:59:46 obibinii polkitd[921]: Registered Authentication Agent for unix-session:2 (system bus name :1.71 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 19:59:50 obibinii gdm-launch-environment][1138]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr  8 19:59:50 obibinii polkitd[921]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr  8 20:01:53 obibinii login[2872]: pam_unix(login:auth): check pass; user unknown
+Apr  8 20:01:53 obibinii login[2872]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty3 ruser= rhost=
+Apr  8 20:01:55 obibinii login[2872]: FAILED LOGIN 1 FROM tty3 FOR tty, Authentication failure
+Apr  8 20:02:20 obibinii unix_chkpwd[2948]: password check failed for user (obb)
+Apr  8 20:02:20 obibinii login[2946]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty3 ruser= rhost=  user=obb
+Apr  8 20:02:21 obibinii login[2946]: FAILED LOGIN 1 FROM tty3 FOR obb, Authentication failure
+Apr  8 20:02:43 obibinii unix_chkpwd[2957]: password check failed for user (root)
+Apr  8 20:02:43 obibinii login[2946]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty3 ruser= rhost=  user=root
+Apr  8 20:02:45 obibinii login[2946]: FAILED LOGIN 2 FROM tty3 FOR root, Authentication failure
+Apr  8 20:08:38 obibinii sudo[3085]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/useradd -u 1200 -d /home/lisa -m -s /bin/bash lisa
+Apr  8 20:08:38 obibinii sudo[3085]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:08:38 obibinii useradd[3094]: new group: name=lisa, GID=1200
+Apr  8 20:08:38 obibinii useradd[3094]: new user: name=lisa, UID=1200, GID=1200, home=/home/lisa, shell=/bin/bash, from=/dev/pts/1
+Apr  8 20:08:38 obibinii sudo[3085]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:09:08 obibinii sudo[3108]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd design
+Apr  8 20:09:08 obibinii sudo[3108]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:09:08 obibinii groupadd[3110]: group added to /etc/group: name=design, GID=5003
+Apr  8 20:09:08 obibinii groupadd[3110]: group added to /etc/gshadow: name=design
+Apr  8 20:09:08 obibinii groupadd[3110]: new group: name=design, GID=5003
+Apr  8 20:09:08 obibinii sudo[3108]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:09:31 obibinii sudo[3120]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/usermod -g desgin lisa
+Apr  8 20:09:31 obibinii sudo[3120]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:09:31 obibinii sudo[3120]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:09:39 obibinii sudo[3127]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/usermod -g design lisa
+Apr  8 20:09:39 obibinii sudo[3127]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:09:39 obibinii usermod[3129]: change user 'lisa' GID from '1200' to '5003'
+Apr  8 20:09:39 obibinii sudo[3127]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:11:04 obibinii sudo[3141]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/usermod -L lisa
+Apr  8 20:11:04 obibinii sudo[3141]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:11:04 obibinii sudo[3141]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:11:30 obibinii sudo[3154]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chage -M 60 lisa
+Apr  8 20:11:30 obibinii sudo[3154]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:11:30 obibinii chage[3156]: changed password expiry for lisa
+Apr  8 20:11:30 obibinii sudo[3154]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:11:53 obibinii sudo[3165]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir /projects/app.log
+Apr  8 20:11:53 obibinii sudo[3165]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:11:53 obibinii sudo[3165]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:12:20 obibinii sudo[3174]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir /projects/app.log
+Apr  8 20:12:20 obibinii sudo[3174]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:12:20 obibinii sudo[3174]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:12:39 obibinii sudo[3188]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir /projects/app.log
+Apr  8 20:12:39 obibinii sudo[3188]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:12:39 obibinii sudo[3188]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:13:40 obibinii sudo[3198]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /projects/app.log
+Apr  8 20:13:40 obibinii sudo[3198]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:13:40 obibinii sudo[3198]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:15:34 obibinii sudo[3221]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown lisa:design /projects/app.log
+Apr  8 20:15:34 obibinii sudo[3221]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:15:34 obibinii sudo[3221]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:16:20 obibinii sudo[3229]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod 640 /projects/app.log
+Apr  8 20:16:20 obibinii sudo[3229]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:16:20 obibinii sudo[3229]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:16:52 obibinii sudo[3238]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /projects/dev
+Apr  8 20:16:52 obibinii sudo[3238]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:16:52 obibinii sudo[3238]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:17:16 obibinii sudo[3245]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod 750 /projects/dev
+Apr  8 20:17:16 obibinii sudo[3245]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:17:16 obibinii sudo[3245]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:17:51 obibinii sudo[3253]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chgrp g+w /projects/app.log
+Apr  8 20:17:51 obibinii sudo[3253]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:17:51 obibinii sudo[3253]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:18:05 obibinii sudo[3260]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod g+w /projects/app.log
+Apr  8 20:18:05 obibinii sudo[3260]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:18:05 obibinii sudo[3260]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:18:33 obibinii sudo[3270]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod u-x /projects/script.sh
+Apr  8 20:18:33 obibinii sudo[3270]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:18:33 obibinii sudo[3270]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:19:25 obibinii sudo[3278]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/touch /project/script.sh
+Apr  8 20:19:25 obibinii sudo[3278]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:19:25 obibinii sudo[3278]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:19:38 obibinii sudo[3285]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/touch /projects/script.sh
+Apr  8 20:19:38 obibinii sudo[3285]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:19:38 obibinii sudo[3285]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:19:46 obibinii sudo[3292]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod u-x /projects/script.sh
+Apr  8 20:19:46 obibinii sudo[3292]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:19:46 obibinii sudo[3292]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:20:29 obibinii sudo[3301]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown -R lisa:design /projects
+Apr  8 20:20:29 obibinii sudo[3301]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:20:29 obibinii sudo[3301]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:22:03 obibinii sudo[3314]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find /projects -type f -name *app.log
+Apr  8 20:22:03 obibinii sudo[3314]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:22:03 obibinii sudo[3314]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:22:48 obibinii sudo[3322]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find /home -type d
+Apr  8 20:22:48 obibinii sudo[3322]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:22:48 obibinii sudo[3322]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:23:45 obibinii sudo[3329]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find /var -type f -size +200M
+Apr  8 20:23:45 obibinii sudo[3329]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:23:45 obibinii sudo[3329]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:24:19 obibinii sudo[3337]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find /projects -type f -user lisa
+Apr  8 20:24:19 obibinii sudo[3337]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:24:19 obibinii sudo[3337]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:25:06 obibinii sudo[3345]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find / -type -f -mtime +1
+Apr  8 20:25:06 obibinii sudo[3345]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:25:06 obibinii sudo[3345]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:25:15 obibinii sudo[3352]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find / -type f -mtime +1
+Apr  8 20:25:15 obibinii sudo[3352]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:25:25 obibinii sudo[3352]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:26:34 obibinii sudo[3363]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/grep 127.0.0.1 /etc/hosts
+Apr  8 20:26:34 obibinii sudo[3363]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:26:34 obibinii sudo[3363]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:27:17 obibinii sudo[3371]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/grep -w timeout /var/log
+Apr  8 20:27:17 obibinii sudo[3371]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:27:17 obibinii sudo[3371]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:27:31 obibinii sudo[3378]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/grep -wr timeout /var/log
+Apr  8 20:27:31 obibinii sudo[3378]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:27:32 obibinii sudo[3378]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:28:37 obibinii sudo[3386]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/grep -w nologin /etc/passwd
+Apr  8 20:28:37 obibinii sudo[3386]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:28:37 obibinii sudo[3386]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:30:06 obibinii sudo[3409]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/grep -w *bash /etc/passwd
+Apr  8 20:30:06 obibinii sudo[3409]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:30:06 obibinii sudo[3409]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:30:47 obibinii sudo[3419]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/grep -w crom /etc/passwd
+Apr  8 20:30:47 obibinii sudo[3419]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:30:47 obibinii sudo[3419]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:30:55 obibinii sudo[3427]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/grep -w cron /etc/passwd
+Apr  8 20:30:55 obibinii sudo[3427]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:30:55 obibinii sudo[3427]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:32:11 obibinii sudo[3448]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir /root/test
+Apr  8 20:32:11 obibinii sudo[3448]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:32:11 obibinii sudo[3448]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:32:39 obibinii sudo[3456]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/cat /missingfile
+Apr  8 20:32:39 obibinii sudo[3456]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:32:39 obibinii sudo[3456]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:33:05 obibinii sudo[3464]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/ls /root
+Apr  8 20:33:05 obibinii sudo[3464]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:33:05 obibinii sudo[3464]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:34:59 obibinii sudo[3482]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /backup
+Apr  8 20:34:59 obibinii sudo[3482]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:34:59 obibinii sudo[3482]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:35:10 obibinii sudo[3495]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/tar -xvf /tmp/projects.tar -C /backup
+Apr  8 20:35:10 obibinii sudo[3495]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:35:10 obibinii sudo[3495]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:36:00 obibinii sudo[3504]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/tar -cvzf /tmp/home.tar.gz /home
+Apr  8 20:36:00 obibinii sudo[3504]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:36:52 obibinii sudo[3504]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:37:09 obibinii sudo[3513]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /restore
+Apr  8 20:37:09 obibinii sudo[3513]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:37:09 obibinii sudo[3513]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:37:33 obibinii sudo[3521]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/tar -xvf /tmp/home.tar.gz -C /restore
+Apr  8 20:37:33 obibinii sudo[3521]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:38:01 obibinii sudo[3521]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:38:44 obibinii sudo[3537]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /vault
+Apr  8 20:38:44 obibinii sudo[3537]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:38:44 obibinii sudo[3537]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:38:59 obibinii sudo[3545]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod 700 /vault
+Apr  8 20:38:59 obibinii sudo[3545]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:38:59 obibinii sudo[3545]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:40:09 obibinii sudo[3553]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find /etc -type f *.conf
+Apr  8 20:40:09 obibinii sudo[3553]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:40:09 obibinii sudo[3553]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:41:23 obibinii sudo[3562]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find /etc -type f -name *.conf
+Apr  8 20:41:23 obibinii sudo[3562]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:41:23 obibinii sudo[3562]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:42:21 obibinii sudo[3574]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/grep -wr error /var/log/syslog
+Apr  8 20:42:21 obibinii sudo[3574]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:42:21 obibinii sudo[3574]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:42:41 obibinii sudo[3582]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/grep -r error /var/log/syslog
+Apr  8 20:42:41 obibinii sudo[3582]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:42:41 obibinii sudo[3582]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:53:48 obibinii gdm-password][3674]: gkr-pam: unlocked login keyring
+Apr  8 20:56:02 obibinii sudo[3768]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -r restore
+Apr  8 20:56:02 obibinii sudo[3768]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:56:02 obibinii sudo[3768]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:56:12 obibinii sudo[3782]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -r projects
+Apr  8 20:56:12 obibinii sudo[3782]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:56:12 obibinii sudo[3782]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:56:39 obibinii unix_chkpwd[3794]: password check failed for user (root)
+Apr  8 20:56:39 obibinii su[3789]: pam_unix(su-l:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/1 ruser=obb rhost=  user=root
+Apr  8 20:57:03 obibinii sudo[3800]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod 777 /projects
+Apr  8 20:57:03 obibinii sudo[3800]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:57:03 obibinii sudo[3800]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:57:08 obibinii sudo[3807]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod 777 /restore
+Apr  8 20:57:08 obibinii sudo[3807]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:57:08 obibinii sudo[3807]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:57:12 obibinii sudo[3814]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -r restore
+Apr  8 20:57:12 obibinii sudo[3814]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:57:12 obibinii sudo[3814]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:57:15 obibinii sudo[3821]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -r /restore
+Apr  8 20:57:15 obibinii sudo[3821]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:57:16 obibinii sudo[3821]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:57:31 obibinii sudo[3828]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -r /projects
+Apr  8 20:57:31 obibinii sudo[3828]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:57:31 obibinii sudo[3828]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:57:55 obibinii sudo[3840]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod 777 /vault
+Apr  8 20:57:55 obibinii sudo[3840]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:57:55 obibinii sudo[3840]: pam_unix(sudo:session): session closed for user root
+Apr  8 20:58:05 obibinii sudo[3847]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -r /vault
+Apr  8 20:58:05 obibinii sudo[3847]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 20:58:05 obibinii sudo[3847]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:36:52 obibinii polkitd[921]: Loading rules from directory /etc/polkit-1/rules.d
+Apr  8 22:36:52 obibinii polkitd[921]: Loading rules from directory /usr/share/polkit-1/rules.d
+Apr  8 22:36:52 obibinii polkitd[921]: Finished loading, compiling and executing 13 rules
+Apr  8 22:36:52 obibinii polkitd[921]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Apr  8 22:36:54 obibinii sshd[1164]: Server listening on 0.0.0.0 port 22.
+Apr  8 22:36:54 obibinii sshd[1164]: Server listening on :: port 22.
+Apr  8 22:36:54 obibinii systemd[1231]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Apr  8 22:36:55 obibinii gdm-launch-environment][1205]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Apr  8 22:36:59 obibinii polkitd[921]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 22:38:37 obibinii gdm-password][2101]: gkr-pam: unable to locate daemon control file
+Apr  8 22:38:37 obibinii gdm-password][2101]: gkr-pam: stashed password to try later in open session
+Apr  8 22:38:37 obibinii systemd[2118]: pam_unix(systemd-user:session): session opened for user obb(uid=1000) by obb(uid=0)
+Apr  8 22:38:37 obibinii gdm-password][2101]: pam_unix(gdm-password:session): session opened for user obb(uid=1000) by obb(uid=0)
+Apr  8 22:38:37 obibinii gdm-password][2101]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Apr  8 22:38:39 obibinii polkitd[921]: Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Apr  8 22:38:44 obibinii gdm-launch-environment][1205]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Apr  8 22:38:44 obibinii polkitd[921]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Apr  8 22:40:04 obibinii sudo[2855]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/useradd -u 13000 -d /home/kevin -s /bin/bash kevin
+Apr  8 22:40:04 obibinii sudo[2855]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:40:04 obibinii useradd[2864]: new group: name=kevin, GID=13000
+Apr  8 22:40:04 obibinii useradd[2864]: new user: name=kevin, UID=13000, GID=13000, home=/home/kevin, shell=/bin/bash, from=/dev/pts/0
+Apr  8 22:40:04 obibinii sudo[2855]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:40:26 obibinii sudo[2875]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/groupadd qa
+Apr  8 22:40:26 obibinii sudo[2875]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:40:26 obibinii groupadd[2877]: group added to /etc/group: name=qa, GID=13001
+Apr  8 22:40:26 obibinii groupadd[2877]: group added to /etc/gshadow: name=qa
+Apr  8 22:40:26 obibinii groupadd[2877]: new group: name=qa, GID=13001
+Apr  8 22:40:26 obibinii sudo[2875]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:40:49 obibinii sudo[2889]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/usermod -G qa kevin
+Apr  8 22:40:49 obibinii sudo[2889]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:40:49 obibinii usermod[2891]: add 'kevin' to group 'qa'
+Apr  8 22:40:49 obibinii usermod[2891]: add 'kevin' to shadow group 'qa'
+Apr  8 22:40:49 obibinii sudo[2889]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:41:15 obibinii sudo[2903]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chage -d 0
+Apr  8 22:41:15 obibinii sudo[2903]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:41:15 obibinii sudo[2903]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:41:24 obibinii sudo[2910]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chage -d 0 kevin
+Apr  8 22:41:24 obibinii sudo[2910]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:41:24 obibinii chage[2912]: changed password expiry for kevin
+Apr  8 22:41:24 obibinii sudo[2910]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:41:38 obibinii sudo[2920]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/sbin/usermod -L kevin
+Apr  8 22:41:38 obibinii sudo[2920]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:41:38 obibinii sudo[2920]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:42:13 obibinii sudo[2940]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /logs/app.log
+Apr  8 22:42:13 obibinii sudo[2940]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:42:13 obibinii sudo[2940]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:42:55 obibinii sudo[3201]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown kevin:qa /logs/app.log
+Apr  8 22:42:55 obibinii sudo[3201]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:42:55 obibinii sudo[3201]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:43:05 obibinii sudo[3209]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod 640 /logs/app.log
+Apr  8 22:43:05 obibinii sudo[3209]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:43:05 obibinii sudo[3209]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:44:28 obibinii sudo[3231]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir -p /logs/project
+Apr  8 22:44:28 obibinii sudo[3231]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:44:28 obibinii sudo[3231]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:44:53 obibinii sudo[3238]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod 750 /logs/project
+Apr  8 22:44:53 obibinii sudo[3238]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:44:53 obibinii sudo[3238]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:45:27 obibinii sudo[3251]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir /logs
+Apr  8 22:45:27 obibinii sudo[3251]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:45:27 obibinii sudo[3251]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:46:00 obibinii sudo[3260]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/touch /logs/script.sh
+Apr  8 22:46:00 obibinii sudo[3260]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:46:00 obibinii sudo[3260]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:46:33 obibinii sudo[3268]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod u-w /logs/app.log
+Apr  8 22:46:33 obibinii sudo[3268]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:46:33 obibinii sudo[3268]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:47:05 obibinii sudo[3277]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown -r kevin:qa /logs
+Apr  8 22:47:05 obibinii sudo[3277]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:47:05 obibinii sudo[3277]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:47:29 obibinii sudo[3284]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chown -R kevin:qa /logs
+Apr  8 22:47:29 obibinii sudo[3284]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:47:29 obibinii sudo[3284]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:48:24 obibinii sudo[3292]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find /logs -type f -name app.log
+Apr  8 22:48:24 obibinii sudo[3292]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:48:24 obibinii sudo[3292]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:49:05 obibinii sudo[3301]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find /home -type d -name project
+Apr  8 22:49:05 obibinii sudo[3301]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:49:05 obibinii sudo[3301]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:50:03 obibinii sudo[3313]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find /var -type f -size +50M
+Apr  8 22:50:03 obibinii sudo[3313]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:50:03 obibinii sudo[3313]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:50:33 obibinii sudo[3320]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find /logs -type f -user kevin
+Apr  8 22:50:33 obibinii sudo[3320]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:50:33 obibinii sudo[3320]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:51:14 obibinii sudo[3327]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find / -type f -atime -2
+Apr  8 22:51:14 obibinii sudo[3327]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:51:24 obibinii sudo[3327]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:54:08 obibinii sudo[3381]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/grep -wn cron /var/log/secure
+Apr  8 22:54:08 obibinii sudo[3381]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:54:08 obibinii sudo[3381]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:54:40 obibinii sudo[3389]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/hostname
+Apr  8 22:54:40 obibinii sudo[3389]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:54:40 obibinii sudo[3389]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:55:42 obibinii sudo[3409]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/cat /missingfile
+Apr  8 22:55:42 obibinii sudo[3409]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:55:42 obibinii sudo[3409]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:56:36 obibinii sudo[3422]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/ls /root
+Apr  8 22:56:36 obibinii sudo[3422]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:56:36 obibinii sudo[3422]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:57:13 obibinii sudo[3453]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/tar -cvf /tmp/logs.tar /logs
+Apr  8 22:57:13 obibinii sudo[3453]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:57:13 obibinii sudo[3453]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:58:18 obibinii sudo[3483]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir /backup
+Apr  8 22:58:18 obibinii sudo[3483]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:58:18 obibinii sudo[3483]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:58:34 obibinii sudo[3491]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/tar -xvf /tmp/logs.tar /backup
+Apr  8 22:58:34 obibinii sudo[3491]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:58:34 obibinii sudo[3491]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:59:07 obibinii sudo[3499]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/tar -cvzf /tmp/home.tar.gz /home
+Apr  8 22:59:07 obibinii sudo[3499]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:59:17 obibinii sudo[3499]: pam_unix(sudo:session): session closed for user root
+Apr  8 22:59:31 obibinii sudo[3512]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir /restore
+Apr  8 22:59:31 obibinii sudo[3512]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 22:59:31 obibinii sudo[3512]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:00:06 obibinii sudo[3520]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/tar -xzvf /tmp/home.tar.gz /restore
+Apr  8 23:00:06 obibinii sudo[3520]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:00:07 obibinii sudo[3520]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:00:34 obibinii sudo[3528]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/tar -tzf /tmp/home.tar.gz
+Apr  8 23:00:34 obibinii sudo[3528]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:00:36 obibinii sudo[3528]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:01:00 obibinii sudo[3551]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/mkdir /vault
+Apr  8 23:01:00 obibinii sudo[3551]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:01:00 obibinii sudo[3551]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:01:13 obibinii sudo[3570]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/chmod 700 /vault
+Apr  8 23:01:13 obibinii sudo[3570]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:01:13 obibinii sudo[3570]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:01:51 obibinii sudo[3578]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/find /etc -type f -name *.conf
+Apr  8 23:01:51 obibinii sudo[3578]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:01:51 obibinii sudo[3578]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:02:28 obibinii sudo[3592]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/touch errors.txt
+Apr  8 23:02:28 obibinii sudo[3592]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:02:28 obibinii sudo[3592]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:11:27 obibinii unix_chkpwd[3652]: password check failed for user (obb)
+Apr  8 23:11:27 obibinii gdm-password][3647]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Apr  8 23:11:27 obibinii gdm-password][3647]: gkr-pam: the password for the login keyring was invalid.
+Apr  8 23:11:37 obibinii unix_chkpwd[3658]: password check failed for user (obb)
+Apr  8 23:11:37 obibinii gdm-password][3654]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Apr  8 23:11:37 obibinii gdm-password][3654]: gkr-pam: the password for the login keyring was invalid.
+Apr  8 23:11:45 obibinii unix_chkpwd[3664]: password check failed for user (obb)
+Apr  8 23:11:45 obibinii gdm-password][3660]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Apr  8 23:11:45 obibinii gdm-password][3660]: gkr-pam: the password for the login keyring was invalid.
+Apr  8 23:11:55 obibinii unix_chkpwd[3673]: password check failed for user (obb)
+Apr  8 23:11:55 obibinii gdm-password][3666]: pam_unix(gdm-password:auth): authentication failure; logname=obb uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=obb
+Apr  8 23:11:55 obibinii gdm-password][3666]: gkr-pam: the password for the login keyring was invalid.
+Apr  8 23:12:10 obibinii gdm-password][3675]: gkr-pam: unlocked login keyring
+Apr  8 23:14:38 obibinii unix_chkpwd[4331]: password check failed for user (obb)
+Apr  8 23:14:38 obibinii sudo[4323]: pam_unix(sudo:auth): authentication failure; logname=obb uid=1000 euid=0 tty=/dev/pts/0 ruser=obb rhost=  user=obb
+Apr  8 23:14:47 obibinii unix_chkpwd[4335]: password check failed for user (obb)
+Apr  8 23:14:57 obibinii sudo[4323]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm errors.txt
+Apr  8 23:14:57 obibinii sudo[4323]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:14:57 obibinii sudo[4323]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:16:02 obibinii sudo[4422]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -r backup
+Apr  8 23:16:02 obibinii sudo[4422]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:16:02 obibinii sudo[4422]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:16:08 obibinii sudo[4429]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -rf backup
+Apr  8 23:16:08 obibinii sudo[4429]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:16:08 obibinii sudo[4429]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:16:30 obibinii sudo[4441]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -rf backup
+Apr  8 23:16:30 obibinii sudo[4441]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:16:30 obibinii sudo[4441]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:16:50 obibinii sudo[4456]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -rf /backup
+Apr  8 23:16:50 obibinii sudo[4456]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:16:50 obibinii sudo[4456]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:17:39 obibinii sudo[4487]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -rf /logs
+Apr  8 23:17:39 obibinii sudo[4487]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:17:39 obibinii sudo[4487]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:17:47 obibinii sudo[4496]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -rf /restore
+Apr  8 23:17:47 obibinii sudo[4496]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:17:47 obibinii sudo[4496]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:18:15 obibinii sudo[4513]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -rf /vault
+Apr  8 23:18:15 obibinii sudo[4513]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:18:15 obibinii sudo[4513]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:19:18 obibinii sudo[4540]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -rf /tmp/logs.tar
+Apr  8 23:19:18 obibinii sudo[4540]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:19:18 obibinii sudo[4540]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:19:33 obibinii sudo[4552]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -rf /tmp/home.tar.gz
+Apr  8 23:19:33 obibinii sudo[4552]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:19:33 obibinii sudo[4552]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:19:46 obibinii sudo[4561]:     obb : TTY=pts/0 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/rm -rf /tmp/projects.tar
+Apr  8 23:19:46 obibinii sudo[4561]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:19:46 obibinii sudo[4561]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:24:30 obibinii sudo[5244]: pam_unix(sudo:auth): conversation failed
+Apr  8 23:24:30 obibinii sudo[5244]: pam_unix(sudo:auth): auth could not identify password for [obb]
+Apr  8 23:24:40 obibinii sudo[5275]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/grep -r *.log /var/log
+Apr  8 23:24:40 obibinii sudo[5275]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:24:40 obibinii sudo[5275]: pam_unix(sudo:session): session closed for user root
+Apr  8 23:24:45 obibinii sudo[5308]:     obb : TTY=pts/1 ; PWD=/home/obb ; USER=root ; COMMAND=/bin/grep -r *.log /var/log
+Apr  8 23:24:45 obibinii sudo[5308]: pam_unix(sudo:session): session opened for user root(uid=0) by obb(uid=1000)
+Apr  8 23:24:45 obibinii sudo[5308]: pam_unix(sudo:session): session closed for user root

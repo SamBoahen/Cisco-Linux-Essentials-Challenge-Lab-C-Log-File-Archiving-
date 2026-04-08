@@ -1,0 +1,37 @@
+Mar  9 22:59:09 blocked crond[1208]: (CRON) STARTUP (1.5.7)
+Mar  9 22:59:09 blocked crond[1208]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Mar  9 22:59:09 blocked crond[1208]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 60% if used.)
+Mar  9 22:59:09 blocked crond[1208]: (CRON) INFO (running with inotify support)
+Mar  9 23:05:23 blocked crond[1178]: (CRON) STARTUP (1.5.7)
+Mar  9 23:05:23 blocked crond[1178]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Mar  9 23:05:23 blocked crond[1178]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 85% if used.)
+Mar  9 23:05:23 blocked crond[1178]: (CRON) INFO (running with inotify support)
+Mar  9 23:26:12 blocked crond[1124]: (CRON) STARTUP (1.5.7)
+Mar  9 23:26:12 blocked crond[1124]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Mar  9 23:26:12 blocked crond[1124]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 16% if used.)
+Mar  9 23:26:12 blocked crond[1124]: (CRON) INFO (running with inotify support)
+Mar  9 23:33:17 blocked crond[1124]: (CRON) INFO (Shutting down)
+Mar  9 23:33:17 blocked crond[3941]: (CRON) STARTUP (1.5.7)
+Mar  9 23:33:17 blocked crond[3941]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Mar  9 23:33:17 blocked crond[3941]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 85% if used.)
+Mar  9 23:33:17 blocked crond[3941]: (CRON) INFO (running with inotify support)
+Mar  9 23:33:17 blocked crond[3941]: (CRON) INFO (@reboot jobs will be run at computer's startup.)
+Mar  9 23:33:45 blocked crond[3941]: (CRON) INFO (Shutting down)
+Mar  9 23:33:45 blocked crond[4142]: (CRON) STARTUP (1.5.7)
+Mar  9 23:33:45 blocked crond[4142]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Mar  9 23:33:45 blocked crond[4142]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 37% if used.)
+Mar  9 23:33:45 blocked crond[4142]: (CRON) INFO (running with inotify support)
+Mar  9 23:33:45 blocked crond[4142]: (CRON) INFO (@reboot jobs will be run at computer's startup.)
+Mar  9 23:48:08 obbserver crond[1178]: (CRON) STARTUP (1.5.7)
+Mar  9 23:48:08 obbserver crond[1178]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Mar  9 23:48:08 obbserver crond[1178]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 24% if used.)
+Mar  9 23:48:08 obbserver crond[1178]: (CRON) INFO (running with inotify support)
+Mar 10 00:01:01 obbserver CROND[6573]: (root) CMD (run-parts /etc/cron.hourly)
+Mar 10 00:01:01 obbserver run-parts[6576]: (/etc/cron.hourly) starting 0anacron
+Mar 10 00:01:01 obbserver anacron[6586]: Anacron started on 2026-03-10
+Mar 10 00:01:01 obbserver run-parts[6588]: (/etc/cron.hourly) finished 0anacron
+Mar 10 00:01:01 obbserver CROND[6572]: (root) CMDEND (run-parts /etc/cron.hourly)
+Mar 10 00:01:01 obbserver anacron[6586]: Will run job `cron.daily' in 37 min.
+Mar 10 00:01:01 obbserver anacron[6586]: Will run job `cron.weekly' in 57 min.
+Mar 10 00:01:01 obbserver anacron[6586]: Will run job `cron.monthly' in 77 min.
+Mar 10 00:01:01 obbserver anacron[6586]: Jobs will be executed sequentially
